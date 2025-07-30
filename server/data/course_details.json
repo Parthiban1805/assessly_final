@@ -1,0 +1,2792 @@
+[
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8675",
+        "name": "Programming Basics",
+        "department": "COMPUTER SCIENCE",
+        "year": 1,
+        "description": "A course on Programming Basics.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:46 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8698",
+        "name": "Discrete Mathematics",
+        "department": "COMPUTER SCIENCE",
+        "year": 1,
+        "description": "A course on Discrete Mathematics.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Completed",
+                "marks": 87
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8929",
+        "name": "Introduction to Computer Systems",
+        "department": "COMPUTER SCIENCE",
+        "year": 1,
+        "description": "A course on Introduction to Computer Systems.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Completed",
+                "marks": 77
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Pending",
+                "marks": 98
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8621",
+        "name": "Fundamentals of Data Communication",
+        "department": "COMPUTER SCIENCE",
+        "year": 1,
+        "description": "A course on Fundamentals of Data Communication.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8780",
+        "name": "Software Engineering Principles",
+        "department": "COMPUTER SCIENCE",
+        "year": 1,
+        "description": "A course on Software Engineering Principles.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:37 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:50 PM",
+                "status": "Pending",
+                "marks": 73
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8848",
+        "name": "Data Structures",
+        "department": "COMPUTER SCIENCE",
+        "year": 2,
+        "description": "A course on Data Structures.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:50 PM",
+                "status": "Completed",
+                "marks": 76
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8770",
+        "name": "Algorithms",
+        "department": "COMPUTER SCIENCE",
+        "year": 2,
+        "description": "A course on Algorithms.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": 85
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:37 PM",
+                "status": "Pending",
+                "marks": 82
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8708",
+        "name": "Operating Systems",
+        "department": "COMPUTER SCIENCE",
+        "year": 2,
+        "description": "A course on Operating Systems.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Completed",
+                "marks": 74
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:37 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Completed",
+                "marks": 76
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8425",
+        "name": "Database Systems",
+        "department": "COMPUTER SCIENCE",
+        "year": 2,
+        "description": "A course on Database Systems.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Pending",
+                "marks": 86
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8537",
+        "name": "Computer Architecture",
+        "department": "COMPUTER SCIENCE",
+        "year": 2,
+        "description": "A course on Computer Architecture.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Completed",
+                "marks": 90
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Completed",
+                "marks": 85
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8216",
+        "name": "Artificial Intelligence",
+        "department": "COMPUTER SCIENCE",
+        "year": 3,
+        "description": "A course on Artificial Intelligence.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:46 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Pending",
+                "marks": 96
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Completed",
+                "marks": 75
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8594",
+        "name": "Machine Learning",
+        "department": "COMPUTER SCIENCE",
+        "year": 3,
+        "description": "A course on Machine Learning.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Completed",
+                "marks": 88
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Pending",
+                "marks": 91
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8212",
+        "name": "Cloud Computing",
+        "department": "COMPUTER SCIENCE",
+        "year": 3,
+        "description": "A course on Cloud Computing.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Completed",
+                "marks": 99
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8249",
+        "name": "Cyber Security",
+        "department": "COMPUTER SCIENCE",
+        "year": 3,
+        "description": "A course on Cyber Security.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Completed",
+                "marks": 92
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8653",
+        "name": "Big Data Analytics",
+        "department": "COMPUTER SCIENCE",
+        "year": 3,
+        "description": "A course on Big Data Analytics.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": 88
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8215",
+        "name": "Introduction to IT",
+        "department": "IT",
+        "year": 1,
+        "description": "A course on Introduction to IT.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Completed",
+                "marks": 94
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Pending",
+                "marks": 84
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8902",
+        "name": "Computer Fundamentals",
+        "department": "IT",
+        "year": 1,
+        "description": "A course on Computer Fundamentals.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": 74
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Pending",
+                "marks": 98
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Completed",
+                "marks": 86
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8744",
+        "name": "Programming Basics",
+        "department": "IT",
+        "year": 1,
+        "description": "A course on Programming Basics.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": 90
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8992",
+        "name": "Web Development",
+        "department": "IT",
+        "year": 1,
+        "description": "A course on Web Development.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Pending",
+                "marks": 73
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Completed",
+                "marks": 84
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8965",
+        "name": "Networking Fundamentals",
+        "department": "IT",
+        "year": 1,
+        "description": "A course on Networking Fundamentals.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8374",
+        "name": "Data Structures",
+        "department": "IT",
+        "year": 2,
+        "description": "A course on Data Structures.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Completed",
+                "marks": 91
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8699",
+        "name": "Database Management Systems",
+        "department": "IT",
+        "year": 2,
+        "description": "A course on Database Management Systems.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8199",
+        "name": "Operating Systems",
+        "department": "IT",
+        "year": 2,
+        "description": "A course on Operating Systems.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Pending",
+                "marks": 81
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Pending",
+                "marks": 74
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Completed",
+                "marks": 82
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8681",
+        "name": "Software Engineering",
+        "department": "IT",
+        "year": 2,
+        "description": "A course on Software Engineering.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:37 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": 84
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8486",
+        "name": "Network Security",
+        "department": "IT",
+        "year": 2,
+        "description": "A course on Network Security.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": 81
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Pending",
+                "marks": 97
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8626",
+        "name": "Cloud Computing",
+        "department": "IT",
+        "year": 3,
+        "description": "A course on Cloud Computing.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:46 PM",
+                "status": "Pending",
+                "marks": 87
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8126",
+        "name": "Mobile Application Development",
+        "department": "IT",
+        "year": 3,
+        "description": "A course on Mobile Application Development.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:50 PM",
+                "status": "Pending",
+                "marks": 78
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8807",
+        "name": "Cyber Security",
+        "department": "IT",
+        "year": 3,
+        "description": "A course on Cyber Security.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Pending",
+                "marks": 73
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8238",
+        "name": "Data Analytics",
+        "department": "IT",
+        "year": 3,
+        "description": "A course on Data Analytics.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:46 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Pending",
+                "marks": 99
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Pending",
+                "marks": 97
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8114",
+        "name": "Blockchain Technology",
+        "department": "IT",
+        "year": 3,
+        "description": "A course on Blockchain Technology.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Completed",
+                "marks": 82
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Pending",
+                "marks": 82
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:43 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8730",
+        "name": "Introduction to Data Science",
+        "department": "AIDS",
+        "year": 1,
+        "description": "A course on Introduction to Data Science.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Pending",
+                "marks": 93
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Pending",
+                "marks": 71
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Pending",
+                "marks": 94
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8984",
+        "name": "Mathematics for Data Science",
+        "department": "AIDS",
+        "year": 1,
+        "description": "A course on Mathematics for Data Science.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Pending",
+                "marks": 88
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Completed",
+                "marks": 81
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8326",
+        "name": "Python for Data Analysis",
+        "department": "AIDS",
+        "year": 1,
+        "description": "A course on Python for Data Analysis.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Pending",
+                "marks": 82
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Pending",
+                "marks": 73
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8505",
+        "name": "Statistics Basics",
+        "department": "AIDS",
+        "year": 1,
+        "description": "A course on Statistics Basics.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Completed",
+                "marks": 82
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Completed",
+                "marks": 89
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8560",
+        "name": "Foundations of AI",
+        "department": "AIDS",
+        "year": 1,
+        "description": "A course on Foundations of AI.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Completed",
+                "marks": 76
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Completed",
+                "marks": 90
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Completed",
+                "marks": 74
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8836",
+        "name": "Data Visualization",
+        "department": "AIDS",
+        "year": 2,
+        "description": "A course on Data Visualization.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:37 PM",
+                "status": "Completed",
+                "marks": 82
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Pending",
+                "marks": 100
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8955",
+        "name": "Database Management",
+        "department": "AIDS",
+        "year": 2,
+        "description": "A course on Database Management.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": 97
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Completed",
+                "marks": 94
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8874",
+        "name": "Machine Learning Algorithms",
+        "department": "AIDS",
+        "year": 2,
+        "description": "A course on Machine Learning Algorithms.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Completed",
+                "marks": 92
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Pending",
+                "marks": 71
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8127",
+        "name": "Big Data Fundamentals",
+        "department": "AIDS",
+        "year": 2,
+        "description": "A course on Big Data Fundamentals.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Pending",
+                "marks": 80
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8834",
+        "name": "AI in Practice",
+        "department": "AIDS",
+        "year": 2,
+        "description": "A course on AI in Practice.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:50 PM",
+                "status": "Completed",
+                "marks": 72
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8800",
+        "name": "Advanced Machine Learning",
+        "department": "AIDS",
+        "year": 3,
+        "description": "A course on Advanced Machine Learning.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Completed",
+                "marks": 86
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Pending",
+                "marks": 84
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8954",
+        "name": "Deep Learning",
+        "department": "AIDS",
+        "year": 3,
+        "description": "A course on Deep Learning.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:37 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": 75
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8275",
+        "name": "Natural Language Processing",
+        "department": "AIDS",
+        "year": 3,
+        "description": "A course on Natural Language Processing.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Completed",
+                "marks": 84
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": 89
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8758",
+        "name": "Recommender Systems",
+        "department": "AIDS",
+        "year": 3,
+        "description": "A course on Recommender Systems.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Completed",
+                "marks": 94
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Pending",
+                "marks": 97
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8462",
+        "name": "Data Ethics and Privacy",
+        "department": "AIDS",
+        "year": 3,
+        "description": "A course on Data Ethics and Privacy.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8778",
+        "name": "Programming for AI",
+        "department": "AIML",
+        "year": 1,
+        "description": "A course on Programming for AI.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": 78
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Pending",
+                "marks": 90
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8603",
+        "name": "Linear Algebra and Calculus",
+        "department": "AIML",
+        "year": 1,
+        "description": "A course on Linear Algebra and Calculus.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Completed",
+                "marks": 72
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Completed",
+                "marks": 90
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8785",
+        "name": "Introduction to Machine Learning",
+        "department": "AIML",
+        "year": 1,
+        "description": "A course on Introduction to Machine Learning.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": 74
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Pending",
+                "marks": 87
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8573",
+        "name": "Digital Logic Design",
+        "department": "AIML",
+        "year": 1,
+        "description": "A course on Digital Logic Design.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:43 PM",
+                "status": "Completed",
+                "marks": 97
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8986",
+        "name": "Data Structures",
+        "department": "AIML",
+        "year": 1,
+        "description": "A course on Data Structures.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8438",
+        "name": "Neural Networks Basics",
+        "department": "AIML",
+        "year": 2,
+        "description": "A course on Neural Networks Basics.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": 97
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Pending",
+                "marks": 95
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Pending",
+                "marks": 100
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8551",
+        "name": "Optimization Methods",
+        "department": "AIML",
+        "year": 2,
+        "description": "A course on Optimization Methods.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Completed",
+                "marks": 75
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": 71
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8342",
+        "name": "Computer Vision",
+        "department": "AIML",
+        "year": 2,
+        "description": "A course on Computer Vision.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Pending",
+                "marks": 95
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8795",
+        "name": "Machine Learning Applications",
+        "department": "AIML",
+        "year": 2,
+        "description": "A course on Machine Learning Applications.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Pending",
+                "marks": 75
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:37 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8246",
+        "name": "Data Science Tools",
+        "department": "AIML",
+        "year": 2,
+        "description": "A course on Data Science Tools.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Pending",
+                "marks": 91
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Completed",
+                "marks": 84
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:50 PM",
+                "status": "Completed",
+                "marks": 96
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8753",
+        "name": "Advanced AI Techniques",
+        "department": "AIML",
+        "year": 3,
+        "description": "A course on Advanced AI Techniques.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Pending",
+                "marks": 73
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Pending",
+                "marks": 80
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8220",
+        "name": "Deep Learning Models",
+        "department": "AIML",
+        "year": 3,
+        "description": "A course on Deep Learning Models.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:43 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Pending",
+                "marks": 88
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:37 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8811",
+        "name": "Reinforcement Learning",
+        "department": "AIML",
+        "year": 3,
+        "description": "A course on Reinforcement Learning.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Pending",
+                "marks": 96
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8148",
+        "name": "Natural Language Processing",
+        "department": "AIML",
+        "year": 3,
+        "description": "A course on Natural Language Processing.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Pending",
+                "marks": 76
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Pending",
+                "marks": 87
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8437",
+        "name": "AI Ethics and Society",
+        "department": "AIML",
+        "year": 3,
+        "description": "A course on AI Ethics and Society.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8584",
+        "name": "Introduction to Circuit Analysis",
+        "department": "CA",
+        "year": 1,
+        "description": "A course on Introduction to Circuit Analysis.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Pending",
+                "marks": 94
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:50 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8203",
+        "name": "Digital Electronics",
+        "department": "CA",
+        "year": 1,
+        "description": "A course on Digital Electronics.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Completed",
+                "marks": 84
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:37 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8649",
+        "name": "Analog Circuits",
+        "department": "CA",
+        "year": 1,
+        "description": "A course on Analog Circuits.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Pending",
+                "marks": 79
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:43 PM",
+                "status": "Completed",
+                "marks": 85
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8913",
+        "name": "Fundamentals of Electrical Engineering",
+        "department": "CA",
+        "year": 1,
+        "description": "A course on Fundamentals of Electrical Engineering.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Completed",
+                "marks": 99
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Pending",
+                "marks": 72
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:37 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8673",
+        "name": "Programming for Engineers",
+        "department": "CA",
+        "year": 1,
+        "description": "A course on Programming for Engineers.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Pending",
+                "marks": 87
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Completed",
+                "marks": 85
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8758",
+        "name": "Control Systems",
+        "department": "CA",
+        "year": 2,
+        "description": "A course on Control Systems.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8101",
+        "name": "Microcontrollers",
+        "department": "CA",
+        "year": 2,
+        "description": "A course on Microcontrollers.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Pending",
+                "marks": 75
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Completed",
+                "marks": 80
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Completed",
+                "marks": 94
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8751",
+        "name": "Signal Processing",
+        "department": "CA",
+        "year": 2,
+        "description": "A course on Signal Processing.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Completed",
+                "marks": 81
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8397",
+        "name": "Embedded Systems",
+        "department": "CA",
+        "year": 2,
+        "description": "A course on Embedded Systems.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Completed",
+                "marks": 73
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8759",
+        "name": "Power Systems",
+        "department": "CA",
+        "year": 2,
+        "description": "A course on Power Systems.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Pending",
+                "marks": 97
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:50 PM",
+                "status": "Completed",
+                "marks": 95
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:46 PM",
+                "status": "Pending",
+                "marks": 90
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8363",
+        "name": "Renewable Energy Systems",
+        "department": "CA",
+        "year": 3,
+        "description": "A course on Renewable Energy Systems.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Completed",
+                "marks": 77
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Completed",
+                "marks": 96
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8910",
+        "name": "Advanced Power Electronics",
+        "department": "CA",
+        "year": 3,
+        "description": "A course on Advanced Power Electronics.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8834",
+        "name": "Smart Grid Technology",
+        "department": "CA",
+        "year": 3,
+        "description": "A course on Smart Grid Technology.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:50 PM",
+                "status": "Pending",
+                "marks": 82
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Pending",
+                "marks": 87
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:40 PM",
+                "status": "Completed",
+                "marks": 91
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8877",
+        "name": "Internet of Things (IoT)",
+        "department": "CA",
+        "year": 3,
+        "description": "A course on Internet of Things (IoT).",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Completed",
+                "marks": 78
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8679",
+        "name": "Electrical Drives",
+        "department": "CA",
+        "year": 3,
+        "description": "A course on Electrical Drives.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Pending",
+                "marks": 97
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8906",
+        "name": "Introduction to Cyber Security",
+        "department": "CYBER SECURITY",
+        "year": 1,
+        "description": "A course on Introduction to Cyber Security.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Pending",
+                "marks": 83
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:41 PM",
+                "status": "Completed",
+                "marks": 98
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Pending",
+                "marks": 91
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8224",
+        "name": "Computer Networks",
+        "department": "CYBER SECURITY",
+        "year": 1,
+        "description": "A course on Computer Networks.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:53 PM",
+                "status": "Pending",
+                "marks": 99
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:38 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:46 PM",
+                "status": "Completed",
+                "marks": 81
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8188",
+        "name": "Cryptography Basics",
+        "department": "CYBER SECURITY",
+        "year": 1,
+        "description": "A course on Cryptography Basics.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:43 PM",
+                "status": "Pending",
+                "marks": 95
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:43 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Pending",
+                "marks": 100
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8759",
+        "name": "Ethical Hacking Foundations",
+        "department": "CYBER SECURITY",
+        "year": 1,
+        "description": "A course on Ethical Hacking Foundations.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Pending",
+                "marks": 70
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8305",
+        "name": "Cyber Law and Policy",
+        "department": "CYBER SECURITY",
+        "year": 1,
+        "description": "A course on Cyber Law and Policy.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:49 PM",
+                "status": "Pending",
+                "marks": 72
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": 90
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8921",
+        "name": "Network Security",
+        "department": "CYBER SECURITY",
+        "year": 2,
+        "description": "A course on Network Security.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Pending",
+                "marks": 85
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8827",
+        "name": "Application Security",
+        "department": "CYBER SECURITY",
+        "year": 2,
+        "description": "A course on Application Security.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:51 PM",
+                "status": "Pending",
+                "marks": 84
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:50 PM",
+                "status": "Completed",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8372",
+        "name": "Web Vulnerabilities",
+        "department": "CYBER SECURITY",
+        "year": 2,
+        "description": "A course on Web Vulnerabilities.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:45 PM",
+                "status": "Completed",
+                "marks": 98
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8387",
+        "name": "Digital Forensics",
+        "department": "CYBER SECURITY",
+        "year": 2,
+        "description": "A course on Digital Forensics.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:44 PM",
+                "status": "Pending",
+                "marks": 79
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:48 PM",
+                "status": "Completed",
+                "marks": 89
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:47 PM",
+                "status": "Completed",
+                "marks": 97
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8383",
+        "name": "Malware Analysis",
+        "department": "CYBER SECURITY",
+        "year": 2,
+        "description": "A course on Malware Analysis.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:36 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8322",
+        "name": "Advanced Threat Detection",
+        "department": "CYBER SECURITY",
+        "year": 3,
+        "description": "A course on Advanced Threat Detection.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:43 PM",
+                "status": "Pending",
+                "marks": 98
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:55 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8554",
+        "name": "Penetration Testing",
+        "department": "CYBER SECURITY",
+        "year": 3,
+        "description": "A course on Penetration Testing.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:43 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Pending",
+                "marks": null
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Pending",
+                "marks": 94
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8913",
+        "name": "Incident Response",
+        "department": "CYBER SECURITY",
+        "year": 3,
+        "description": "A course on Incident Response.",
+        "staff": "Dr. Jane Smith",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Pending",
+                "marks": 75
+            },
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:42 PM",
+                "status": "Completed",
+                "marks": 77
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Pending",
+                "marks": 83
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8642",
+        "name": "Cloud Security",
+        "department": "CYBER SECURITY",
+        "year": 3,
+        "description": "A course on Cloud Security.",
+        "staff": "Dr. Alan Turing",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Completed",
+                "marks": 76
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:52 PM",
+                "status": "Completed",
+                "marks": 100
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    },
+    {
+        "_id": "645e7aeb8b8c072b7c3d0c8469",
+        "name": "AI in Cyber Security",
+        "department": "CYBER SECURITY",
+        "year": 3,
+        "description": "A course on AI in Cyber Security.",
+        "staff": "Dr. John Doe",
+        "assessments": [
+            {
+                "name": "FA1-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:35 PM",
+                "status": "Completed",
+                "marks": 99
+            },
+            {
+                "name": "FA2-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:39 PM",
+                "status": "Completed",
+                "marks": null
+            },
+            {
+                "name": "FA3-25 July 2024",
+                "openTime": "Thursday, 25 July 2024, 12:25 PM",
+                "closeTime": "Thursday, 25 July 2024, 12:54 PM",
+                "status": "Pending",
+                "marks": null
+            }
+        ]
+    }
+]

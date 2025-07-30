@@ -1,0 +1,91 @@
+name,year,department,description,staff
+Programming Basics,1,COMPUTER SCIENCE,"Programming Basics is a core topic in the Computer Science domain, focusing on Tree me poor perhaps different this second..",Thomas Reed
+Discrete Mathematics,1,COMPUTER SCIENCE,"Discrete Mathematics is a core topic in the Computer Science domain, focusing on Military first door class scientist shake..",Briana Ross
+Introduction to Computer Systems,1,COMPUTER SCIENCE,"Introduction to Computer Systems is a core topic in the Computer Science domain, focusing on Moment sure effort law people..",Luis Jackson
+Fundamentals of Data Communication,1,COMPUTER SCIENCE,"Fundamentals of Data Communication is a core topic in the Computer Science domain, focusing on Drop draw whatever mother..",Nicole Williams
+Software Engineering Principles,1,COMPUTER SCIENCE,"Software Engineering Principles is a core topic in the Computer Science domain, focusing on Treat true play doctor federal radio safe school..",Jonathan Stephens
+Data Structures,2,COMPUTER SCIENCE,"Data Structures is a core topic in the Computer Science domain, focusing on To plant until..",Sarah Adams
+Algorithms,2,COMPUTER SCIENCE,"Algorithms is a core topic in the Computer Science domain, focusing on Quite onto including..",Allison Lambert
+Operating Systems,2,COMPUTER SCIENCE,"Operating Systems is a core topic in the Computer Science domain, focusing on Win fear senior own table..",Alyssa Velez
+Database Systems,2,COMPUTER SCIENCE,"Database Systems is a core topic in the Computer Science domain, focusing on Senior employee few economy memory..",Christina Tran
+Computer Architecture,2,COMPUTER SCIENCE,"Computer Architecture is a core topic in the Computer Science domain, focusing on Prevent place scientist me born understand TV..",Stephen Hill
+Artificial Intelligence,3,COMPUTER SCIENCE,"Artificial Intelligence is a core topic in the Computer Science domain, focusing on Reduce true Mrs forget land..",Thomas Harmon
+Machine Learning,3,COMPUTER SCIENCE,"Machine Learning is a core topic in the Computer Science domain, focusing on Just size important..",Gregory Taylor
+Cloud Computing,3,COMPUTER SCIENCE,"Cloud Computing is a core topic in the Computer Science domain, focusing on Bill free seem first business..",Charles Baker
+Cyber Security,3,COMPUTER SCIENCE,"Cyber Security is a core topic in the Computer Science domain, focusing on Mention community sea some gun..",Christopher Moreno
+Big Data Analytics,3,COMPUTER SCIENCE,"Big Data Analytics is a core topic in the Computer Science domain, focusing on Side poor nearly local likely..",Robert Donaldson
+Introduction to IT,1,IT,"Introduction to IT is a core topic in the IT domain, focusing on New open out their while development team..",Carlos Johnson
+Computer Fundamentals,1,IT,"Computer Fundamentals is a core topic in the IT domain, focusing on Least president parent many education old family..",George Franklin
+Programming Basics,1,IT,"Programming Basics is a core topic in the IT domain, focusing on Book charge election..",Veronica Johnson
+Web Development,1,IT,"Web Development is a core topic in the IT domain, focusing on Let environmental friend. Less those mean..",Debra Williams
+Networking Fundamentals,1,IT,"Networking Fundamentals is a core topic in the IT domain, focusing on Daughter nation spring believe movement middle..",Joshua Strong
+Data Structures,2,IT,"Data Structures is a core topic in the IT domain, focusing on Show whose interest serious entire..",Andrew Robinson
+Database Management Systems,2,IT,"Database Management Systems is a core topic in the IT domain, focusing on Data might north choose quickly just..",Elizabeth Mcdaniel
+Operating Systems,2,IT,"Operating Systems is a core topic in the IT domain, focusing on Animal them green itself door..",Laura Evans
+Software Engineering,2,IT,"Software Engineering is a core topic in the IT domain, focusing on Professor phone represent treat million time..",Julie Krueger
+Network Security,2,IT,"Network Security is a core topic in the IT domain, focusing on Step pay on audience. From cut production..",Julie Christian
+Cloud Computing,3,IT,"Cloud Computing is a core topic in the IT domain, focusing on From study in four..",Michelle Potter
+Mobile Application Development,3,IT,"Mobile Application Development is a core topic in the IT domain, focusing on Important town current economic..",Bryan Mooney
+Cyber Security,3,IT,"Cyber Security is a core topic in the IT domain, focusing on Practice cause summer goal defense..",Billy Bradley
+Data Analytics,3,IT,"Data Analytics is a core topic in the IT domain, focusing on Politics choice perhaps..",Amanda Gross
+Blockchain Technology,3,IT,"Blockchain Technology is a core topic in the IT domain, focusing on Less whatever thank might physical whom sister..",Diane Harris
+Introduction to Data Science,1,AIDS,"Introduction to Data Science is a core topic in the AIDS domain, focusing on Usually work at. At game many strong..",Raymond Smith
+Mathematics for Data Science,1,AIDS,"Mathematics for Data Science is a core topic in the AIDS domain, focusing on Mrs sometimes happy left science west..",Miguel Gonzalez
+Python for Data Analysis,1,AIDS,"Python for Data Analysis is a core topic in the AIDS domain, focusing on Economy leader yes senior only bring..",David Meyer
+Statistics Basics,1,AIDS,"Statistics Basics is a core topic in the AIDS domain, focusing on Turn practice to ahead..",Annette Barnes
+Foundations of AI,1,AIDS,"Foundations of AI is a core topic in the AIDS domain, focusing on Size employee candidate chair crime goal three..",Phillip Bowen
+Data Visualization,2,AIDS,"Data Visualization is a core topic in the AIDS domain, focusing on Future dinner carry alone..",Cynthia Coffey
+Database Management,2,AIDS,"Database Management is a core topic in the AIDS domain, focusing on Rather whole back third rich green piece..",Megan Howard
+Machine Learning Algorithms,2,AIDS,"Machine Learning Algorithms is a core topic in the AIDS domain, focusing on Who number any plan spring gun..",Nancy Harris
+Big Data Fundamentals,2,AIDS,"Big Data Fundamentals is a core topic in the AIDS domain, focusing on Amount so show run lay change..",Kristen Robinson
+AI in Practice,2,AIDS,"AI in Practice is a core topic in the AIDS domain, focusing on Doctor occur near. Partner Democrat our policy..",Isaac Blair
+Advanced Machine Learning,3,AIDS,"Advanced Machine Learning is a core topic in the AIDS domain, focusing on Forget hundred message soon agreement shake..",Kimberly Smith
+Deep Learning,3,AIDS,"Deep Learning is a core topic in the AIDS domain, focusing on Both white word personal system blue..",Jennifer Moody
+Natural Language Processing,3,AIDS,"Natural Language Processing is a core topic in the AIDS domain, focusing on Hospital increase everything with half..",Joseph Ryan
+Recommender Systems,3,AIDS,"Recommender Systems is a core topic in the AIDS domain, focusing on Would suggest hair street enter clear..",Sandra Campos
+Data Ethics and Privacy,3,AIDS,"Data Ethics and Privacy is a core topic in the AIDS domain, focusing on Help although hold type study..",David Carney
+Programming for AI,1,AIML,"Programming for AI is a core topic in the AIML domain, focusing on Board view power indeed agent..",Laura Stephens
+Linear Algebra and Calculus,1,AIML,"Linear Algebra and Calculus is a core topic in the AIML domain, focusing on High news run always weight it maybe understand..",Tonya Perez
+Introduction to Machine Learning,1,AIML,"Introduction to Machine Learning is a core topic in the AIML domain, focusing on Fear cost every customer..",Andrew Wallace
+Digital Logic Design,1,AIML,"Digital Logic Design is a core topic in the AIML domain, focusing on Can and throughout really successful animal yet..",Cody Decker
+Data Structures,1,AIML,"Data Structures is a core topic in the AIML domain, focusing on Any world mean later class during senior..",Matthew Goodman
+Neural Networks Basics,2,AIML,"Neural Networks Basics is a core topic in the AIML domain, focusing on Entire wish discover player maybe..",David Rogers
+Optimization Methods,2,AIML,"Optimization Methods is a core topic in the AIML domain, focusing on Tv yes item. Another strong water start..",Kenneth Saunders
+Computer Vision,2,AIML,"Computer Vision is a core topic in the AIML domain, focusing on Anyone next laugh young too..",Kara Williams
+Machine Learning Applications,2,AIML,"Machine Learning Applications is a core topic in the AIML domain, focusing on Box few image..",Angel Bailey
+Data Science Tools,2,AIML,"Data Science Tools is a core topic in the AIML domain, focusing on Public movie modern interest it its..",Victor Marks
+Advanced AI Techniques,3,AIML,"Advanced AI Techniques is a core topic in the AIML domain, focusing on Or open how include nothing try..",Michelle Knight
+Deep Learning Models,3,AIML,"Deep Learning Models is a core topic in the AIML domain, focusing on Quality edge subject. Air plant simple..",Kim Bradley
+Reinforcement Learning,3,AIML,"Reinforcement Learning is a core topic in the AIML domain, focusing on Pattern moment floor less..",Jessica Hickman
+Natural Language Processing,3,AIML,"Natural Language Processing is a core topic in the AIML domain, focusing on Member most they affect..",Jenna Mitchell
+AI Ethics and Society,3,AIML,"AI Ethics and Society is a core topic in the AIML domain, focusing on Fact woman forward activity understand well..",Kimberly Allison
+Introduction to Circuit Analysis,1,CA,"Introduction to Circuit Analysis is a core topic in the CA domain, focusing on Bank paper help quite woman eye specific..",Thomas Gray
+Digital Electronics,1,CA,"Digital Electronics is a core topic in the CA domain, focusing on Product candidate song yourself around..",Susan Smith
+Analog Circuits,1,CA,"Analog Circuits is a core topic in the CA domain, focusing on However chance charge body through simple doctor..",William Johnson
+Fundamentals of Electrical Engineering,1,CA,"Fundamentals of Electrical Engineering is a core topic in the CA domain, focusing on Cause few effect animal. Threat sound whom issue..",Denise Cortez
+Programming for Engineers,1,CA,"Programming for Engineers is a core topic in the CA domain, focusing on Concern tell national story western feeling..",Brent Thomas
+Control Systems,2,CA,"Control Systems is a core topic in the CA domain, focusing on Media home article western action..",Christian Bruce
+Microcontrollers,2,CA,"Microcontrollers is a core topic in the CA domain, focusing on Board industry try main simple finish..",Kenneth Smith
+Signal Processing,2,CA,"Signal Processing is a core topic in the CA domain, focusing on Kind then management price computer..",Rodney Marshall
+Embedded Systems,2,CA,"Embedded Systems is a core topic in the CA domain, focusing on Town fire develop..",Morgan Moore
+Power Systems,2,CA,"Power Systems is a core topic in the CA domain, focusing on Everybody sign ball sign other on into evidence..",Robert Smith
+Renewable Energy Systems,3,CA,"Renewable Energy Systems is a core topic in the CA domain, focusing on Religious east customer..",Dr. Daniel Chang
+Advanced Power Electronics,3,CA,"Advanced Power Electronics is a core topic in the CA domain, focusing on Run soldier institution..",Michelle Thomas
+Smart Grid Technology,3,CA,"Smart Grid Technology is a core topic in the CA domain, focusing on Local candidate real effort hold learn..",Dylan Lopez
+Internet of Things (IoT),3,CA,"Internet of Things (IoT) is a core topic in the CA domain, focusing on Seven age director partner animal still sit..",Tammy Wilson
+Electrical Drives,3,CA,"Electrical Drives is a core topic in the CA domain, focusing on Economic Mrs nation reveal note..",Nicholas Wallace
+Introduction to Cyber Security,1,CYBER SECURITY,"Introduction to Cyber Security is a core topic in the Cyber Security domain, focusing on Success fine explain him..",Jessica Vaughn
+Computer Networks,1,CYBER SECURITY,"Computer Networks is a core topic in the Cyber Security domain, focusing on Star help quickly serious contain..",Jennifer Lowery
+Cryptography Basics,1,CYBER SECURITY,"Cryptography Basics is a core topic in the Cyber Security domain, focusing on Treat rich coach personal red increase..",Robin Cantrell
+Ethical Hacking Foundations,1,CYBER SECURITY,"Ethical Hacking Foundations is a core topic in the Cyber Security domain, focusing on Later ago sense call myself fight budget..",Dawn Davis
+Cyber Law and Policy,1,CYBER SECURITY,"Cyber Law and Policy is a core topic in the Cyber Security domain, focusing on Personal every wind shoulder individual..",Shelley Rodriguez
+Network Security,2,CYBER SECURITY,"Network Security is a core topic in the Cyber Security domain, focusing on Scientist each firm decade wait question..",John Fletcher
+Application Security,2,CYBER SECURITY,"Application Security is a core topic in the Cyber Security domain, focusing on Threat so say budget child owner although..",David Phillips
+Web Vulnerabilities,2,CYBER SECURITY,"Web Vulnerabilities is a core topic in the Cyber Security domain, focusing on Dog build writer..",Bruce Weaver
+Digital Forensics,2,CYBER SECURITY,"Digital Forensics is a core topic in the Cyber Security domain, focusing on Reach then involve step usually..",Isaac Harris
+Malware Analysis,2,CYBER SECURITY,"Malware Analysis is a core topic in the Cyber Security domain, focusing on Strategy white model allow hot tree..",Sandra Jennings
+Advanced Threat Detection,3,CYBER SECURITY,"Advanced Threat Detection is a core topic in the Cyber Security domain, focusing on Business probably own character than..",Dana Flores
+Penetration Testing,3,CYBER SECURITY,"Penetration Testing is a core topic in the Cyber Security domain, focusing on Involve one why here..",Abigail Montoya
+Incident Response,3,CYBER SECURITY,"Incident Response is a core topic in the Cyber Security domain, focusing on Reason outside improve career law..",Henry Anderson
+Cloud Security,3,CYBER SECURITY,"Cloud Security is a core topic in the Cyber Security domain, focusing on Onto toward interest job new see example..",Melvin Stephens
+AI in Cyber Security,3,CYBER SECURITY,"AI in Cyber Security is a core topic in the Cyber Security domain, focusing on House occur enough relate role toward..",Christopher Fitzpatrick

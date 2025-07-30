@@ -1,0 +1,813 @@
+[
+    {
+        "sub_name": "Agri and Environment Club 1",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Programming Basics.",
+        "staff": "Christopher Graham",
+        "assessments": [],
+        "club":"Agri and Environment Club",
+        "__v": 0
+    },
+    {
+        "sub_name": "Discrete Mathematics",
+        "year": 1,
+        "department": "Computer Science",
+        "description": "A detailed course on Discrete Mathematics.",
+        "staff": "Gregory Munoz",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Introduction to Computer Systems",
+        "year": 1,
+        "department": "Computer Science",
+        "description": "A detailed course on Introduction to Computer Systems.",
+        "staff": "Frank Adams",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Fundamentals of Data Communication",
+        "year": 1,
+        "department": "Computer Science",
+        "description": "A detailed course on Fundamentals of Data Communication.",
+        "staff": "William Avila",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Software Engineering Principles",
+        "year": 1,
+        "department": "Computer Science",
+        "description": "A detailed course on Software Engineering Principles.",
+        "staff": "Maria Pace",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Data Structures",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Data Structures.",
+        "staff": "Sabrina Robinson",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Algorithms",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Algorithms.",
+        "staff": "Nichole Myers",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Operating Systems",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Operating Systems.",
+        "staff": "Donna Graham",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Database Systems",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Database Systems.",
+        "staff": "Anthony Lopez",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Computer Architecture",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Computer Architecture.",
+        "staff": "Robert Hernandez",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Artificial Intelligence",
+        "year": 3,
+        "department": "Computer Science",
+        "description": "A detailed course on Artificial Intelligence.",
+        "staff": "Alicia Underwood",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Machine Learning",
+        "year": 3,
+        "department": "Computer Science",
+        "description": "A detailed course on Machine Learning.",
+        "staff": "Courtney Scott",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Cloud Computing",
+        "year": 3,
+        "department": "Computer Science",
+        "description": "A detailed course on Cloud Computing.",
+        "staff": "Elizabeth Hayes",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Cyber Security",
+        "year": 3,
+        "department": "Computer Science",
+        "description": "A detailed course on Cyber Security.",
+        "staff": "Linda Weaver",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Big Data Analytics",
+        "year": 3,
+        "department": "Computer Science",
+        "description": "A detailed course on Big Data Analytics.",
+        "staff": "Regina Stanley",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Introduction to IT",
+        "year": 1,
+        "department": "IT",
+        "description": "A detailed course on Introduction to IT.",
+        "staff": "Amy Hill",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Computer Fundamentals",
+        "year": 1,
+        "department": "IT",
+        "description": "A detailed course on Computer Fundamentals.",
+        "staff": "Haley Elliott",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Programming Basics",
+        "year": 1,
+        "department": "IT",
+        "description": "A detailed course on Programming Basics.",
+        "staff": "Sarah Sharp",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Web Development",
+        "year": 1,
+        "department": "IT",
+        "description": "A detailed course on Web Development.",
+        "staff": "Joseph Shelton",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Networking Fundamentals",
+        "year": 1,
+        "department": "IT",
+        "description": "A detailed course on Networking Fundamentals.",
+        "staff": "Stephanie Chandler",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Data Structures",
+        "year": 2,
+        "department": "IT",
+        "description": "A detailed course on Data Structures.",
+        "staff": "Kenneth Gross Jr.",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Database Management Systems",
+        "year": 2,
+        "department": "IT",
+        "description": "A detailed course on Database Management Systems.",
+        "staff": "Dawn Moore",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Operating Systems",
+        "year": 2,
+        "department": "IT",
+        "description": "A detailed course on Operating Systems.",
+        "staff": "Thomas Johnson",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Software Engineering",
+        "year": 2,
+        "department": "IT",
+        "description": "A detailed course on Software Engineering.",
+        "staff": "Sara Gardner",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Network Security",
+        "year": 2,
+        "department": "IT",
+        "description": "A detailed course on Network Security.",
+        "staff": "Cynthia Shaw",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Cloud Computing",
+        "year": 3,
+        "department": "IT",
+        "description": "A detailed course on Cloud Computing.",
+        "staff": "Tara Nguyen",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Mobile Application Development",
+        "year": 3,
+        "department": "IT",
+        "description": "A detailed course on Mobile Application Development.",
+        "staff": "Lisa Carpenter",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Cyber Security",
+        "year": 3,
+        "department": "IT",
+        "description": "A detailed course on Cyber Security.",
+        "staff": "Danny Mcdonald",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Data Analytics",
+        "year": 3,
+        "department": "IT",
+        "description": "A detailed course on Data Analytics.",
+        "staff": "Cynthia Guerra",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Blockchain Technology",
+        "year": 3,
+        "department": "IT",
+        "description": "A detailed course on Blockchain Technology.",
+        "staff": "Bryan Wilson",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Introduction to Data Science",
+        "year": 1,
+        "department": "AIDS",
+        "description": "A detailed course on Introduction to Data Science.",
+        "staff": "Adam Miller",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Mathematics for Data Science",
+        "year": 1,
+        "department": "AIDS",
+        "description": "A detailed course on Mathematics for Data Science.",
+        "staff": "Christian Stevenson",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Python for Data Analysis",
+        "year": 1,
+        "department": "AIDS",
+        "description": "A detailed course on Python for Data Analysis.",
+        "staff": "Jennifer Vargas",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Statistics Basics",
+        "year": 1,
+        "department": "AIDS",
+        "description": "A detailed course on Statistics Basics.",
+        "staff": "Dominic Austin",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Foundations of AI",
+        "year": 1,
+        "department": "AIDS",
+        "description": "A detailed course on Foundations of AI.",
+        "staff": "Abigail Williams",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Data Visualization",
+        "year": 2,
+        "department": "AIDS",
+        "description": "A detailed course on Data Visualization.",
+        "staff": "Jimmy Martinez",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Database Management",
+        "year": 2,
+        "department": "AIDS",
+        "description": "A detailed course on Database Management.",
+        "staff": "Elizabeth Harper",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Machine Learning Algorithms",
+        "year": 2,
+        "department": "AIDS",
+        "description": "A detailed course on Machine Learning Algorithms.",
+        "staff": "Jeff Pratt",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Big Data Fundamentals",
+        "year": 2,
+        "department": "AIDS",
+        "description": "A detailed course on Big Data Fundamentals.",
+        "staff": "Connor Dunn",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "AI in Practice",
+        "year": 2,
+        "department": "AIDS",
+        "description": "A detailed course on AI in Practice.",
+        "staff": "Sandra Wilson",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Advanced Machine Learning",
+        "year": 3,
+        "department": "AIDS",
+        "description": "A detailed course on Advanced Machine Learning.",
+        "staff": "Roy Ferguson",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Deep Learning",
+        "year": 3,
+        "department": "AIDS",
+        "description": "A detailed course on Deep Learning.",
+        "staff": "Jesus Mann",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Natural Language Processing",
+        "year": 3,
+        "department": "AIDS",
+        "description": "A detailed course on Natural Language Processing.",
+        "staff": "Emily White",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Recommender Systems",
+        "year": 3,
+        "department": "AIDS",
+        "description": "A detailed course on Recommender Systems.",
+        "staff": "Amanda Ross",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Data Ethics and Privacy",
+        "year": 3,
+        "department": "AIDS",
+        "description": "A detailed course on Data Ethics and Privacy.",
+        "staff": "Jose Durham",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Programming for AI",
+        "year": 1,
+        "department": "AIML",
+        "description": "A detailed course on Programming for AI.",
+        "staff": "Michael Williams",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Linear Algebra and Calculus",
+        "year": 1,
+        "department": "AIML",
+        "description": "A detailed course on Linear Algebra and Calculus.",
+        "staff": "Alexis Griffin",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Introduction to Machine Learning",
+        "year": 1,
+        "department": "AIML",
+        "description": "A detailed course on Introduction to Machine Learning.",
+        "staff": "Vanessa Johnson",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Digital Logic Design",
+        "year": 1,
+        "department": "AIML",
+        "description": "A detailed course on Digital Logic Design.",
+        "staff": "Michael Roy",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Data Structures",
+        "year": 1,
+        "department": "AIML",
+        "description": "A detailed course on Data Structures.",
+        "staff": "Barbara Schultz",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Neural Networks Basics",
+        "year": 2,
+        "department": "AIML",
+        "description": "A detailed course on Neural Networks Basics.",
+        "staff": "Victor Smith",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Optimization Methods",
+        "year": 2,
+        "department": "AIML",
+        "description": "A detailed course on Optimization Methods.",
+        "staff": "Daniel Simmons",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Computer Vision",
+        "year": 2,
+        "department": "AIML",
+        "description": "A detailed course on Computer Vision.",
+        "staff": "Mark Guerra",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Machine Learning Applications",
+        "year": 2,
+        "department": "AIML",
+        "description": "A detailed course on Machine Learning Applications.",
+        "staff": "Douglas Ashley",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Data Science Tools",
+        "year": 2,
+        "department": "AIML",
+        "description": "A detailed course on Data Science Tools.",
+        "staff": "Kevin Nash",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Advanced AI Techniques",
+        "year": 3,
+        "department": "AIML",
+        "description": "A detailed course on Advanced AI Techniques.",
+        "staff": "Hannah Hess",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Deep Learning Models",
+        "year": 3,
+        "department": "AIML",
+        "description": "A detailed course on Deep Learning Models.",
+        "staff": "Keith Arias",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Reinforcement Learning",
+        "year": 3,
+        "department": "AIML",
+        "description": "A detailed course on Reinforcement Learning.",
+        "staff": "Crystal Anderson",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Natural Language Processing",
+        "year": 3,
+        "department": "AIML",
+        "description": "A detailed course on Natural Language Processing.",
+        "staff": "Jeffery Garcia",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "AI Ethics and Society",
+        "year": 3,
+        "department": "AIML",
+        "description": "A detailed course on AI Ethics and Society.",
+        "staff": "Thomas Richards",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Introduction to Circuit Analysis",
+        "year": 1,
+        "department": "CA",
+        "description": "A detailed course on Introduction to Circuit Analysis.",
+        "staff": "Paula Lin",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Digital Electronics",
+        "year": 1,
+        "department": "CA",
+        "description": "A detailed course on Digital Electronics.",
+        "staff": "Michelle Martinez",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Analog Circuits",
+        "year": 1,
+        "department": "CA",
+        "description": "A detailed course on Analog Circuits.",
+        "staff": "Michael Clark",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Fundamentals of Electrical Engineering",
+        "year": 1,
+        "department": "CA",
+        "description": "A detailed course on Fundamentals of Electrical Engineering.",
+        "staff": "Melissa Fisher",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Programming for Engineers",
+        "year": 1,
+        "department": "CA",
+        "description": "A detailed course on Programming for Engineers.",
+        "staff": "Johnny Clark",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Control Systems",
+        "year": 2,
+        "department": "CA",
+        "description": "A detailed course on Control Systems.",
+        "staff": "Katelyn Colon",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Microcontrollers",
+        "year": 2,
+        "department": "CA",
+        "description": "A detailed course on Microcontrollers.",
+        "staff": "Valerie Gordon",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Signal Processing",
+        "year": 2,
+        "department": "CA",
+        "description": "A detailed course on Signal Processing.",
+        "staff": "Lauren Harrison",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Embedded Systems",
+        "year": 2,
+        "department": "CA",
+        "description": "A detailed course on Embedded Systems.",
+        "staff": "Sandra Davis",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Power Systems",
+        "year": 2,
+        "department": "CA",
+        "description": "A detailed course on Power Systems.",
+        "staff": "Joseph Lawson",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Renewable Energy Systems",
+        "year": 3,
+        "department": "CA",
+        "description": "A detailed course on Renewable Energy Systems.",
+        "staff": "Taylor James",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Advanced Power Electronics",
+        "year": 3,
+        "department": "CA",
+        "description": "A detailed course on Advanced Power Electronics.",
+        "staff": "Eric Scott",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Smart Grid Technology",
+        "year": 3,
+        "department": "CA",
+        "description": "A detailed course on Smart Grid Technology.",
+        "staff": "Emma Phillips",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Internet of Things (IoT)",
+        "year": 3,
+        "department": "CA",
+        "description": "A detailed course on Internet of Things (IoT).",
+        "staff": "Dawn White",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Electrical Drives",
+        "year": 3,
+        "department": "CA",
+        "description": "A detailed course on Electrical Drives.",
+        "staff": "Isaac Davenport",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Introduction to Cyber Security",
+        "year": 1,
+        "department": "Cyber Security",
+        "description": "A detailed course on Introduction to Cyber Security.",
+        "staff": "Scott Hunter",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Computer Networks",
+        "year": 1,
+        "department": "Cyber Security",
+        "description": "A detailed course on Computer Networks.",
+        "staff": "Terry Aguirre",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Cryptography Basics",
+        "year": 1,
+        "department": "Cyber Security",
+        "description": "A detailed course on Cryptography Basics.",
+        "staff": "Andrew Aguilar",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Ethical Hacking Foundations",
+        "year": 1,
+        "department": "Cyber Security",
+        "description": "A detailed course on Ethical Hacking Foundations.",
+        "staff": "Natalie Richards",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Cyber Law and Policy",
+        "year": 1,
+        "department": "Cyber Security",
+        "description": "A detailed course on Cyber Law and Policy.",
+        "staff": "Tiffany Williams",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Network Security",
+        "year": 2,
+        "department": "Cyber Security",
+        "description": "A detailed course on Network Security.",
+        "staff": "Emma Campos",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Application Security",
+        "year": 2,
+        "department": "Cyber Security",
+        "description": "A detailed course on Application Security.",
+        "staff": "Jason Parsons",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Web Vulnerabilities",
+        "year": 2,
+        "department": "Cyber Security",
+        "description": "A detailed course on Web Vulnerabilities.",
+        "staff": "Kyle Brown DVM",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Digital Forensics",
+        "year": 2,
+        "department": "Cyber Security",
+        "description": "A detailed course on Digital Forensics.",
+        "staff": "Jessica Phillips",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Malware Analysis",
+        "year": 2,
+        "department": "Cyber Security",
+        "description": "A detailed course on Malware Analysis.",
+        "staff": "Joseph Ellis",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Advanced Threat Detection",
+        "year": 3,
+        "department": "Cyber Security",
+        "description": "A detailed course on Advanced Threat Detection.",
+        "staff": "Brian Pope",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Penetration Testing",
+        "year": 3,
+        "department": "Cyber Security",
+        "description": "A detailed course on Penetration Testing.",
+        "staff": "Savannah Martin",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Incident Response",
+        "year": 3,
+        "department": "Cyber Security",
+        "description": "A detailed course on Incident Response.",
+        "staff": "Angela Galvan",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "Cloud Security",
+        "year": 3,
+        "department": "Cyber Security",
+        "description": "A detailed course on Cloud Security.",
+        "staff": "Jennifer Howard",
+        "assessments": [],
+        "__v": 0
+    },
+    {
+        "sub_name": "AI in Cyber Security",
+        "year": 3,
+        "department": "Cyber Security",
+        "description": "A detailed course on AI in Cyber Security.",
+        "staff": "Barbara Baker",
+        "assessments": [],
+        "__v": 0
+    }
+]

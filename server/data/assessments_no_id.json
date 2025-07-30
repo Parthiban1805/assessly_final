@@ -1,0 +1,2162 @@
+[
+    {
+        "name": "Programming Basics-FA1-05 December 2024",
+        "openTime": "2024-12-05T16:39:59.530753",
+        "closeTime": "2024-12-05T17:39:59.530753",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Programming Basics-FA2-19 November 2024",
+        "openTime": "2024-11-19T16:39:59.530753",
+        "closeTime": "2024-11-19T18:39:59.530753",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Programming Basics-FA3-20 November 2024",
+        "openTime": "2024-11-20T16:39:59.530753",
+        "closeTime": "2024-11-20T18:39:59.530753",
+        "status": "Pending",
+        "marks": 79,
+        "__v": 0
+    },
+    {
+        "name": "Discrete Mathematics-FA1-28 November 2024",
+        "openTime": "2024-11-28T16:39:59.530753",
+        "closeTime": "2024-11-28T19:39:59.530753",
+        "status": "Completed",
+        "marks": 97,
+        "__v": 0
+    },
+    {
+        "name": "Discrete Mathematics-FA2-04 December 2024",
+        "openTime": "2024-12-04T16:39:59.530753",
+        "closeTime": "2024-12-04T19:39:59.530753",
+        "status": "Completed",
+        "marks": 89,
+        "__v": 0
+    },
+    {
+        "name": "Discrete Mathematics-FA3-18 November 2024",
+        "openTime": "2024-11-18T16:39:59.530753",
+        "closeTime": "2024-11-18T17:39:59.530753",
+        "status": "Completed",
+        "marks": 75,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Computer Systems-FA1-13 November 2024",
+        "openTime": "2024-11-13T16:39:59.530753",
+        "closeTime": "2024-11-13T19:39:59.530753",
+        "status": "Completed",
+        "marks": 86,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Computer Systems-FA2-04 January 2025",
+        "openTime": "2025-01-04T16:39:59.530753",
+        "closeTime": "2025-01-04T18:39:59.530753",
+        "status": "Completed",
+        "marks": 79,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Computer Systems-FA3-12 December 2024",
+        "openTime": "2024-12-12T16:39:59.530753",
+        "closeTime": "2024-12-12T18:39:59.530753",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Fundamentals of Data Communication-FA1-09 December 2024",
+        "openTime": "2024-12-09T16:39:59.530753",
+        "closeTime": "2024-12-09T19:39:59.530753",
+        "status": "Pending",
+        "marks": 85,
+        "__v": 0
+    },
+    {
+        "name": "Fundamentals of Data Communication-FA2-02 January 2025",
+        "openTime": "2025-01-02T16:39:59.530753",
+        "closeTime": "2025-01-02T18:39:59.530753",
+        "status": "Completed",
+        "marks": 90,
+        "__v": 0
+    },
+    {
+        "name": "Fundamentals of Data Communication-FA3-03 December 2024",
+        "openTime": "2024-12-03T16:39:59.530753",
+        "closeTime": "2024-12-03T19:39:59.530753",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Software Engineering Principles-FA1-23 November 2024",
+        "openTime": "2024-11-23T16:39:59.530753",
+        "closeTime": "2024-11-23T17:39:59.530753",
+        "status": "Pending",
+        "marks": 87,
+        "__v": 0
+    },
+    {
+        "name": "Software Engineering Principles-FA2-16 December 2024",
+        "openTime": "2024-12-16T16:39:59.530753",
+        "closeTime": "2024-12-16T19:39:59.530753",
+        "status": "Completed",
+        "marks": 71,
+        "__v": 0
+    },
+    {
+        "name": "Software Engineering Principles-FA3-14 December 2024",
+        "openTime": "2024-12-14T16:39:59.530753",
+        "closeTime": "2024-12-14T18:39:59.530753",
+        "status": "Completed",
+        "marks": 98,
+        "__v": 0
+    },
+    {
+        "name": "Data Structures-FA1-02 January 2025",
+        "openTime": "2025-01-02T16:39:59.530753",
+        "closeTime": "2025-01-02T19:39:59.530753",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Structures-FA2-19 November 2024",
+        "openTime": "2024-11-19T16:39:59.530753",
+        "closeTime": "2024-11-19T17:39:59.530753",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Structures-FA3-27 November 2024",
+        "openTime": "2024-11-27T16:39:59.531755",
+        "closeTime": "2024-11-27T17:39:59.531755",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Algorithms-FA1-02 December 2024",
+        "openTime": "2024-12-02T16:39:59.531755",
+        "closeTime": "2024-12-02T19:39:59.531755",
+        "status": "Pending",
+        "marks": 85,
+        "__v": 0
+    },
+    {
+        "name": "Algorithms-FA2-18 November 2024",
+        "openTime": "2024-11-18T16:39:59.531755",
+        "closeTime": "2024-11-18T19:39:59.531755",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Algorithms-FA3-31 December 2024",
+        "openTime": "2024-12-31T16:39:59.531755",
+        "closeTime": "2024-12-31T18:39:59.531755",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Operating Systems-FA1-12 December 2024",
+        "openTime": "2024-12-12T16:39:59.531755",
+        "closeTime": "2024-12-12T18:39:59.531755",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Operating Systems-FA2-24 November 2024",
+        "openTime": "2024-11-24T16:39:59.531755",
+        "closeTime": "2024-11-24T18:39:59.531755",
+        "status": "Pending",
+        "marks": 83,
+        "__v": 0
+    },
+    {
+        "name": "Operating Systems-FA3-16 November 2024",
+        "openTime": "2024-11-16T16:39:59.531755",
+        "closeTime": "2024-11-16T17:39:59.531755",
+        "status": "Pending",
+        "marks": 91,
+        "__v": 0
+    },
+    {
+        "name": "Database Systems-FA1-08 December 2024",
+        "openTime": "2024-12-08T16:39:59.531755",
+        "closeTime": "2024-12-08T17:39:59.531755",
+        "status": "Completed",
+        "marks": 78,
+        "__v": 0
+    },
+    {
+        "name": "Database Systems-FA2-22 November 2024",
+        "openTime": "2024-11-22T16:39:59.531755",
+        "closeTime": "2024-11-22T17:39:59.531755",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Database Systems-FA3-05 November 2024",
+        "openTime": "2024-11-05T16:39:59.531755",
+        "closeTime": "2024-11-05T17:39:59.531755",
+        "status": "Completed",
+        "marks": 73,
+        "__v": 0
+    },
+    {
+        "name": "Computer Architecture-FA1-30 November 2024",
+        "openTime": "2024-11-30T16:39:59.531755",
+        "closeTime": "2024-11-30T17:39:59.531755",
+        "status": "Pending",
+        "marks": 97,
+        "__v": 0
+    },
+    {
+        "name": "Computer Architecture-FA2-29 November 2024",
+        "openTime": "2024-11-29T16:39:59.531755",
+        "closeTime": "2024-11-29T19:39:59.531755",
+        "status": "Completed",
+        "marks": 73,
+        "__v": 0
+    },
+    {
+        "name": "Computer Architecture-FA3-30 December 2024",
+        "openTime": "2024-12-30T16:39:59.531755",
+        "closeTime": "2024-12-30T18:39:59.531755",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Artificial Intelligence-FA1-02 January 2025",
+        "openTime": "2025-01-02T16:39:59.531755",
+        "closeTime": "2025-01-02T19:39:59.531755",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Artificial Intelligence-FA2-29 December 2024",
+        "openTime": "2024-12-29T16:39:59.531755",
+        "closeTime": "2024-12-29T18:39:59.531755",
+        "status": "Completed",
+        "marks": 88,
+        "__v": 0
+    },
+    {
+        "name": "Artificial Intelligence-FA3-14 November 2024",
+        "openTime": "2024-11-14T16:39:59.531755",
+        "closeTime": "2024-11-14T19:39:59.531755",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning-FA1-28 December 2024",
+        "openTime": "2024-12-28T16:39:59.531755",
+        "closeTime": "2024-12-28T18:39:59.531755",
+        "status": "Pending",
+        "marks": 81,
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning-FA2-16 December 2024",
+        "openTime": "2024-12-16T16:39:59.531755",
+        "closeTime": "2024-12-16T18:39:59.531755",
+        "status": "Pending",
+        "marks": 81,
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning-FA3-08 December 2024",
+        "openTime": "2024-12-08T16:39:59.531755",
+        "closeTime": "2024-12-08T17:39:59.531755",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cloud Computing-FA1-17 November 2024",
+        "openTime": "2024-11-17T16:39:59.531755",
+        "closeTime": "2024-11-17T19:39:59.531755",
+        "status": "Completed",
+        "marks": 85,
+        "__v": 0
+    },
+    {
+        "name": "Cloud Computing-FA2-05 December 2024",
+        "openTime": "2024-12-05T16:39:59.531755",
+        "closeTime": "2024-12-05T18:39:59.531755",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cloud Computing-FA3-14 November 2024",
+        "openTime": "2024-11-14T16:39:59.531755",
+        "closeTime": "2024-11-14T17:39:59.531755",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cyber Security-FA1-09 November 2024",
+        "openTime": "2024-11-09T16:39:59.531755",
+        "closeTime": "2024-11-09T17:39:59.531755",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cyber Security-FA2-23 November 2024",
+        "openTime": "2024-11-23T16:39:59.531755",
+        "closeTime": "2024-11-23T19:39:59.531755",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cyber Security-FA3-24 November 2024",
+        "openTime": "2024-11-24T16:39:59.531755",
+        "closeTime": "2024-11-24T17:39:59.531755",
+        "status": "Completed",
+        "marks": 95,
+        "__v": 0
+    },
+    {
+        "name": "Big Data Analytics-FA1-24 December 2024",
+        "openTime": "2024-12-24T16:39:59.532754",
+        "closeTime": "2024-12-24T19:39:59.532754",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Big Data Analytics-FA2-13 November 2024",
+        "openTime": "2024-11-13T16:39:59.532754",
+        "closeTime": "2024-11-13T17:39:59.532754",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Big Data Analytics-FA3-18 December 2024",
+        "openTime": "2024-12-18T16:39:59.532754",
+        "closeTime": "2024-12-18T17:39:59.532754",
+        "status": "Completed",
+        "marks": 81,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to IT-FA1-22 November 2024",
+        "openTime": "2024-11-22T16:39:59.532754",
+        "closeTime": "2024-11-22T19:39:59.532754",
+        "status": "Completed",
+        "marks": 78,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to IT-FA2-22 December 2024",
+        "openTime": "2024-12-22T16:39:59.532754",
+        "closeTime": "2024-12-22T18:39:59.532754",
+        "status": "Completed",
+        "marks": 94,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to IT-FA3-08 December 2024",
+        "openTime": "2024-12-08T16:39:59.532754",
+        "closeTime": "2024-12-08T17:39:59.532754",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Computer Fundamentals-FA1-06 November 2024",
+        "openTime": "2024-11-06T16:39:59.532754",
+        "closeTime": "2024-11-06T18:39:59.532754",
+        "status": "Completed",
+        "marks": 85,
+        "__v": 0
+    },
+    {
+        "name": "Computer Fundamentals-FA2-27 December 2024",
+        "openTime": "2024-12-27T16:39:59.532754",
+        "closeTime": "2024-12-27T18:39:59.532754",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Computer Fundamentals-FA3-19 December 2024",
+        "openTime": "2024-12-19T16:39:59.532754",
+        "closeTime": "2024-12-19T19:39:59.532754",
+        "status": "Completed",
+        "marks": 74,
+        "__v": 0
+    },
+    {
+        "name": "Programming Basics-FA1-29 November 2024",
+        "openTime": "2024-11-29T16:39:59.532754",
+        "closeTime": "2024-11-29T18:39:59.532754",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Programming Basics-FA2-16 November 2024",
+        "openTime": "2024-11-16T16:39:59.532754",
+        "closeTime": "2024-11-16T18:39:59.532754",
+        "status": "Pending",
+        "marks": 98,
+        "__v": 0
+    },
+    {
+        "name": "Programming Basics-FA3-07 December 2024",
+        "openTime": "2024-12-07T16:39:59.532754",
+        "closeTime": "2024-12-07T17:39:59.532754",
+        "status": "Completed",
+        "marks": 74,
+        "__v": 0
+    },
+    {
+        "name": "Web Development-FA1-23 December 2024",
+        "openTime": "2024-12-23T16:39:59.532754",
+        "closeTime": "2024-12-23T19:39:59.532754",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Web Development-FA2-31 December 2024",
+        "openTime": "2024-12-31T16:39:59.532754",
+        "closeTime": "2024-12-31T17:39:59.532754",
+        "status": "Pending",
+        "marks": 87,
+        "__v": 0
+    },
+    {
+        "name": "Web Development-FA3-22 November 2024",
+        "openTime": "2024-11-22T16:39:59.532754",
+        "closeTime": "2024-11-22T19:39:59.532754",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Networking Fundamentals-FA1-02 December 2024",
+        "openTime": "2024-12-02T16:39:59.532754",
+        "closeTime": "2024-12-02T18:39:59.532754",
+        "status": "Completed",
+        "marks": 76,
+        "__v": 0
+    },
+    {
+        "name": "Networking Fundamentals-FA2-18 November 2024",
+        "openTime": "2024-11-18T16:39:59.532754",
+        "closeTime": "2024-11-18T17:39:59.532754",
+        "status": "Pending",
+        "marks": 70,
+        "__v": 0
+    },
+    {
+        "name": "Networking Fundamentals-FA3-05 December 2024",
+        "openTime": "2024-12-05T16:39:59.532754",
+        "closeTime": "2024-12-05T18:39:59.532754",
+        "status": "Completed",
+        "marks": 84,
+        "__v": 0
+    },
+    {
+        "name": "Data Structures-FA1-22 November 2024",
+        "openTime": "2024-11-22T16:39:59.532754",
+        "closeTime": "2024-11-22T18:39:59.532754",
+        "status": "Pending",
+        "marks": 81,
+        "__v": 0
+    },
+    {
+        "name": "Data Structures-FA2-25 December 2024",
+        "openTime": "2024-12-25T16:39:59.532754",
+        "closeTime": "2024-12-25T17:39:59.532754",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Structures-FA3-31 December 2024",
+        "openTime": "2024-12-31T16:39:59.532754",
+        "closeTime": "2024-12-31T19:39:59.532754",
+        "status": "Pending",
+        "marks": 73,
+        "__v": 0
+    },
+    {
+        "name": "Database Management Systems-FA1-02 January 2025",
+        "openTime": "2025-01-02T16:39:59.532754",
+        "closeTime": "2025-01-02T18:39:59.532754",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Database Management Systems-FA2-15 November 2024",
+        "openTime": "2024-11-15T16:39:59.532754",
+        "closeTime": "2024-11-15T17:39:59.532754",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Database Management Systems-FA3-15 November 2024",
+        "openTime": "2024-11-15T16:39:59.532754",
+        "closeTime": "2024-11-15T17:39:59.532754",
+        "status": "Pending",
+        "marks": 99,
+        "__v": 0
+    },
+    {
+        "name": "Operating Systems-FA1-19 December 2024",
+        "openTime": "2024-12-19T16:39:59.533758",
+        "closeTime": "2024-12-19T18:39:59.533758",
+        "status": "Completed",
+        "marks": 98,
+        "__v": 0
+    },
+    {
+        "name": "Operating Systems-FA2-08 November 2024",
+        "openTime": "2024-11-08T16:39:59.533758",
+        "closeTime": "2024-11-08T19:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Operating Systems-FA3-05 November 2024",
+        "openTime": "2024-11-05T16:39:59.533758",
+        "closeTime": "2024-11-05T17:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Software Engineering-FA1-08 November 2024",
+        "openTime": "2024-11-08T16:39:59.533758",
+        "closeTime": "2024-11-08T19:39:59.533758",
+        "status": "Pending",
+        "marks": 75,
+        "__v": 0
+    },
+    {
+        "name": "Software Engineering-FA2-26 November 2024",
+        "openTime": "2024-11-26T16:39:59.533758",
+        "closeTime": "2024-11-26T17:39:59.533758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Software Engineering-FA3-05 November 2024",
+        "openTime": "2024-11-05T16:39:59.533758",
+        "closeTime": "2024-11-05T19:39:59.533758",
+        "status": "Completed",
+        "marks": 78,
+        "__v": 0
+    },
+    {
+        "name": "Network Security-FA1-05 December 2024",
+        "openTime": "2024-12-05T16:39:59.533758",
+        "closeTime": "2024-12-05T19:39:59.533758",
+        "status": "Pending",
+        "marks": 91,
+        "__v": 0
+    },
+    {
+        "name": "Network Security-FA2-29 November 2024",
+        "openTime": "2024-11-29T16:39:59.533758",
+        "closeTime": "2024-11-29T19:39:59.533758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Network Security-FA3-11 November 2024",
+        "openTime": "2024-11-11T16:39:59.533758",
+        "closeTime": "2024-11-11T19:39:59.533758",
+        "status": "Completed",
+        "marks": 87,
+        "__v": 0
+    },
+    {
+        "name": "Cloud Computing-FA1-03 January 2025",
+        "openTime": "2025-01-03T16:39:59.533758",
+        "closeTime": "2025-01-03T19:39:59.533758",
+        "status": "Pending",
+        "marks": 82,
+        "__v": 0
+    },
+    {
+        "name": "Cloud Computing-FA2-12 November 2024",
+        "openTime": "2024-11-12T16:39:59.533758",
+        "closeTime": "2024-11-12T19:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cloud Computing-FA3-16 December 2024",
+        "openTime": "2024-12-16T16:39:59.533758",
+        "closeTime": "2024-12-16T19:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Mobile Application Development-FA1-29 December 2024",
+        "openTime": "2024-12-29T16:39:59.533758",
+        "closeTime": "2024-12-29T17:39:59.533758",
+        "status": "Completed",
+        "marks": 99,
+        "__v": 0
+    },
+    {
+        "name": "Mobile Application Development-FA2-31 December 2024",
+        "openTime": "2024-12-31T16:39:59.533758",
+        "closeTime": "2024-12-31T17:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Mobile Application Development-FA3-20 November 2024",
+        "openTime": "2024-11-20T16:39:59.533758",
+        "closeTime": "2024-11-20T17:39:59.533758",
+        "status": "Pending",
+        "marks": 74,
+        "__v": 0
+    },
+    {
+        "name": "Cyber Security-FA1-09 November 2024",
+        "openTime": "2024-11-09T16:39:59.533758",
+        "closeTime": "2024-11-09T18:39:59.533758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cyber Security-FA2-29 November 2024",
+        "openTime": "2024-11-29T16:39:59.533758",
+        "closeTime": "2024-11-29T17:39:59.533758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cyber Security-FA3-10 December 2024",
+        "openTime": "2024-12-10T16:39:59.533758",
+        "closeTime": "2024-12-10T18:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Analytics-FA1-16 December 2024",
+        "openTime": "2024-12-16T16:39:59.533758",
+        "closeTime": "2024-12-16T17:39:59.533758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Analytics-FA2-27 November 2024",
+        "openTime": "2024-11-27T16:39:59.533758",
+        "closeTime": "2024-11-27T19:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Analytics-FA3-30 December 2024",
+        "openTime": "2024-12-30T16:39:59.533758",
+        "closeTime": "2024-12-30T17:39:59.533758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Blockchain Technology-FA1-31 December 2024",
+        "openTime": "2024-12-31T16:39:59.533758",
+        "closeTime": "2024-12-31T18:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Blockchain Technology-FA2-18 December 2024",
+        "openTime": "2024-12-18T16:39:59.533758",
+        "closeTime": "2024-12-18T17:39:59.533758",
+        "status": "Completed",
+        "marks": 92,
+        "__v": 0
+    },
+    {
+        "name": "Blockchain Technology-FA3-23 November 2024",
+        "openTime": "2024-11-23T16:39:59.533758",
+        "closeTime": "2024-11-23T19:39:59.533758",
+        "status": "Pending",
+        "marks": 84,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Data Science-FA1-14 November 2024",
+        "openTime": "2024-11-14T16:39:59.533758",
+        "closeTime": "2024-11-14T19:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Data Science-FA2-03 December 2024",
+        "openTime": "2024-12-03T16:39:59.533758",
+        "closeTime": "2024-12-03T19:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Data Science-FA3-08 November 2024",
+        "openTime": "2024-11-08T16:39:59.533758",
+        "closeTime": "2024-11-08T19:39:59.533758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Mathematics for Data Science-FA1-24 November 2024",
+        "openTime": "2024-11-24T16:39:59.534757",
+        "closeTime": "2024-11-24T17:39:59.534757",
+        "status": "Completed",
+        "marks": 88,
+        "__v": 0
+    },
+    {
+        "name": "Mathematics for Data Science-FA2-23 November 2024",
+        "openTime": "2024-11-23T16:39:59.534757",
+        "closeTime": "2024-11-23T19:39:59.534757",
+        "status": "Pending",
+        "marks": 77,
+        "__v": 0
+    },
+    {
+        "name": "Mathematics for Data Science-FA3-06 December 2024",
+        "openTime": "2024-12-06T16:39:59.534757",
+        "closeTime": "2024-12-06T19:39:59.534757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Python for Data Analysis-FA1-30 November 2024",
+        "openTime": "2024-11-30T16:39:59.534757",
+        "closeTime": "2024-11-30T18:39:59.534757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Python for Data Analysis-FA2-10 December 2024",
+        "openTime": "2024-12-10T16:39:59.534757",
+        "closeTime": "2024-12-10T18:39:59.534757",
+        "status": "Pending",
+        "marks": 79,
+        "__v": 0
+    },
+    {
+        "name": "Python for Data Analysis-FA3-09 November 2024",
+        "openTime": "2024-11-09T16:39:59.534757",
+        "closeTime": "2024-11-09T19:39:59.534757",
+        "status": "Completed",
+        "marks": 72,
+        "__v": 0
+    },
+    {
+        "name": "Statistics Basics-FA1-09 November 2024",
+        "openTime": "2024-11-09T16:39:59.534757",
+        "closeTime": "2024-11-09T19:39:59.534757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Statistics Basics-FA2-05 November 2024",
+        "openTime": "2024-11-05T16:39:59.534757",
+        "closeTime": "2024-11-05T19:39:59.534757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Statistics Basics-FA3-13 November 2024",
+        "openTime": "2024-11-13T16:39:59.534757",
+        "closeTime": "2024-11-13T19:39:59.534757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Foundations of AI-FA1-05 November 2024",
+        "openTime": "2024-11-05T16:39:59.534757",
+        "closeTime": "2024-11-05T18:39:59.534757",
+        "status": "Completed",
+        "marks": 91,
+        "__v": 0
+    },
+    {
+        "name": "Foundations of AI-FA2-20 December 2024",
+        "openTime": "2024-12-20T16:39:59.534757",
+        "closeTime": "2024-12-20T19:39:59.534757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Foundations of AI-FA3-14 November 2024",
+        "openTime": "2024-11-14T16:39:59.534757",
+        "closeTime": "2024-11-14T17:39:59.534757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Visualization-FA1-12 November 2024",
+        "openTime": "2024-11-12T16:39:59.534757",
+        "closeTime": "2024-11-12T17:39:59.534757",
+        "status": "Pending",
+        "marks": 99,
+        "__v": 0
+    },
+    {
+        "name": "Data Visualization-FA2-03 January 2025",
+        "openTime": "2025-01-03T16:39:59.534757",
+        "closeTime": "2025-01-03T19:39:59.534757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Visualization-FA3-01 January 2025",
+        "openTime": "2025-01-01T16:39:59.534757",
+        "closeTime": "2025-01-01T18:39:59.534757",
+        "status": "Completed",
+        "marks": 87,
+        "__v": 0
+    },
+    {
+        "name": "Database Management-FA1-29 November 2024",
+        "openTime": "2024-11-29T16:39:59.534757",
+        "closeTime": "2024-11-29T17:39:59.534757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Database Management-FA2-30 December 2024",
+        "openTime": "2024-12-30T16:39:59.534757",
+        "closeTime": "2024-12-30T19:39:59.534757",
+        "status": "Completed",
+        "marks": 88,
+        "__v": 0
+    },
+    {
+        "name": "Database Management-FA3-01 December 2024",
+        "openTime": "2024-12-01T16:39:59.534757",
+        "closeTime": "2024-12-01T18:39:59.534757",
+        "status": "Pending",
+        "marks": 74,
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning Algorithms-FA1-03 January 2025",
+        "openTime": "2025-01-03T16:39:59.534757",
+        "closeTime": "2025-01-03T19:39:59.534757",
+        "status": "Completed",
+        "marks": 75,
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning Algorithms-FA2-21 November 2024",
+        "openTime": "2024-11-21T16:39:59.534757",
+        "closeTime": "2024-11-21T18:39:59.534757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning Algorithms-FA3-04 December 2024",
+        "openTime": "2024-12-04T16:39:59.534757",
+        "closeTime": "2024-12-04T18:39:59.534757",
+        "status": "Completed",
+        "marks": 75,
+        "__v": 0
+    },
+    {
+        "name": "Big Data Fundamentals-FA1-01 January 2025",
+        "openTime": "2025-01-01T16:39:59.534757",
+        "closeTime": "2025-01-01T17:39:59.534757",
+        "status": "Pending",
+        "marks": 72,
+        "__v": 0
+    },
+    {
+        "name": "Big Data Fundamentals-FA2-17 December 2024",
+        "openTime": "2024-12-17T16:39:59.534757",
+        "closeTime": "2024-12-17T17:39:59.534757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Big Data Fundamentals-FA3-13 November 2024",
+        "openTime": "2024-11-13T16:39:59.534757",
+        "closeTime": "2024-11-13T19:39:59.534757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "AI in Practice-FA1-04 December 2024",
+        "openTime": "2024-12-04T16:39:59.534757",
+        "closeTime": "2024-12-04T17:39:59.534757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "AI in Practice-FA2-23 December 2024",
+        "openTime": "2024-12-23T16:39:59.534757",
+        "closeTime": "2024-12-23T17:39:59.534757",
+        "status": "Completed",
+        "marks": 80,
+        "__v": 0
+    },
+    {
+        "name": "AI in Practice-FA3-07 December 2024",
+        "openTime": "2024-12-07T16:39:59.534757",
+        "closeTime": "2024-12-07T18:39:59.534757",
+        "status": "Completed",
+        "marks": 86,
+        "__v": 0
+    },
+    {
+        "name": "Advanced Machine Learning-FA1-16 November 2024",
+        "openTime": "2024-11-16T16:39:59.535758",
+        "closeTime": "2024-11-16T18:39:59.535758",
+        "status": "Completed",
+        "marks": 87,
+        "__v": 0
+    },
+    {
+        "name": "Advanced Machine Learning-FA2-12 December 2024",
+        "openTime": "2024-12-12T16:39:59.535758",
+        "closeTime": "2024-12-12T19:39:59.535758",
+        "status": "Pending",
+        "marks": 90,
+        "__v": 0
+    },
+    {
+        "name": "Advanced Machine Learning-FA3-09 November 2024",
+        "openTime": "2024-11-09T16:39:59.535758",
+        "closeTime": "2024-11-09T17:39:59.535758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Deep Learning-FA1-07 November 2024",
+        "openTime": "2024-11-07T16:39:59.535758",
+        "closeTime": "2024-11-07T17:39:59.535758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Deep Learning-FA2-17 November 2024",
+        "openTime": "2024-11-17T16:39:59.535758",
+        "closeTime": "2024-11-17T17:39:59.535758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Deep Learning-FA3-18 December 2024",
+        "openTime": "2024-12-18T16:39:59.535758",
+        "closeTime": "2024-12-18T17:39:59.535758",
+        "status": "Completed",
+        "marks": 85,
+        "__v": 0
+    },
+    {
+        "name": "Natural Language Processing-FA1-02 December 2024",
+        "openTime": "2024-12-02T16:39:59.535758",
+        "closeTime": "2024-12-02T18:39:59.535758",
+        "status": "Pending",
+        "marks": 74,
+        "__v": 0
+    },
+    {
+        "name": "Natural Language Processing-FA2-08 December 2024",
+        "openTime": "2024-12-08T16:39:59.535758",
+        "closeTime": "2024-12-08T18:39:59.535758",
+        "status": "Completed",
+        "marks": 85,
+        "__v": 0
+    },
+    {
+        "name": "Natural Language Processing-FA3-19 December 2024",
+        "openTime": "2024-12-19T16:39:59.535758",
+        "closeTime": "2024-12-19T18:39:59.535758",
+        "status": "Completed",
+        "marks": 94,
+        "__v": 0
+    },
+    {
+        "name": "Recommender Systems-FA1-10 November 2024",
+        "openTime": "2024-11-10T16:39:59.535758",
+        "closeTime": "2024-11-10T17:39:59.535758",
+        "status": "Completed",
+        "marks": 84,
+        "__v": 0
+    },
+    {
+        "name": "Recommender Systems-FA2-09 November 2024",
+        "openTime": "2024-11-09T16:39:59.535758",
+        "closeTime": "2024-11-09T19:39:59.535758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Recommender Systems-FA3-16 November 2024",
+        "openTime": "2024-11-16T16:39:59.535758",
+        "closeTime": "2024-11-16T17:39:59.535758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Ethics and Privacy-FA1-04 December 2024",
+        "openTime": "2024-12-04T16:39:59.535758",
+        "closeTime": "2024-12-04T17:39:59.535758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Ethics and Privacy-FA2-20 November 2024",
+        "openTime": "2024-11-20T16:39:59.535758",
+        "closeTime": "2024-11-20T19:39:59.535758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Ethics and Privacy-FA3-03 January 2025",
+        "openTime": "2025-01-03T16:39:59.535758",
+        "closeTime": "2025-01-03T19:39:59.535758",
+        "status": "Pending",
+        "marks": 93,
+        "__v": 0
+    },
+    {
+        "name": "Programming for AI-FA1-04 December 2024",
+        "openTime": "2024-12-04T16:39:59.535758",
+        "closeTime": "2024-12-04T18:39:59.535758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Programming for AI-FA2-22 December 2024",
+        "openTime": "2024-12-22T16:39:59.535758",
+        "closeTime": "2024-12-22T19:39:59.535758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Programming for AI-FA3-23 December 2024",
+        "openTime": "2024-12-23T16:39:59.535758",
+        "closeTime": "2024-12-23T18:39:59.535758",
+        "status": "Pending",
+        "marks": 74,
+        "__v": 0
+    },
+    {
+        "name": "Linear Algebra and Calculus-FA1-03 December 2024",
+        "openTime": "2024-12-03T16:39:59.535758",
+        "closeTime": "2024-12-03T18:39:59.535758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Linear Algebra and Calculus-FA2-30 December 2024",
+        "openTime": "2024-12-30T16:39:59.535758",
+        "closeTime": "2024-12-30T17:39:59.535758",
+        "status": "Pending",
+        "marks": 94,
+        "__v": 0
+    },
+    {
+        "name": "Linear Algebra and Calculus-FA3-25 December 2024",
+        "openTime": "2024-12-25T16:39:59.535758",
+        "closeTime": "2024-12-25T18:39:59.535758",
+        "status": "Pending",
+        "marks": 81,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Machine Learning-FA1-17 December 2024",
+        "openTime": "2024-12-17T16:39:59.535758",
+        "closeTime": "2024-12-17T19:39:59.535758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Machine Learning-FA2-28 November 2024",
+        "openTime": "2024-11-28T16:39:59.535758",
+        "closeTime": "2024-11-28T17:39:59.535758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Machine Learning-FA3-30 November 2024",
+        "openTime": "2024-11-30T16:39:59.535758",
+        "closeTime": "2024-11-30T18:39:59.535758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Digital Logic Design-FA1-14 December 2024",
+        "openTime": "2024-12-14T16:39:59.536757",
+        "closeTime": "2024-12-14T18:39:59.536757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Digital Logic Design-FA2-06 December 2024",
+        "openTime": "2024-12-06T16:39:59.536757",
+        "closeTime": "2024-12-06T17:39:59.536757",
+        "status": "Pending",
+        "marks": 80,
+        "__v": 0
+    },
+    {
+        "name": "Digital Logic Design-FA3-11 December 2024",
+        "openTime": "2024-12-11T16:39:59.536757",
+        "closeTime": "2024-12-11T18:39:59.536757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Structures-FA1-28 November 2024",
+        "openTime": "2024-11-28T16:39:59.536757",
+        "closeTime": "2024-11-28T19:39:59.536757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Structures-FA2-06 December 2024",
+        "openTime": "2024-12-06T16:39:59.536757",
+        "closeTime": "2024-12-06T19:39:59.536757",
+        "status": "Pending",
+        "marks": 96,
+        "__v": 0
+    },
+    {
+        "name": "Data Structures-FA3-09 December 2024",
+        "openTime": "2024-12-09T16:39:59.536757",
+        "closeTime": "2024-12-09T18:39:59.536757",
+        "status": "Pending",
+        "marks": 73,
+        "__v": 0
+    },
+    {
+        "name": "Neural Networks Basics-FA1-05 November 2024",
+        "openTime": "2024-11-05T16:39:59.536757",
+        "closeTime": "2024-11-05T18:39:59.536757",
+        "status": "Pending",
+        "marks": 70,
+        "__v": 0
+    },
+    {
+        "name": "Neural Networks Basics-FA2-17 November 2024",
+        "openTime": "2024-11-17T16:39:59.536757",
+        "closeTime": "2024-11-17T17:39:59.536757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Neural Networks Basics-FA3-22 November 2024",
+        "openTime": "2024-11-22T16:39:59.536757",
+        "closeTime": "2024-11-22T18:39:59.536757",
+        "status": "Completed",
+        "marks": 82,
+        "__v": 0
+    },
+    {
+        "name": "Optimization Methods-FA1-07 December 2024",
+        "openTime": "2024-12-07T16:39:59.536757",
+        "closeTime": "2024-12-07T17:39:59.536757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Optimization Methods-FA2-16 November 2024",
+        "openTime": "2024-11-16T16:39:59.536757",
+        "closeTime": "2024-11-16T19:39:59.536757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Optimization Methods-FA3-27 December 2024",
+        "openTime": "2024-12-27T16:39:59.536757",
+        "closeTime": "2024-12-27T19:39:59.536757",
+        "status": "Pending",
+        "marks": 88,
+        "__v": 0
+    },
+    {
+        "name": "Computer Vision-FA1-14 November 2024",
+        "openTime": "2024-11-14T16:39:59.536757",
+        "closeTime": "2024-11-14T19:39:59.536757",
+        "status": "Pending",
+        "marks": 97,
+        "__v": 0
+    },
+    {
+        "name": "Computer Vision-FA2-02 December 2024",
+        "openTime": "2024-12-02T16:39:59.536757",
+        "closeTime": "2024-12-02T19:39:59.536757",
+        "status": "Pending",
+        "marks": 91,
+        "__v": 0
+    },
+    {
+        "name": "Computer Vision-FA3-12 December 2024",
+        "openTime": "2024-12-12T16:39:59.536757",
+        "closeTime": "2024-12-12T19:39:59.536757",
+        "status": "Pending",
+        "marks": 94,
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning Applications-FA1-09 November 2024",
+        "openTime": "2024-11-09T16:39:59.536757",
+        "closeTime": "2024-11-09T17:39:59.536757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning Applications-FA2-20 December 2024",
+        "openTime": "2024-12-20T16:39:59.536757",
+        "closeTime": "2024-12-20T18:39:59.536757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning Applications-FA3-16 November 2024",
+        "openTime": "2024-11-16T16:39:59.536757",
+        "closeTime": "2024-11-16T17:39:59.536757",
+        "status": "Completed",
+        "marks": 88,
+        "__v": 0
+    },
+    {
+        "name": "Data Science Tools-FA1-01 January 2025",
+        "openTime": "2025-01-01T16:39:59.536757",
+        "closeTime": "2025-01-01T18:39:59.536757",
+        "status": "Completed",
+        "marks": 83,
+        "__v": 0
+    },
+    {
+        "name": "Data Science Tools-FA2-20 November 2024",
+        "openTime": "2024-11-20T16:39:59.536757",
+        "closeTime": "2024-11-20T18:39:59.536757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Data Science Tools-FA3-28 December 2024",
+        "openTime": "2024-12-28T16:39:59.536757",
+        "closeTime": "2024-12-28T19:39:59.536757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Advanced AI Techniques-FA1-06 November 2024",
+        "openTime": "2024-11-06T16:39:59.536757",
+        "closeTime": "2024-11-06T18:39:59.536757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Advanced AI Techniques-FA2-11 November 2024",
+        "openTime": "2024-11-11T16:39:59.536757",
+        "closeTime": "2024-11-11T18:39:59.536757",
+        "status": "Pending",
+        "marks": 89,
+        "__v": 0
+    },
+    {
+        "name": "Advanced AI Techniques-FA3-20 November 2024",
+        "openTime": "2024-11-20T16:39:59.536757",
+        "closeTime": "2024-11-20T17:39:59.536757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Deep Learning Models-FA1-16 November 2024",
+        "openTime": "2024-11-16T16:39:59.536757",
+        "closeTime": "2024-11-16T17:39:59.536757",
+        "status": "Pending",
+        "marks": 81,
+        "__v": 0
+    },
+    {
+        "name": "Deep Learning Models-FA2-04 December 2024",
+        "openTime": "2024-12-04T16:39:59.536757",
+        "closeTime": "2024-12-04T17:39:59.536757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Deep Learning Models-FA3-29 November 2024",
+        "openTime": "2024-11-29T16:39:59.536757",
+        "closeTime": "2024-11-29T17:39:59.536757",
+        "status": "Pending",
+        "marks": 86,
+        "__v": 0
+    },
+    {
+        "name": "Reinforcement Learning-FA1-02 January 2025",
+        "openTime": "2025-01-02T16:39:59.537757",
+        "closeTime": "2025-01-02T19:39:59.537757",
+        "status": "Completed",
+        "marks": 93,
+        "__v": 0
+    },
+    {
+        "name": "Reinforcement Learning-FA2-02 December 2024",
+        "openTime": "2024-12-02T16:39:59.537757",
+        "closeTime": "2024-12-02T19:39:59.537757",
+        "status": "Pending",
+        "marks": 79,
+        "__v": 0
+    },
+    {
+        "name": "Reinforcement Learning-FA3-30 November 2024",
+        "openTime": "2024-11-30T16:39:59.537757",
+        "closeTime": "2024-11-30T18:39:59.537757",
+        "status": "Pending",
+        "marks": 100,
+        "__v": 0
+    },
+    {
+        "name": "Natural Language Processing-FA1-19 December 2024",
+        "openTime": "2024-12-19T16:39:59.537757",
+        "closeTime": "2024-12-19T17:39:59.537757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Natural Language Processing-FA2-11 December 2024",
+        "openTime": "2024-12-11T16:39:59.537757",
+        "closeTime": "2024-12-11T19:39:59.537757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Natural Language Processing-FA3-03 January 2025",
+        "openTime": "2025-01-03T16:39:59.537757",
+        "closeTime": "2025-01-03T19:39:59.537757",
+        "status": "Pending",
+        "marks": 72,
+        "__v": 0
+    },
+    {
+        "name": "AI Ethics and Society-FA1-12 December 2024",
+        "openTime": "2024-12-12T16:39:59.537757",
+        "closeTime": "2024-12-12T17:39:59.537757",
+        "status": "Pending",
+        "marks": 78,
+        "__v": 0
+    },
+    {
+        "name": "AI Ethics and Society-FA2-12 December 2024",
+        "openTime": "2024-12-12T16:39:59.537757",
+        "closeTime": "2024-12-12T18:39:59.537757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "AI Ethics and Society-FA3-26 November 2024",
+        "openTime": "2024-11-26T16:39:59.537757",
+        "closeTime": "2024-11-26T19:39:59.537757",
+        "status": "Completed",
+        "marks": 94,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Circuit Analysis-FA1-28 December 2024",
+        "openTime": "2024-12-28T16:39:59.537757",
+        "closeTime": "2024-12-28T19:39:59.537757",
+        "status": "Pending",
+        "marks": 70,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Circuit Analysis-FA2-25 December 2024",
+        "openTime": "2024-12-25T16:39:59.537757",
+        "closeTime": "2024-12-25T19:39:59.537757",
+        "status": "Completed",
+        "marks": 72,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Circuit Analysis-FA3-08 November 2024",
+        "openTime": "2024-11-08T16:39:59.537757",
+        "closeTime": "2024-11-08T19:39:59.537757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Digital Electronics-FA1-07 December 2024",
+        "openTime": "2024-12-07T16:39:59.537757",
+        "closeTime": "2024-12-07T18:39:59.537757",
+        "status": "Pending",
+        "marks": 73,
+        "__v": 0
+    },
+    {
+        "name": "Digital Electronics-FA2-22 December 2024",
+        "openTime": "2024-12-22T16:39:59.537757",
+        "closeTime": "2024-12-22T17:39:59.537757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Digital Electronics-FA3-17 November 2024",
+        "openTime": "2024-11-17T16:39:59.537757",
+        "closeTime": "2024-11-17T19:39:59.537757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Analog Circuits-FA1-07 December 2024",
+        "openTime": "2024-12-07T16:39:59.537757",
+        "closeTime": "2024-12-07T19:39:59.537757",
+        "status": "Completed",
+        "marks": 97,
+        "__v": 0
+    },
+    {
+        "name": "Analog Circuits-FA2-27 November 2024",
+        "openTime": "2024-11-27T16:39:59.537757",
+        "closeTime": "2024-11-27T19:39:59.537757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Analog Circuits-FA3-31 December 2024",
+        "openTime": "2024-12-31T16:39:59.537757",
+        "closeTime": "2024-12-31T19:39:59.537757",
+        "status": "Completed",
+        "marks": 71,
+        "__v": 0
+    },
+    {
+        "name": "Fundamentals of Electrical Engineering-FA1-28 December 2024",
+        "openTime": "2024-12-28T16:39:59.537757",
+        "closeTime": "2024-12-28T18:39:59.537757",
+        "status": "Pending",
+        "marks": 95,
+        "__v": 0
+    },
+    {
+        "name": "Fundamentals of Electrical Engineering-FA2-14 November 2024",
+        "openTime": "2024-11-14T16:39:59.537757",
+        "closeTime": "2024-11-14T18:39:59.537757",
+        "status": "Completed",
+        "marks": 98,
+        "__v": 0
+    },
+    {
+        "name": "Fundamentals of Electrical Engineering-FA3-18 December 2024",
+        "openTime": "2024-12-18T16:39:59.537757",
+        "closeTime": "2024-12-18T18:39:59.537757",
+        "status": "Completed",
+        "marks": 74,
+        "__v": 0
+    },
+    {
+        "name": "Programming for Engineers-FA1-29 November 2024",
+        "openTime": "2024-11-29T16:39:59.537757",
+        "closeTime": "2024-11-29T19:39:59.537757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Programming for Engineers-FA2-18 November 2024",
+        "openTime": "2024-11-18T16:39:59.537757",
+        "closeTime": "2024-11-18T17:39:59.537757",
+        "status": "Completed",
+        "marks": 71,
+        "__v": 0
+    },
+    {
+        "name": "Programming for Engineers-FA3-09 November 2024",
+        "openTime": "2024-11-09T16:39:59.537757",
+        "closeTime": "2024-11-09T18:39:59.537757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Control Systems-FA1-20 November 2024",
+        "openTime": "2024-11-20T16:39:59.537757",
+        "closeTime": "2024-11-20T19:39:59.537757",
+        "status": "Pending",
+        "marks": 97,
+        "__v": 0
+    },
+    {
+        "name": "Control Systems-FA2-04 January 2025",
+        "openTime": "2025-01-04T16:39:59.537757",
+        "closeTime": "2025-01-04T17:39:59.537757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Control Systems-FA3-01 January 2025",
+        "openTime": "2025-01-01T16:39:59.537757",
+        "closeTime": "2025-01-01T18:39:59.537757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Microcontrollers-FA1-03 January 2025",
+        "openTime": "2025-01-03T16:39:59.538758",
+        "closeTime": "2025-01-03T18:39:59.538758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Microcontrollers-FA2-25 November 2024",
+        "openTime": "2024-11-25T16:39:59.538758",
+        "closeTime": "2024-11-25T18:39:59.538758",
+        "status": "Pending",
+        "marks": 71,
+        "__v": 0
+    },
+    {
+        "name": "Microcontrollers-FA3-03 January 2025",
+        "openTime": "2025-01-03T16:39:59.538758",
+        "closeTime": "2025-01-03T19:39:59.538758",
+        "status": "Completed",
+        "marks": 100,
+        "__v": 0
+    },
+    {
+        "name": "Signal Processing-FA1-11 November 2024",
+        "openTime": "2024-11-11T16:39:59.538758",
+        "closeTime": "2024-11-11T19:39:59.538758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Signal Processing-FA2-01 January 2025",
+        "openTime": "2025-01-01T16:39:59.538758",
+        "closeTime": "2025-01-01T18:39:59.538758",
+        "status": "Completed",
+        "marks": 84,
+        "__v": 0
+    },
+    {
+        "name": "Signal Processing-FA3-19 November 2024",
+        "openTime": "2024-11-19T16:39:59.538758",
+        "closeTime": "2024-11-19T18:39:59.538758",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Embedded Systems-FA1-27 December 2024",
+        "openTime": "2024-12-27T16:39:59.538758",
+        "closeTime": "2024-12-27T17:39:59.538758",
+        "status": "Pending",
+        "marks": 97,
+        "__v": 0
+    },
+    {
+        "name": "Embedded Systems-FA2-08 November 2024",
+        "openTime": "2024-11-08T16:39:59.538758",
+        "closeTime": "2024-11-08T18:39:59.538758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Embedded Systems-FA3-25 December 2024",
+        "openTime": "2024-12-25T16:39:59.538758",
+        "closeTime": "2024-12-25T19:39:59.538758",
+        "status": "Pending",
+        "marks": 88,
+        "__v": 0
+    },
+    {
+        "name": "Power Systems-FA1-06 November 2024",
+        "openTime": "2024-11-06T16:39:59.538758",
+        "closeTime": "2024-11-06T19:39:59.538758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Power Systems-FA2-21 November 2024",
+        "openTime": "2024-11-21T16:39:59.538758",
+        "closeTime": "2024-11-21T19:39:59.538758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Power Systems-FA3-08 December 2024",
+        "openTime": "2024-12-08T16:39:59.538758",
+        "closeTime": "2024-12-08T19:39:59.538758",
+        "status": "Completed",
+        "marks": 78,
+        "__v": 0
+    },
+    {
+        "name": "Renewable Energy Systems-FA1-24 November 2024",
+        "openTime": "2024-11-24T16:39:59.538758",
+        "closeTime": "2024-11-24T19:39:59.538758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Renewable Energy Systems-FA2-04 December 2024",
+        "openTime": "2024-12-04T16:39:59.538758",
+        "closeTime": "2024-12-04T17:39:59.538758",
+        "status": "Pending",
+        "marks": 78,
+        "__v": 0
+    },
+    {
+        "name": "Renewable Energy Systems-FA3-30 December 2024",
+        "openTime": "2024-12-30T16:39:59.538758",
+        "closeTime": "2024-12-30T17:39:59.538758",
+        "status": "Completed",
+        "marks": 92,
+        "__v": 0
+    },
+    {
+        "name": "Advanced Power Electronics-FA1-11 November 2024",
+        "openTime": "2024-11-11T16:39:59.538758",
+        "closeTime": "2024-11-11T17:39:59.538758",
+        "status": "Completed",
+        "marks": 83,
+        "__v": 0
+    },
+    {
+        "name": "Advanced Power Electronics-FA2-16 November 2024",
+        "openTime": "2024-11-16T16:39:59.538758",
+        "closeTime": "2024-11-16T17:39:59.538758",
+        "status": "Pending",
+        "marks": 76,
+        "__v": 0
+    },
+    {
+        "name": "Advanced Power Electronics-FA3-14 December 2024",
+        "openTime": "2024-12-14T16:39:59.538758",
+        "closeTime": "2024-12-14T19:39:59.538758",
+        "status": "Pending",
+        "marks": 75,
+        "__v": 0
+    },
+    {
+        "name": "Smart Grid Technology-FA1-04 December 2024",
+        "openTime": "2024-12-04T16:39:59.538758",
+        "closeTime": "2024-12-04T17:39:59.538758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Smart Grid Technology-FA2-05 November 2024",
+        "openTime": "2024-11-05T16:39:59.538758",
+        "closeTime": "2024-11-05T17:39:59.538758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Smart Grid Technology-FA3-15 December 2024",
+        "openTime": "2024-12-15T16:39:59.538758",
+        "closeTime": "2024-12-15T19:39:59.538758",
+        "status": "Pending",
+        "marks": 83,
+        "__v": 0
+    },
+    {
+        "name": "Internet of Things (IoT)-FA1-16 November 2024",
+        "openTime": "2024-11-16T16:39:59.538758",
+        "closeTime": "2024-11-16T18:39:59.538758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Internet of Things (IoT)-FA2-06 November 2024",
+        "openTime": "2024-11-06T16:39:59.538758",
+        "closeTime": "2024-11-06T18:39:59.538758",
+        "status": "Completed",
+        "marks": 83,
+        "__v": 0
+    },
+    {
+        "name": "Internet of Things (IoT)-FA3-24 December 2024",
+        "openTime": "2024-12-24T16:39:59.538758",
+        "closeTime": "2024-12-24T19:39:59.538758",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Electrical Drives-FA1-18 December 2024",
+        "openTime": "2024-12-18T16:39:59.539757",
+        "closeTime": "2024-12-18T19:39:59.539757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Electrical Drives-FA2-01 January 2025",
+        "openTime": "2025-01-01T16:39:59.539757",
+        "closeTime": "2025-01-01T18:39:59.539757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Electrical Drives-FA3-23 December 2024",
+        "openTime": "2024-12-23T16:39:59.539757",
+        "closeTime": "2024-12-23T17:39:59.539757",
+        "status": "Completed",
+        "marks": 80,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Cyber Security-FA1-19 November 2024",
+        "openTime": "2024-11-19T16:39:59.539757",
+        "closeTime": "2024-11-19T19:39:59.539757",
+        "status": "Pending",
+        "marks": 86,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Cyber Security-FA2-06 December 2024",
+        "openTime": "2024-12-06T16:39:59.539757",
+        "closeTime": "2024-12-06T17:39:59.539757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Cyber Security-FA3-22 November 2024",
+        "openTime": "2024-11-22T16:39:59.539757",
+        "closeTime": "2024-11-22T17:39:59.539757",
+        "status": "Completed",
+        "marks": 96,
+        "__v": 0
+    },
+    {
+        "name": "Computer Networks-FA1-10 December 2024",
+        "openTime": "2024-12-10T16:39:59.539757",
+        "closeTime": "2024-12-10T18:39:59.539757",
+        "status": "Completed",
+        "marks": 84,
+        "__v": 0
+    },
+    {
+        "name": "Computer Networks-FA2-26 December 2024",
+        "openTime": "2024-12-26T16:39:59.539757",
+        "closeTime": "2024-12-26T19:39:59.539757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Computer Networks-FA3-09 December 2024",
+        "openTime": "2024-12-09T16:39:59.539757",
+        "closeTime": "2024-12-09T17:39:59.539757",
+        "status": "Completed",
+        "marks": 75,
+        "__v": 0
+    },
+    {
+        "name": "Cryptography Basics-FA1-05 December 2024",
+        "openTime": "2024-12-05T16:39:59.539757",
+        "closeTime": "2024-12-05T19:39:59.539757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cryptography Basics-FA2-13 December 2024",
+        "openTime": "2024-12-13T16:39:59.539757",
+        "closeTime": "2024-12-13T17:39:59.539757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cryptography Basics-FA3-23 November 2024",
+        "openTime": "2024-11-23T16:39:59.539757",
+        "closeTime": "2024-11-23T18:39:59.539757",
+        "status": "Completed",
+        "marks": 80,
+        "__v": 0
+    },
+    {
+        "name": "Ethical Hacking Foundations-FA1-27 December 2024",
+        "openTime": "2024-12-27T16:39:59.539757",
+        "closeTime": "2024-12-27T17:39:59.539757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Ethical Hacking Foundations-FA2-29 November 2024",
+        "openTime": "2024-11-29T16:39:59.539757",
+        "closeTime": "2024-11-29T19:39:59.539757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Ethical Hacking Foundations-FA3-17 November 2024",
+        "openTime": "2024-11-17T16:39:59.539757",
+        "closeTime": "2024-11-17T19:39:59.539757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cyber Law and Policy-FA1-08 November 2024",
+        "openTime": "2024-11-08T16:39:59.539757",
+        "closeTime": "2024-11-08T17:39:59.539757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Cyber Law and Policy-FA2-28 November 2024",
+        "openTime": "2024-11-28T16:39:59.539757",
+        "closeTime": "2024-11-28T17:39:59.539757",
+        "status": "Completed",
+        "marks": 95,
+        "__v": 0
+    },
+    {
+        "name": "Cyber Law and Policy-FA3-30 December 2024",
+        "openTime": "2024-12-30T16:39:59.539757",
+        "closeTime": "2024-12-30T19:39:59.539757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Network Security-FA1-17 November 2024",
+        "openTime": "2024-11-17T16:39:59.539757",
+        "closeTime": "2024-11-17T18:39:59.539757",
+        "status": "Completed",
+        "marks": 77,
+        "__v": 0
+    },
+    {
+        "name": "Network Security-FA2-31 December 2024",
+        "openTime": "2024-12-31T16:39:59.539757",
+        "closeTime": "2024-12-31T17:39:59.539757",
+        "status": "Completed",
+        "marks": 89,
+        "__v": 0
+    },
+    {
+        "name": "Network Security-FA3-20 December 2024",
+        "openTime": "2024-12-20T16:39:59.539757",
+        "closeTime": "2024-12-20T17:39:59.539757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Application Security-FA1-01 January 2025",
+        "openTime": "2025-01-01T16:39:59.539757",
+        "closeTime": "2025-01-01T19:39:59.539757",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Application Security-FA2-30 November 2024",
+        "openTime": "2024-11-30T16:39:59.539757",
+        "closeTime": "2024-11-30T19:39:59.539757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Application Security-FA3-05 November 2024",
+        "openTime": "2024-11-05T16:39:59.539757",
+        "closeTime": "2024-11-05T17:39:59.539757",
+        "status": "Completed",
+        "marks": 81,
+        "__v": 0
+    },
+    {
+        "name": "Web Vulnerabilities-FA1-11 November 2024",
+        "openTime": "2024-11-11T16:39:59.539757",
+        "closeTime": "2024-11-11T19:39:59.539757",
+        "status": "Pending",
+        "marks": 99,
+        "__v": 0
+    },
+    {
+        "name": "Web Vulnerabilities-FA2-05 November 2024",
+        "openTime": "2024-11-05T16:39:59.539757",
+        "closeTime": "2024-11-05T17:39:59.539757",
+        "status": "Pending",
+        "marks": 88,
+        "__v": 0
+    },
+    {
+        "name": "Web Vulnerabilities-FA3-27 November 2024",
+        "openTime": "2024-11-27T16:39:59.539757",
+        "closeTime": "2024-11-27T17:39:59.539757",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Digital Forensics-FA1-14 December 2024",
+        "openTime": "2024-12-14T16:39:59.540784",
+        "closeTime": "2024-12-14T18:39:59.540784",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Digital Forensics-FA2-28 November 2024",
+        "openTime": "2024-11-28T16:39:59.540784",
+        "closeTime": "2024-11-28T18:39:59.540784",
+        "status": "Completed",
+        "marks": 80,
+        "__v": 0
+    },
+    {
+        "name": "Digital Forensics-FA3-01 January 2025",
+        "openTime": "2025-01-01T16:39:59.540784",
+        "closeTime": "2025-01-01T17:39:59.540784",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Malware Analysis-FA1-22 November 2024",
+        "openTime": "2024-11-22T16:39:59.540784",
+        "closeTime": "2024-11-22T17:39:59.540784",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Malware Analysis-FA2-22 November 2024",
+        "openTime": "2024-11-22T16:39:59.540784",
+        "closeTime": "2024-11-22T17:39:59.540784",
+        "status": "Completed",
+        "marks": 100,
+        "__v": 0
+    },
+    {
+        "name": "Malware Analysis-FA3-28 December 2024",
+        "openTime": "2024-12-28T16:39:59.540784",
+        "closeTime": "2024-12-28T19:39:59.540784",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Advanced Threat Detection-FA1-30 December 2024",
+        "openTime": "2024-12-30T16:39:59.540784",
+        "closeTime": "2024-12-30T17:39:59.540784",
+        "status": "Completed",
+        "marks": 70,
+        "__v": 0
+    },
+    {
+        "name": "Advanced Threat Detection-FA2-24 December 2024",
+        "openTime": "2024-12-24T16:39:59.540784",
+        "closeTime": "2024-12-24T19:39:59.540784",
+        "status": "Completed",
+        "marks": 90,
+        "__v": 0
+    },
+    {
+        "name": "Advanced Threat Detection-FA3-09 December 2024",
+        "openTime": "2024-12-09T16:39:59.540784",
+        "closeTime": "2024-12-09T19:39:59.540784",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Penetration Testing-FA1-03 January 2025",
+        "openTime": "2025-01-03T16:39:59.540784",
+        "closeTime": "2025-01-03T19:39:59.540784",
+        "status": "Pending",
+        "marks": 83,
+        "__v": 0
+    },
+    {
+        "name": "Penetration Testing-FA2-25 December 2024",
+        "openTime": "2024-12-25T16:39:59.540784",
+        "closeTime": "2024-12-25T18:39:59.540784",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Penetration Testing-FA3-09 December 2024",
+        "openTime": "2024-12-09T16:39:59.540784",
+        "closeTime": "2024-12-09T18:39:59.540784",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Incident Response-FA1-26 December 2024",
+        "openTime": "2024-12-26T16:39:59.540784",
+        "closeTime": "2024-12-26T17:39:59.540784",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "Incident Response-FA2-26 December 2024",
+        "openTime": "2024-12-26T16:39:59.540784",
+        "closeTime": "2024-12-26T19:39:59.540784",
+        "status": "Pending",
+        "marks": 81,
+        "__v": 0
+    },
+    {
+        "name": "Incident Response-FA3-02 December 2024",
+        "openTime": "2024-12-02T16:39:59.540784",
+        "closeTime": "2024-12-02T17:39:59.540784",
+        "status": "Pending",
+        "marks": 96,
+        "__v": 0
+    },
+    {
+        "name": "Cloud Security-FA1-16 December 2024",
+        "openTime": "2024-12-16T16:39:59.540784",
+        "closeTime": "2024-12-16T19:39:59.540784",
+        "status": "Completed",
+        "marks": 85,
+        "__v": 0
+    },
+    {
+        "name": "Cloud Security-FA2-15 November 2024",
+        "openTime": "2024-11-15T16:39:59.540784",
+        "closeTime": "2024-11-15T19:39:59.540784",
+        "status": "Pending",
+        "marks": 72,
+        "__v": 0
+    },
+    {
+        "name": "Cloud Security-FA3-02 January 2025",
+        "openTime": "2025-01-02T16:39:59.540784",
+        "closeTime": "2025-01-02T19:39:59.540784",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "AI in Cyber Security-FA1-16 December 2024",
+        "openTime": "2024-12-16T16:39:59.540784",
+        "closeTime": "2024-12-16T19:39:59.540784",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "AI in Cyber Security-FA2-11 November 2024",
+        "openTime": "2024-11-11T16:39:59.540784",
+        "closeTime": "2024-11-11T17:39:59.540784",
+        "status": "Pending",
+        "marks": null,
+        "__v": 0
+    },
+    {
+        "name": "AI in Cyber Security-FA3-19 November 2024",
+        "openTime": "2024-11-19T16:39:59.540784",
+        "closeTime": "2024-11-19T19:39:59.540784",
+        "status": "Completed",
+        "marks": null,
+        "__v": 0
+    }
+]

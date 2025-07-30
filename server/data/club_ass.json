@@ -1,0 +1,19 @@
+[
+    {
+        "asses_name": "Quiz 1",
+        "subject_name": "Mathematics",
+        "department": "AIDS",
+        "year": "2025",
+        "openDate": "2025-06-01",
+        "closeDate": "2025-06-10",
+        "openTime": "09:00",
+        "closeTime": "12:00",
+        "status": "active",
+        "marks": 100,
+        "question": "What is 2+2?",
+        "questionperstudent": 5,
+        "file": "math_quiz.pdf",
+        "teacher_id": "T12345"
+      }
+      
+]

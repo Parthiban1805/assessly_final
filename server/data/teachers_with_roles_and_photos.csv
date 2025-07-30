@@ -1,0 +1,2 @@
+name,email,teacher_id,department,subjects,photo_url,role,password
+teacher,teacher@gmail.com,T12345,AIDS,ML,https://dummyimage.com/961x1010,teacher,teacher

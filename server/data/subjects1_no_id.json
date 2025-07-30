@@ -1,0 +1,1172 @@
+[
+    {
+        "name": "Programming Basics",
+        "year": 1,
+        "department": "Computer Science",
+        "description": "A detailed course on Programming Basics.",
+        "staff": "Terry Ayers",
+        "assessments": [
+            "COM-1-PROGRAMMING_BASICS-FA1",
+            "COM-1-PROGRAMMING_BASICS-FA2",
+            "COM-1-PROGRAMMING_BASICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Discrete Mathematics",
+        "year": 1,
+        "department": "Computer Science",
+        "description": "A detailed course on Discrete Mathematics.",
+        "staff": "William West",
+        "assessments": [
+            "COM-1-DISCRETE_MATHEMATICS-FA1",
+            "COM-1-DISCRETE_MATHEMATICS-FA2",
+            "COM-1-DISCRETE_MATHEMATICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Computer Systems",
+        "year": 1,
+        "department": "Computer Science",
+        "description": "A detailed course on Introduction to Computer Systems.",
+        "staff": "Angela Fox",
+        "assessments": [
+            "COM-1-INTRODUCTION_TO_COMPUTER_SYSTEMS-FA1",
+            "COM-1-INTRODUCTION_TO_COMPUTER_SYSTEMS-FA2",
+            "COM-1-INTRODUCTION_TO_COMPUTER_SYSTEMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Fundamentals of Data Communication",
+        "year": 1,
+        "department": "Computer Science",
+        "description": "A detailed course on Fundamentals of Data Communication.",
+        "staff": "Nicole Baldwin",
+        "assessments": [
+            "COM-1-FUNDAMENTALS_OF_DATA_COMMUNICATION-FA1",
+            "COM-1-FUNDAMENTALS_OF_DATA_COMMUNICATION-FA2",
+            "COM-1-FUNDAMENTALS_OF_DATA_COMMUNICATION-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Software Engineering Principles",
+        "year": 1,
+        "department": "Computer Science",
+        "description": "A detailed course on Software Engineering Principles.",
+        "staff": "Christopher Lewis",
+        "assessments": [
+            "COM-1-SOFTWARE_ENGINEERING_PRINCIPLES-FA1",
+            "COM-1-SOFTWARE_ENGINEERING_PRINCIPLES-FA2",
+            "COM-1-SOFTWARE_ENGINEERING_PRINCIPLES-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Data Structures",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Data Structures.",
+        "staff": "Tracy Oconnor",
+        "assessments": [
+            "COM-2-DATA_STRUCTURES-FA1",
+            "COM-2-DATA_STRUCTURES-FA2",
+            "COM-2-DATA_STRUCTURES-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Algorithms",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Algorithms.",
+        "staff": "Julie Bowman",
+        "assessments": [
+            "COM-2-ALGORITHMS-FA1",
+            "COM-2-ALGORITHMS-FA2",
+            "COM-2-ALGORITHMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Operating Systems",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Operating Systems.",
+        "staff": "Thomas Collier",
+        "assessments": [
+            "COM-2-OPERATING_SYSTEMS-FA1",
+            "COM-2-OPERATING_SYSTEMS-FA2",
+            "COM-2-OPERATING_SYSTEMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Database Systems",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Database Systems.",
+        "staff": "Brandi Yang",
+        "assessments": [
+            "COM-2-DATABASE_SYSTEMS-FA1",
+            "COM-2-DATABASE_SYSTEMS-FA2",
+            "COM-2-DATABASE_SYSTEMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Computer Architecture",
+        "year": 2,
+        "department": "Computer Science",
+        "description": "A detailed course on Computer Architecture.",
+        "staff": "David Boyd",
+        "assessments": [
+            "COM-2-COMPUTER_ARCHITECTURE-FA1",
+            "COM-2-COMPUTER_ARCHITECTURE-FA2",
+            "COM-2-COMPUTER_ARCHITECTURE-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Artificial Intelligence",
+        "year": 3,
+        "department": "Computer Science",
+        "description": "A detailed course on Artificial Intelligence.",
+        "staff": "Julia Sanchez",
+        "assessments": [
+            "COM-3-ARTIFICIAL_INTELLIGENCE-FA1",
+            "COM-3-ARTIFICIAL_INTELLIGENCE-FA2",
+            "COM-3-ARTIFICIAL_INTELLIGENCE-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning",
+        "year": 3,
+        "department": "Computer Science",
+        "description": "A detailed course on Machine Learning.",
+        "staff": "John Mckenzie",
+        "assessments": [
+            "COM-3-MACHINE_LEARNING-FA1",
+            "COM-3-MACHINE_LEARNING-FA2",
+            "COM-3-MACHINE_LEARNING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Cloud Computing",
+        "year": 3,
+        "department": "Computer Science",
+        "description": "A detailed course on Cloud Computing.",
+        "staff": "Phillip Wright",
+        "assessments": [
+            "COM-3-CLOUD_COMPUTING-FA1",
+            "COM-3-CLOUD_COMPUTING-FA2",
+            "COM-3-CLOUD_COMPUTING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Cyber Security",
+        "year": 3,
+        "department": "Computer Science",
+        "description": "A detailed course on Cyber Security.",
+        "staff": "Melissa Smith",
+        "assessments": [
+            "COM-3-CYBER_SECURITY-FA1",
+            "COM-3-CYBER_SECURITY-FA2",
+            "COM-3-CYBER_SECURITY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Big Data Analytics",
+        "year": 3,
+        "department": "Computer Science",
+        "description": "A detailed course on Big Data Analytics.",
+        "staff": "Raymond Hansen",
+        "assessments": [
+            "COM-3-BIG_DATA_ANALYTICS-FA1",
+            "COM-3-BIG_DATA_ANALYTICS-FA2",
+            "COM-3-BIG_DATA_ANALYTICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Introduction to IT",
+        "year": 1,
+        "department": "IT",
+        "description": "A detailed course on Introduction to IT.",
+        "staff": "Sandra Ramos",
+        "assessments": [
+            "IT-1-INTRODUCTION_TO_IT-FA1",
+            "IT-1-INTRODUCTION_TO_IT-FA2",
+            "IT-1-INTRODUCTION_TO_IT-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Computer Fundamentals",
+        "year": 1,
+        "department": "IT",
+        "description": "A detailed course on Computer Fundamentals.",
+        "staff": "Faith Murphy",
+        "assessments": [
+            "IT-1-COMPUTER_FUNDAMENTALS-FA1",
+            "IT-1-COMPUTER_FUNDAMENTALS-FA2",
+            "IT-1-COMPUTER_FUNDAMENTALS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Programming Basics",
+        "year": 1,
+        "department": "IT",
+        "description": "A detailed course on Programming Basics.",
+        "staff": "Aaron Yoder",
+        "assessments": [
+            "IT-1-PROGRAMMING_BASICS-FA1",
+            "IT-1-PROGRAMMING_BASICS-FA2",
+            "IT-1-PROGRAMMING_BASICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Web Development",
+        "year": 1,
+        "department": "IT",
+        "description": "A detailed course on Web Development.",
+        "staff": "Ruth Bean",
+        "assessments": [
+            "IT-1-WEB_DEVELOPMENT-FA1",
+            "IT-1-WEB_DEVELOPMENT-FA2",
+            "IT-1-WEB_DEVELOPMENT-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Networking Fundamentals",
+        "year": 1,
+        "department": "IT",
+        "description": "A detailed course on Networking Fundamentals.",
+        "staff": "Valerie Ortega",
+        "assessments": [
+            "IT-1-NETWORKING_FUNDAMENTALS-FA1",
+            "IT-1-NETWORKING_FUNDAMENTALS-FA2",
+            "IT-1-NETWORKING_FUNDAMENTALS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Data Structures",
+        "year": 2,
+        "department": "IT",
+        "description": "A detailed course on Data Structures.",
+        "staff": "Tonya Bowen",
+        "assessments": [
+            "IT-2-DATA_STRUCTURES-FA1",
+            "IT-2-DATA_STRUCTURES-FA2",
+            "IT-2-DATA_STRUCTURES-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Database Management Systems",
+        "year": 2,
+        "department": "IT",
+        "description": "A detailed course on Database Management Systems.",
+        "staff": "Jennifer Gonzalez",
+        "assessments": [
+            "IT-2-DATABASE_MANAGEMENT_SYSTEMS-FA1",
+            "IT-2-DATABASE_MANAGEMENT_SYSTEMS-FA2",
+            "IT-2-DATABASE_MANAGEMENT_SYSTEMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Operating Systems",
+        "year": 2,
+        "department": "IT",
+        "description": "A detailed course on Operating Systems.",
+        "staff": "Cynthia Harris",
+        "assessments": [
+            "IT-2-OPERATING_SYSTEMS-FA1",
+            "IT-2-OPERATING_SYSTEMS-FA2",
+            "IT-2-OPERATING_SYSTEMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Software Engineering",
+        "year": 2,
+        "department": "IT",
+        "description": "A detailed course on Software Engineering.",
+        "staff": "Susan Schmidt",
+        "assessments": [
+            "IT-2-SOFTWARE_ENGINEERING-FA1",
+            "IT-2-SOFTWARE_ENGINEERING-FA2",
+            "IT-2-SOFTWARE_ENGINEERING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Network Security",
+        "year": 2,
+        "department": "IT",
+        "description": "A detailed course on Network Security.",
+        "staff": "Megan Anderson",
+        "assessments": [
+            "IT-2-NETWORK_SECURITY-FA1",
+            "IT-2-NETWORK_SECURITY-FA2",
+            "IT-2-NETWORK_SECURITY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Cloud Computing",
+        "year": 3,
+        "department": "IT",
+        "description": "A detailed course on Cloud Computing.",
+        "staff": "Lisa Bates MD",
+        "assessments": [
+            "IT-3-CLOUD_COMPUTING-FA1",
+            "IT-3-CLOUD_COMPUTING-FA2",
+            "IT-3-CLOUD_COMPUTING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Mobile Application Development",
+        "year": 3,
+        "department": "IT",
+        "description": "A detailed course on Mobile Application Development.",
+        "staff": "Christopher Odonnell",
+        "assessments": [
+            "IT-3-MOBILE_APPLICATION_DEVELOPMENT-FA1",
+            "IT-3-MOBILE_APPLICATION_DEVELOPMENT-FA2",
+            "IT-3-MOBILE_APPLICATION_DEVELOPMENT-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Cyber Security",
+        "year": 3,
+        "department": "IT",
+        "description": "A detailed course on Cyber Security.",
+        "staff": "Steven Calhoun",
+        "assessments": [
+            "IT-3-CYBER_SECURITY-FA1",
+            "IT-3-CYBER_SECURITY-FA2",
+            "IT-3-CYBER_SECURITY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Data Analytics",
+        "year": 3,
+        "department": "IT",
+        "description": "A detailed course on Data Analytics.",
+        "staff": "Stephen Ford",
+        "assessments": [
+            "IT-3-DATA_ANALYTICS-FA1",
+            "IT-3-DATA_ANALYTICS-FA2",
+            "IT-3-DATA_ANALYTICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Blockchain Technology",
+        "year": 3,
+        "department": "IT",
+        "description": "A detailed course on Blockchain Technology.",
+        "staff": "Tonya Garcia",
+        "assessments": [
+            "IT-3-BLOCKCHAIN_TECHNOLOGY-FA1",
+            "IT-3-BLOCKCHAIN_TECHNOLOGY-FA2",
+            "IT-3-BLOCKCHAIN_TECHNOLOGY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Data Science",
+        "year": 1,
+        "department": "AIDS",
+        "description": "A detailed course on Introduction to Data Science.",
+        "staff": "Randy Reynolds",
+        "assessments": [
+            "AID-1-INTRODUCTION_TO_DATA_SCIENCE-FA1",
+            "AID-1-INTRODUCTION_TO_DATA_SCIENCE-FA2",
+            "AID-1-INTRODUCTION_TO_DATA_SCIENCE-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Mathematics for Data Science",
+        "year": 1,
+        "department": "AIDS",
+        "description": "A detailed course on Mathematics for Data Science.",
+        "staff": "Daniel Flores",
+        "assessments": [
+            "AID-1-MATHEMATICS_FOR_DATA_SCIENCE-FA1",
+            "AID-1-MATHEMATICS_FOR_DATA_SCIENCE-FA2",
+            "AID-1-MATHEMATICS_FOR_DATA_SCIENCE-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Python for Data Analysis",
+        "year": 1,
+        "department": "AIDS",
+        "description": "A detailed course on Python for Data Analysis.",
+        "staff": "Marissa Green",
+        "assessments": [
+            "AID-1-PYTHON_FOR_DATA_ANALYSIS-FA1",
+            "AID-1-PYTHON_FOR_DATA_ANALYSIS-FA2",
+            "AID-1-PYTHON_FOR_DATA_ANALYSIS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Statistics Basics",
+        "year": 1,
+        "department": "AIDS",
+        "description": "A detailed course on Statistics Basics.",
+        "staff": "Jennifer Flores",
+        "assessments": [
+            "AID-1-STATISTICS_BASICS-FA1",
+            "AID-1-STATISTICS_BASICS-FA2",
+            "AID-1-STATISTICS_BASICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Foundations of AI",
+        "year": 1,
+        "department": "AIDS",
+        "description": "A detailed course on Foundations of AI.",
+        "staff": "Angela Gonzalez",
+        "assessments": [
+            "AID-1-FOUNDATIONS_OF_AI-FA1",
+            "AID-1-FOUNDATIONS_OF_AI-FA2",
+            "AID-1-FOUNDATIONS_OF_AI-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Data Visualization",
+        "year": 2,
+        "department": "AIDS",
+        "description": "A detailed course on Data Visualization.",
+        "staff": "Patrick Hill",
+        "assessments": [
+            "AID-2-DATA_VISUALIZATION-FA1",
+            "AID-2-DATA_VISUALIZATION-FA2",
+            "AID-2-DATA_VISUALIZATION-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Database Management",
+        "year": 2,
+        "department": "AIDS",
+        "description": "A detailed course on Database Management.",
+        "staff": "Natalie Cook",
+        "assessments": [
+            "AID-2-DATABASE_MANAGEMENT-FA1",
+            "AID-2-DATABASE_MANAGEMENT-FA2",
+            "AID-2-DATABASE_MANAGEMENT-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning Algorithms",
+        "year": 2,
+        "department": "AIDS",
+        "description": "A detailed course on Machine Learning Algorithms.",
+        "staff": "James Carson",
+        "assessments": [
+            "AID-2-MACHINE_LEARNING_ALGORITHMS-FA1",
+            "AID-2-MACHINE_LEARNING_ALGORITHMS-FA2",
+            "AID-2-MACHINE_LEARNING_ALGORITHMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Big Data Fundamentals",
+        "year": 2,
+        "department": "AIDS",
+        "description": "A detailed course on Big Data Fundamentals.",
+        "staff": "Brian Carlson",
+        "assessments": [
+            "AID-2-BIG_DATA_FUNDAMENTALS-FA1",
+            "AID-2-BIG_DATA_FUNDAMENTALS-FA2",
+            "AID-2-BIG_DATA_FUNDAMENTALS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "AI in Practice",
+        "year": 2,
+        "department": "AIDS",
+        "description": "A detailed course on AI in Practice.",
+        "staff": "Kathy Bright",
+        "assessments": [
+            "AID-2-AI_IN_PRACTICE-FA1",
+            "AID-2-AI_IN_PRACTICE-FA2",
+            "AID-2-AI_IN_PRACTICE-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Advanced Machine Learning",
+        "year": 3,
+        "department": "AIDS",
+        "description": "A detailed course on Advanced Machine Learning.",
+        "staff": "Samantha Anderson",
+        "assessments": [
+            "AID-3-ADVANCED_MACHINE_LEARNING-FA1",
+            "AID-3-ADVANCED_MACHINE_LEARNING-FA2",
+            "AID-3-ADVANCED_MACHINE_LEARNING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Deep Learning",
+        "year": 3,
+        "department": "AIDS",
+        "description": "A detailed course on Deep Learning.",
+        "staff": "Megan Stevens",
+        "assessments": [
+            "AID-3-DEEP_LEARNING-FA1",
+            "AID-3-DEEP_LEARNING-FA2",
+            "AID-3-DEEP_LEARNING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Natural Language Processing",
+        "year": 3,
+        "department": "AIDS",
+        "description": "A detailed course on Natural Language Processing.",
+        "staff": "Rebecca Bell",
+        "assessments": [
+            "AID-3-NATURAL_LANGUAGE_PROCESSING-FA1",
+            "AID-3-NATURAL_LANGUAGE_PROCESSING-FA2",
+            "AID-3-NATURAL_LANGUAGE_PROCESSING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Recommender Systems",
+        "year": 3,
+        "department": "AIDS",
+        "description": "A detailed course on Recommender Systems.",
+        "staff": "David Thomas DDS",
+        "assessments": [
+            "AID-3-RECOMMENDER_SYSTEMS-FA1",
+            "AID-3-RECOMMENDER_SYSTEMS-FA2",
+            "AID-3-RECOMMENDER_SYSTEMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Data Ethics and Privacy",
+        "year": 3,
+        "department": "AIDS",
+        "description": "A detailed course on Data Ethics and Privacy.",
+        "staff": "Tonya Smith",
+        "assessments": [
+            "AID-3-DATA_ETHICS_AND_PRIVACY-FA1",
+            "AID-3-DATA_ETHICS_AND_PRIVACY-FA2",
+            "AID-3-DATA_ETHICS_AND_PRIVACY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Programming for AI",
+        "year": 1,
+        "department": "AIML",
+        "description": "A detailed course on Programming for AI.",
+        "staff": "Robert Watkins",
+        "assessments": [
+            "AIM-1-PROGRAMMING_FOR_AI-FA1",
+            "AIM-1-PROGRAMMING_FOR_AI-FA2",
+            "AIM-1-PROGRAMMING_FOR_AI-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Linear Algebra and Calculus",
+        "year": 1,
+        "department": "AIML",
+        "description": "A detailed course on Linear Algebra and Calculus.",
+        "staff": "Melissa Garcia",
+        "assessments": [
+            "AIM-1-LINEAR_ALGEBRA_AND_CALCULUS-FA1",
+            "AIM-1-LINEAR_ALGEBRA_AND_CALCULUS-FA2",
+            "AIM-1-LINEAR_ALGEBRA_AND_CALCULUS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Machine Learning",
+        "year": 1,
+        "department": "AIML",
+        "description": "A detailed course on Introduction to Machine Learning.",
+        "staff": "Thomas Baldwin",
+        "assessments": [
+            "AIM-1-INTRODUCTION_TO_MACHINE_LEARNING-FA1",
+            "AIM-1-INTRODUCTION_TO_MACHINE_LEARNING-FA2",
+            "AIM-1-INTRODUCTION_TO_MACHINE_LEARNING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Digital Logic Design",
+        "year": 1,
+        "department": "AIML",
+        "description": "A detailed course on Digital Logic Design.",
+        "staff": "Lauren Navarro",
+        "assessments": [
+            "AIM-1-DIGITAL_LOGIC_DESIGN-FA1",
+            "AIM-1-DIGITAL_LOGIC_DESIGN-FA2",
+            "AIM-1-DIGITAL_LOGIC_DESIGN-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Data Structures",
+        "year": 1,
+        "department": "AIML",
+        "description": "A detailed course on Data Structures.",
+        "staff": "Victoria Saunders",
+        "assessments": [
+            "AIM-1-DATA_STRUCTURES-FA1",
+            "AIM-1-DATA_STRUCTURES-FA2",
+            "AIM-1-DATA_STRUCTURES-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Neural Networks Basics",
+        "year": 2,
+        "department": "AIML",
+        "description": "A detailed course on Neural Networks Basics.",
+        "staff": "Scott Gutierrez",
+        "assessments": [
+            "AIM-2-NEURAL_NETWORKS_BASICS-FA1",
+            "AIM-2-NEURAL_NETWORKS_BASICS-FA2",
+            "AIM-2-NEURAL_NETWORKS_BASICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Optimization Methods",
+        "year": 2,
+        "department": "AIML",
+        "description": "A detailed course on Optimization Methods.",
+        "staff": "Keith Moore",
+        "assessments": [
+            "AIM-2-OPTIMIZATION_METHODS-FA1",
+            "AIM-2-OPTIMIZATION_METHODS-FA2",
+            "AIM-2-OPTIMIZATION_METHODS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Computer Vision",
+        "year": 2,
+        "department": "AIML",
+        "description": "A detailed course on Computer Vision.",
+        "staff": "Robert Jones",
+        "assessments": [
+            "AIM-2-COMPUTER_VISION-FA1",
+            "AIM-2-COMPUTER_VISION-FA2",
+            "AIM-2-COMPUTER_VISION-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Machine Learning Applications",
+        "year": 2,
+        "department": "AIML",
+        "description": "A detailed course on Machine Learning Applications.",
+        "staff": "Tammy Torres",
+        "assessments": [
+            "AIM-2-MACHINE_LEARNING_APPLICATIONS-FA1",
+            "AIM-2-MACHINE_LEARNING_APPLICATIONS-FA2",
+            "AIM-2-MACHINE_LEARNING_APPLICATIONS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Data Science Tools",
+        "year": 2,
+        "department": "AIML",
+        "description": "A detailed course on Data Science Tools.",
+        "staff": "Dawn Wallace",
+        "assessments": [
+            "AIM-2-DATA_SCIENCE_TOOLS-FA1",
+            "AIM-2-DATA_SCIENCE_TOOLS-FA2",
+            "AIM-2-DATA_SCIENCE_TOOLS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Advanced AI Techniques",
+        "year": 3,
+        "department": "AIML",
+        "description": "A detailed course on Advanced AI Techniques.",
+        "staff": "Jessica Grimes",
+        "assessments": [
+            "AIM-3-ADVANCED_AI_TECHNIQUES-FA1",
+            "AIM-3-ADVANCED_AI_TECHNIQUES-FA2",
+            "AIM-3-ADVANCED_AI_TECHNIQUES-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Deep Learning Models",
+        "year": 3,
+        "department": "AIML",
+        "description": "A detailed course on Deep Learning Models.",
+        "staff": "Jesus Larsen",
+        "assessments": [
+            "AIM-3-DEEP_LEARNING_MODELS-FA1",
+            "AIM-3-DEEP_LEARNING_MODELS-FA2",
+            "AIM-3-DEEP_LEARNING_MODELS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Reinforcement Learning",
+        "year": 3,
+        "department": "AIML",
+        "description": "A detailed course on Reinforcement Learning.",
+        "staff": "William Bowman",
+        "assessments": [
+            "AIM-3-REINFORCEMENT_LEARNING-FA1",
+            "AIM-3-REINFORCEMENT_LEARNING-FA2",
+            "AIM-3-REINFORCEMENT_LEARNING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Natural Language Processing",
+        "year": 3,
+        "department": "AIML",
+        "description": "A detailed course on Natural Language Processing.",
+        "staff": "Elizabeth Johnson",
+        "assessments": [
+            "AIM-3-NATURAL_LANGUAGE_PROCESSING-FA1",
+            "AIM-3-NATURAL_LANGUAGE_PROCESSING-FA2",
+            "AIM-3-NATURAL_LANGUAGE_PROCESSING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "AI Ethics and Society",
+        "year": 3,
+        "department": "AIML",
+        "description": "A detailed course on AI Ethics and Society.",
+        "staff": "Andrew Lee",
+        "assessments": [
+            "AIM-3-AI_ETHICS_AND_SOCIETY-FA1",
+            "AIM-3-AI_ETHICS_AND_SOCIETY-FA2",
+            "AIM-3-AI_ETHICS_AND_SOCIETY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Circuit Analysis",
+        "year": 1,
+        "department": "CA",
+        "description": "A detailed course on Introduction to Circuit Analysis.",
+        "staff": "Joseph Carr",
+        "assessments": [
+            "CA-1-INTRODUCTION_TO_CIRCUIT_ANALYSIS-FA1",
+            "CA-1-INTRODUCTION_TO_CIRCUIT_ANALYSIS-FA2",
+            "CA-1-INTRODUCTION_TO_CIRCUIT_ANALYSIS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Digital Electronics",
+        "year": 1,
+        "department": "CA",
+        "description": "A detailed course on Digital Electronics.",
+        "staff": "Shane Miller",
+        "assessments": [
+            "CA-1-DIGITAL_ELECTRONICS-FA1",
+            "CA-1-DIGITAL_ELECTRONICS-FA2",
+            "CA-1-DIGITAL_ELECTRONICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Analog Circuits",
+        "year": 1,
+        "department": "CA",
+        "description": "A detailed course on Analog Circuits.",
+        "staff": "John Garcia",
+        "assessments": [
+            "CA-1-ANALOG_CIRCUITS-FA1",
+            "CA-1-ANALOG_CIRCUITS-FA2",
+            "CA-1-ANALOG_CIRCUITS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Fundamentals of Electrical Engineering",
+        "year": 1,
+        "department": "CA",
+        "description": "A detailed course on Fundamentals of Electrical Engineering.",
+        "staff": "Stephanie Ramirez",
+        "assessments": [
+            "CA-1-FUNDAMENTALS_OF_ELECTRICAL_ENGINEERING-FA1",
+            "CA-1-FUNDAMENTALS_OF_ELECTRICAL_ENGINEERING-FA2",
+            "CA-1-FUNDAMENTALS_OF_ELECTRICAL_ENGINEERING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Programming for Engineers",
+        "year": 1,
+        "department": "CA",
+        "description": "A detailed course on Programming for Engineers.",
+        "staff": "Cody Stevenson",
+        "assessments": [
+            "CA-1-PROGRAMMING_FOR_ENGINEERS-FA1",
+            "CA-1-PROGRAMMING_FOR_ENGINEERS-FA2",
+            "CA-1-PROGRAMMING_FOR_ENGINEERS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Control Systems",
+        "year": 2,
+        "department": "CA",
+        "description": "A detailed course on Control Systems.",
+        "staff": "Sheila Pearson",
+        "assessments": [
+            "CA-2-CONTROL_SYSTEMS-FA1",
+            "CA-2-CONTROL_SYSTEMS-FA2",
+            "CA-2-CONTROL_SYSTEMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Microcontrollers",
+        "year": 2,
+        "department": "CA",
+        "description": "A detailed course on Microcontrollers.",
+        "staff": "Crystal Huber",
+        "assessments": [
+            "CA-2-MICROCONTROLLERS-FA1",
+            "CA-2-MICROCONTROLLERS-FA2",
+            "CA-2-MICROCONTROLLERS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Signal Processing",
+        "year": 2,
+        "department": "CA",
+        "description": "A detailed course on Signal Processing.",
+        "staff": "Laura Wells",
+        "assessments": [
+            "CA-2-SIGNAL_PROCESSING-FA1",
+            "CA-2-SIGNAL_PROCESSING-FA2",
+            "CA-2-SIGNAL_PROCESSING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Embedded Systems",
+        "year": 2,
+        "department": "CA",
+        "description": "A detailed course on Embedded Systems.",
+        "staff": "Michelle Moreno",
+        "assessments": [
+            "CA-2-EMBEDDED_SYSTEMS-FA1",
+            "CA-2-EMBEDDED_SYSTEMS-FA2",
+            "CA-2-EMBEDDED_SYSTEMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Power Systems",
+        "year": 2,
+        "department": "CA",
+        "description": "A detailed course on Power Systems.",
+        "staff": "Thomas Garcia",
+        "assessments": [
+            "CA-2-POWER_SYSTEMS-FA1",
+            "CA-2-POWER_SYSTEMS-FA2",
+            "CA-2-POWER_SYSTEMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Renewable Energy Systems",
+        "year": 3,
+        "department": "CA",
+        "description": "A detailed course on Renewable Energy Systems.",
+        "staff": "Trevor Richmond",
+        "assessments": [
+            "CA-3-RENEWABLE_ENERGY_SYSTEMS-FA1",
+            "CA-3-RENEWABLE_ENERGY_SYSTEMS-FA2",
+            "CA-3-RENEWABLE_ENERGY_SYSTEMS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Advanced Power Electronics",
+        "year": 3,
+        "department": "CA",
+        "description": "A detailed course on Advanced Power Electronics.",
+        "staff": "Bernard Foley",
+        "assessments": [
+            "CA-3-ADVANCED_POWER_ELECTRONICS-FA1",
+            "CA-3-ADVANCED_POWER_ELECTRONICS-FA2",
+            "CA-3-ADVANCED_POWER_ELECTRONICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Smart Grid Technology",
+        "year": 3,
+        "department": "CA",
+        "description": "A detailed course on Smart Grid Technology.",
+        "staff": "Christine Meadows",
+        "assessments": [
+            "CA-3-SMART_GRID_TECHNOLOGY-FA1",
+            "CA-3-SMART_GRID_TECHNOLOGY-FA2",
+            "CA-3-SMART_GRID_TECHNOLOGY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Internet of Things (IoT)",
+        "year": 3,
+        "department": "CA",
+        "description": "A detailed course on Internet of Things (IoT).",
+        "staff": "Dr. Logan Wright",
+        "assessments": [
+            "CA-3-INTERNET_OF_THINGS_(IOT)-FA1",
+            "CA-3-INTERNET_OF_THINGS_(IOT)-FA2",
+            "CA-3-INTERNET_OF_THINGS_(IOT)-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Electrical Drives",
+        "year": 3,
+        "department": "CA",
+        "description": "A detailed course on Electrical Drives.",
+        "staff": "Ariana Mercado",
+        "assessments": [
+            "CA-3-ELECTRICAL_DRIVES-FA1",
+            "CA-3-ELECTRICAL_DRIVES-FA2",
+            "CA-3-ELECTRICAL_DRIVES-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Introduction to Cyber Security",
+        "year": 1,
+        "department": "Cyber Security",
+        "description": "A detailed course on Introduction to Cyber Security.",
+        "staff": "Patrick Hall",
+        "assessments": [
+            "CYB-1-INTRODUCTION_TO_CYBER_SECURITY-FA1",
+            "CYB-1-INTRODUCTION_TO_CYBER_SECURITY-FA2",
+            "CYB-1-INTRODUCTION_TO_CYBER_SECURITY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Computer Networks",
+        "year": 1,
+        "department": "Cyber Security",
+        "description": "A detailed course on Computer Networks.",
+        "staff": "James Wilson",
+        "assessments": [
+            "CYB-1-COMPUTER_NETWORKS-FA1",
+            "CYB-1-COMPUTER_NETWORKS-FA2",
+            "CYB-1-COMPUTER_NETWORKS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Cryptography Basics",
+        "year": 1,
+        "department": "Cyber Security",
+        "description": "A detailed course on Cryptography Basics.",
+        "staff": "Maria Rodgers",
+        "assessments": [
+            "CYB-1-CRYPTOGRAPHY_BASICS-FA1",
+            "CYB-1-CRYPTOGRAPHY_BASICS-FA2",
+            "CYB-1-CRYPTOGRAPHY_BASICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Ethical Hacking Foundations",
+        "year": 1,
+        "department": "Cyber Security",
+        "description": "A detailed course on Ethical Hacking Foundations.",
+        "staff": "Courtney Anthony",
+        "assessments": [
+            "CYB-1-ETHICAL_HACKING_FOUNDATIONS-FA1",
+            "CYB-1-ETHICAL_HACKING_FOUNDATIONS-FA2",
+            "CYB-1-ETHICAL_HACKING_FOUNDATIONS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Cyber Law and Policy",
+        "year": 1,
+        "department": "Cyber Security",
+        "description": "A detailed course on Cyber Law and Policy.",
+        "staff": "Ryan Rios",
+        "assessments": [
+            "CYB-1-CYBER_LAW_AND_POLICY-FA1",
+            "CYB-1-CYBER_LAW_AND_POLICY-FA2",
+            "CYB-1-CYBER_LAW_AND_POLICY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Network Security",
+        "year": 2,
+        "department": "Cyber Security",
+        "description": "A detailed course on Network Security.",
+        "staff": "Lorraine Serrano",
+        "assessments": [
+            "CYB-2-NETWORK_SECURITY-FA1",
+            "CYB-2-NETWORK_SECURITY-FA2",
+            "CYB-2-NETWORK_SECURITY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Application Security",
+        "year": 2,
+        "department": "Cyber Security",
+        "description": "A detailed course on Application Security.",
+        "staff": "Eric Baker",
+        "assessments": [
+            "CYB-2-APPLICATION_SECURITY-FA1",
+            "CYB-2-APPLICATION_SECURITY-FA2",
+            "CYB-2-APPLICATION_SECURITY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Web Vulnerabilities",
+        "year": 2,
+        "department": "Cyber Security",
+        "description": "A detailed course on Web Vulnerabilities.",
+        "staff": "Molly Payne",
+        "assessments": [
+            "CYB-2-WEB_VULNERABILITIES-FA1",
+            "CYB-2-WEB_VULNERABILITIES-FA2",
+            "CYB-2-WEB_VULNERABILITIES-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Digital Forensics",
+        "year": 2,
+        "department": "Cyber Security",
+        "description": "A detailed course on Digital Forensics.",
+        "staff": "Jordan Sims",
+        "assessments": [
+            "CYB-2-DIGITAL_FORENSICS-FA1",
+            "CYB-2-DIGITAL_FORENSICS-FA2",
+            "CYB-2-DIGITAL_FORENSICS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Malware Analysis",
+        "year": 2,
+        "department": "Cyber Security",
+        "description": "A detailed course on Malware Analysis.",
+        "staff": "Candace Henderson",
+        "assessments": [
+            "CYB-2-MALWARE_ANALYSIS-FA1",
+            "CYB-2-MALWARE_ANALYSIS-FA2",
+            "CYB-2-MALWARE_ANALYSIS-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Advanced Threat Detection",
+        "year": 3,
+        "department": "Cyber Security",
+        "description": "A detailed course on Advanced Threat Detection.",
+        "staff": "Alyssa Lyons",
+        "assessments": [
+            "CYB-3-ADVANCED_THREAT_DETECTION-FA1",
+            "CYB-3-ADVANCED_THREAT_DETECTION-FA2",
+            "CYB-3-ADVANCED_THREAT_DETECTION-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Penetration Testing",
+        "year": 3,
+        "department": "Cyber Security",
+        "description": "A detailed course on Penetration Testing.",
+        "staff": "Katherine Fisher",
+        "assessments": [
+            "CYB-3-PENETRATION_TESTING-FA1",
+            "CYB-3-PENETRATION_TESTING-FA2",
+            "CYB-3-PENETRATION_TESTING-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Incident Response",
+        "year": 3,
+        "department": "Cyber Security",
+        "description": "A detailed course on Incident Response.",
+        "staff": "Ronald Davis",
+        "assessments": [
+            "CYB-3-INCIDENT_RESPONSE-FA1",
+            "CYB-3-INCIDENT_RESPONSE-FA2",
+            "CYB-3-INCIDENT_RESPONSE-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "Cloud Security",
+        "year": 3,
+        "department": "Cyber Security",
+        "description": "A detailed course on Cloud Security.",
+        "staff": "Miss Courtney Smith PhD",
+        "assessments": [
+            "CYB-3-CLOUD_SECURITY-FA1",
+            "CYB-3-CLOUD_SECURITY-FA2",
+            "CYB-3-CLOUD_SECURITY-FA3"
+        ],
+        "__v": 0
+    },
+    {
+        "name": "AI in Cyber Security",
+        "year": 3,
+        "department": "Cyber Security",
+        "description": "A detailed course on AI in Cyber Security.",
+        "staff": "Michelle Baldwin",
+        "assessments": [
+            "CYB-3-AI_IN_CYBER_SECURITY-FA1",
+            "CYB-3-AI_IN_CYBER_SECURITY-FA2",
+            "CYB-3-AI_IN_CYBER_SECURITY-FA3"
+        ],
+        "__v": 0
+    }
+]
