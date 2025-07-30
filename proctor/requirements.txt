@@ -1,0 +1,28 @@
+# requirements.txt
+
+# --- Web Server ---
+Flask==2.0.3
+Flask-Cors==3.0.10
+
+# --- Core AI/ML Libraries (Top-Level) ---
+# We pin these because their versions are critical for Python 3.7 compatibility and functionality.
+tensorflow==2.10.1
+opencv-python==4.5.5.64
+face-recognition==1.3.0
+deepface==0.0.79
+resemblyzer==0.1.4
+pyannote.audio==2.1.1
+soundfile==0.10.3.post1
+mtcnn==0.1.1
+
+# --- Critical Dependencies to Pin for Stability ---
+# Pinning numpy and torch is a good practice to prevent conflicts between the libraries above.
+numpy==1.21.6
+torch==1.10.2
+torchvision==0.11.3
+torchaudio==0.10.2
+
+# --- Optional Top-Level Package from User's Original List ---
+# This was in the original list but not used by the proctoring scripts provided.
+# Including it to maintain functionality of their other systems.
+ortools==9.0.9048
