@@ -1,0 +1,31 @@
+# Use a full Python image to get necessary build tools
+FROM python:3.9
+
+WORKDIR /app
+
+# Install system-level dependencies required by OpenCV, dlib, etc.
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    libgtk2.0-dev \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    libgl1-mesa-glx \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy the requirements file and install Python packages
+COPY requirements.txt .
+# We specify the torch CPU version to keep the image size smaller
+RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+# Copy all the proctoring source code and models
+# This includes all .py files and the 'models' directory
+COPY . .
+
+# Expose the port the service runs on
+EXPOSE 5001
+
+# Run the app using Gunicorn
+CMD ["gunicorn", "proctor:app", "--workers", "2", "--timeout", "120", "--bind", "0.0.0.0:5001"]

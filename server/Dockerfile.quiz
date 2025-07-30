@@ -1,0 +1,22 @@
+# Use an official Python runtime as a parent image
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Set environment variables to prevent buffering
+ENV PYTHONUNBUFFERED 1
+
+# Install Python dependencies
+COPY requirements-quiz.txt .
+RUN pip install --no-cache-dir -r requirements-quiz.txt
+
+# Copy the Python source code for the quiz service
+COPY main.py .
+COPY ./core ./core
+
+# Expose the port the service runs on
+EXPOSE 8000
+
+# Run the app using a production-grade server (Gunicorn)
+# The command binds the server to 0.0.0.0 so it's accessible from outside the container
+CMD ["gunicorn", "main:app", "--workers", "2", "--worker-class", "uvicorn.workers.UvicornWorker", "--bind", "0.0.0.0:8000"]

@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  # Service 1: Node.js Backend
+  node-backend:
+    build:
+      context: ./server
+      dockerfile: Dockerfile.node
+    container_name: assessly_node_backend
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      # Connect to the mongo service defined below
+      - MONGO_URI=mongodb://mongo:27017/assesslydb
+    depends_on:
+      - mongo
+    networks:
+      - assessly-net
+
+  # Service 2: Python AI Quiz Service
+  quiz-ai:
+    build:
+      context: ./server
+      dockerfile: Dockerfile.quiz
+    container_name: assessly_quiz_ai
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./server/.env # Loads GROQ/GOOGLE keys from your .env file
+    networks:
+      - assessly-net
+
+  # Service 3: Python AI Proctoring Service
+  proctor-ai:
+    build:
+      context: ./proctor
+      dockerfile: Dockerfile.proctor
+    container_name: assessly_proctor_ai
+    ports:
+      - "5001:5001"
+    volumes:
+      # Persist enrolled user data
+      - proctor-enrolled-data:/app/enrolled_data
+      - proctor-student-db:/app/student_db
+    networks:
+      - assessly-net
+
+  # Service 4: MongoDB Database
+  mongo:
+    image: mongo:latest
+    container_name: assessly_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      # Persist the database data
+      - mongo-data:/data/db
+    networks:
+      - assessly-net
+
+# Define the shared network for all services
+networks:
+  assessly-net:
+    driver: bridge
+
+# Define the persistent volumes
+volumes:
+  mongo-data:
+  proctor-enrolled-data:
+  proctor-student-db:

@@ -1,0 +1,17 @@
+# Stage 1: Build the application
+FROM node:18-alpine AS builder
+
+WORKDIR /app
+
+# Copy package files and install dependencies
+COPY package.json package-lock.json ./
+RUN npm install --production
+
+# Copy the rest of the application source code
+COPY . .
+
+# Expose the port the app runs on
+EXPOSE 5000
+
+# The command to start the app
+CMD ["node", "server.js"]
