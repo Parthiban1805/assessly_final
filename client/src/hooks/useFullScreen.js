@@ -2,31 +2,39 @@ import { useCallback, useEffect, useState } from 'react';
 
 /**
  * A custom React hook to manage the browser's fullscreen mode.
- * 
+ * It provides the current fullscreen state and functions to request and exit fullscreen.
+ *
  * @param {function} [onExitFullscreen] - An optional callback function that will be
- * invoked when the user exits fullscreen mode (e.g., by pressing the Escape key).
- * 
+ * invoked when the user exits fullscreen mode (e.g., by pressing the Escape key or through other means).
+ *
  * @returns {{
  *  isFullscreen: boolean,
  *  requestFullscreen: function,
  *  exitFullscreen: function
- * }} An object containing the current fullscreen state and functions to enter/exit it.
+ * }} An object containing:
+ *   - `isFullscreen`: A boolean indicating if the browser is currently in fullscreen mode.
+ *   - `requestFullscreen`: A function to programmatically request fullscreen mode for the document.
+ *   - `exitFullscreen`: A function to programmatically exit fullscreen mode.
  */
 const useFullscreen = (onExitFullscreen) => {
-    // Determine initial state by checking all vendor-prefixed properties.
+    // Initialize state by checking if any fullscreen element exists (with vendor prefixes).
     const [isFullscreen, setIsFullscreen] = useState(
-        !!document.fullscreenElement || 
-        !!document.webkitFullscreenElement || 
-        !!document.mozFullScreenElement || 
+        !!document.fullscreenElement ||
+        !!document.webkitFullscreenElement ||
+        !!document.mozFullScreenElement ||
         !!document.msFullscreenElement
     );
 
-    // --- Enter Fullscreen ---
+    /**
+     * Requests fullscreen mode for the entire document (documentElement).
+     * Handles various browser vendor prefixes for cross-browser compatibility.
+     * Uses useCallback for memoization to prevent unnecessary re-creation.
+     */
     const requestFullscreen = useCallback(() => {
-        const element = document.documentElement; // Target the entire page
+        const element = document.documentElement; // Target the entire page for fullscreen
         if (element.requestFullscreen) {
             element.requestFullscreen();
-        } else if (element.webkitRequestFullscreen) { /* Safari */
+        } else if (element.webkitRequestFullscreen) { /* Safari and other WebKit browsers */
             element.webkitRequestFullscreen();
         } else if (element.mozRequestFullScreen) { /* Firefox */
             element.mozRequestFullScreen();
@@ -35,11 +43,15 @@ const useFullscreen = (onExitFullscreen) => {
         }
     }, []);
 
-    // --- START OF THE FIX: Add the exitFullscreen function ---
+    /**
+     * Exits fullscreen mode.
+     * Handles various browser vendor prefixes for cross-browser compatibility.
+     * Uses useCallback for memoization.
+     */
     const exitFullscreen = useCallback(() => {
         if (document.exitFullscreen) {
             document.exitFullscreen();
-        } else if (document.webkitExitFullscreen) { /* Safari */
+        } else if (document.webkitExitFullscreen) { /* Safari and other WebKit browsers */
             document.webkitExitFullscreen();
         } else if (document.mozCancelFullScreen) { /* Firefox */
             document.mozCancelFullScreen();
@@ -47,44 +59,49 @@ const useFullscreen = (onExitFullscreen) => {
             document.msExitFullscreen();
         }
     }, []);
-    // --- END OF THE FIX ---
 
-    // Effect to listen for changes in fullscreen state (e.g., user pressing Esc)
+    /**
+     * Effect hook to listen for changes in the browser's fullscreen state.
+     * This allows the hook to react to user actions (e.g., pressing Esc to exit fullscreen).
+     */
     useEffect(() => {
+        /**
+         * Event handler for fullscreen change events.
+         * Updates the internal `isFullscreen` state and calls the `onExitFullscreen` callback if applicable.
+         */
         const handleChange = () => {
+            // Check if currently in fullscreen mode across all vendor prefixes.
             const isCurrentlyFullscreen = !!(
                 document.fullscreenElement ||
                 document.webkitFullscreenElement ||
                 document.mozFullScreenElement ||
                 document.msFullscreenElement
             );
-            setIsFullscreen(isCurrentlyFullscreen);
+            setIsFullscreen(isCurrentlyFullscreen); // Update state
 
-            // If fullscreen was exited AND we were previously in fullscreen, call the callback.
-            // This prevents the callback from firing on initial load if not in fullscreen.
+            // If fullscreen was exited and a callback is provided, invoke it.
+            // This is typically called when `isCurrentlyFullscreen` becomes false.
             if (!isCurrentlyFullscreen && onExitFullscreen) {
-                // We can check the previous state, but it's simpler to just let the calling
-                // component handle the logic of when the callback matters (like with isTerminatingRef).
                 onExitFullscreen();
             }
         };
 
-        // Add listeners for all browser types
+        // Add event listeners for all relevant fullscreen change events.
         document.addEventListener('fullscreenchange', handleChange);
         document.addEventListener('webkitfullscreenchange', handleChange);
         document.addEventListener('mozfullscreenchange', handleChange);
         document.addEventListener('MSFullscreenChange', handleChange);
 
-        // Cleanup listeners on unmount
+        // Cleanup function: remove all event listeners when the component unmounts or effect re-runs.
         return () => {
             document.removeEventListener('fullscreenchange', handleChange);
             document.removeEventListener('webkitfullscreenchange', handleChange);
             document.removeEventListener('mozfullscreenchange', handleChange);
             document.removeEventListener('MSFullscreenChange', handleChange);
         };
-    }, [onExitFullscreen]);
+    }, [onExitFullscreen]); // Dependency array: re-run effect if onExitFullscreen callback changes.
 
-    // Return all three values: the state and the two control functions.
+    // Return the current fullscreen state and control functions.
     return { isFullscreen, requestFullscreen, exitFullscreen };
 };
 
