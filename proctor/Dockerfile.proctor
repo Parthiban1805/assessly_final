@@ -7,13 +7,13 @@ WORKDIR /app
 
 # Copy ONLY the environment file first. This takes advantage of Docker's layer caching.
 # If you don't change the environment, this long step won't re-run on future builds.
-COPY proctor_env.yml .  # <--- CORRECTED FILENAME HERE
+COPY proctor_env.yml .
 
 # Create the Conda environment from your YAML file.
 # This is the most time-consuming step and will run only when proctor_env.yml changes.
 # Note: The 'name' inside your YML file determines the environment name. We assume it's 'proctor-final'.
 # If it's different, you'll need to change the name in Stage 2 as well.
-RUN conda env create -f proctor_env.yml # <--- CORRECTED FILENAME HERE
+RUN conda env create -f proctor_env.yml
 
 # Stage 2: Build the final application image
 # Start from a fresh Miniconda image again to keep the final image clean
