@@ -9,6 +9,13 @@ WORKDIR /app
 # If you don't change the environment, this long step won't re-run on future builds.
 COPY proctor_env.yml .
 
+# =================================================================================
+# === CHANGE IS HERE: Install build tools BEFORE creating the environment       ===
+# =================================================================================
+# Install gcc and other essential build tools required for compiling packages
+# like webrtcvad. The '-y' flag confirms the installation automatically.
+RUN apt-get update && apt-get install -y build-essential
+
 # Create the Conda environment from your YAML file.
 # This is the most time-consuming step and will run only when proctor_env.yml changes.
 # Note: The 'name' inside your YML file determines the environment name. We assume it's 'proctor-final'.
