@@ -67,7 +67,7 @@ dependencies:
       - h5py==3.8.0
       - hmmlearn==0.2.8
       - huggingface-hub==0.16.4
-      - hyperpyyaml==1.2.1
+      - hyperpyyaml
       - idna==3.10
       - importlib-metadata==6.7.0
       - importlib-resources==5.12.0
@@ -130,8 +130,8 @@ dependencies:
       - retina-face==0.0.17
       - rich==13.8.1
       - rsa==4.9.1
-      - ruamel-yaml==0.18.13
-      - ruamel-yaml-clib==0.2.8
+      - ruamel-yaml
+      - ruamel-yaml-clib
       - scikit-learn==1.0.2
       - scipy==1.7.3
       - semver==2.13.0
