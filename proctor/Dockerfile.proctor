@@ -1,4 +1,4 @@
-  GNU nano 6.2                                                                                     proctor/Dockerfile.proctor                                                                                               # Stage 1: Create the Conda Environment
+# Stage 1: Create the Conda Environment
 # Use an official Miniconda image as a base. It's smaller than full Anaconda.
 FROM continuumio/miniconda3:4.12.0 AS builder
 
@@ -20,9 +20,10 @@ FROM continuumio/miniconda3:4.12.0
 # Set the working directory
 WORKDIR /app
 
-# Copy the entire Conda environment created in the 'builder' stage.
-# IMPORTANT: This assumes the 'name:' field in your proctor_env.yml is 'proctor-final'.
-# If it's different, you must change the path here.
+# --- CRITICAL STEP ---
+# The line below assumes the 'name:' field in your proctor_env.yml is 'proctor-final'.
+# If your YML file has a different name (e.g., 'name: my-env'), you MUST change the path here
+# to match it (e.g., /opt/conda/envs/my-env).
 COPY --from=builder /opt/conda/envs/proctor-final /opt/conda/envs/proctor-final
 
 # Copy all your application code (all .py files, models folder, etc.)
@@ -32,10 +33,6 @@ COPY . .
 EXPOSE 5001
 
 # The command to run your application using a production-grade server (Gunicorn).
-# The --timeout is increased because model loading can be slow.
-# The --bind address 0.0.0.0 makes it accessible from outside the container.
-
-CMD ["/opt/conda/envs/proctor-final/bin/gunicorn", "proctor:app", "--workers", "2", "--timeout", "120", "--bind", "0.0.0.0:5001"]
-
-
+# We now use the full, absolute path to gunicorn inside the Conda environment to ensure it's found.
+# Again, ensure 'proctor-final' in the path below matches the name in your YML file.
 CMD ["/opt/conda/envs/proctor-final/bin/gunicorn", "proctor:app", "--workers", "2", "--timeout", "120", "--bind", "0.0.0.0:5001"]
