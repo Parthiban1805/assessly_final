@@ -47,4 +47,4 @@ EXPOSE 5001
 # The command to run your application using a production-grade server (Gunicorn).
 # The --timeout is increased because model loading can be slow.
 # The --bind address 0.0.0.0 makes it accessible from outside the container.
-CMD ["gunicorn", "proctor:app", "--workers", "2", "--timeout", "120", "--bind", "0.0.0.0:5001"]
+CMD ["/opt/conda/envs/proctor-final/bin/gunicorn", "proctor:app", "--workers", "2", "--timeout", "120", "--bind", "0.0.0.0:5001"]
