@@ -9,17 +9,8 @@ WORKDIR /app
 # If you don't change the environment, this long step won't re-run on future builds.
 COPY proctor_env.yml .
 
-# =================================================================================
-# === CHANGE IS HERE: Install build tools BEFORE creating the environment       ===
-# =================================================================================
-# Install gcc and other essential build tools required for compiling packages
-# like webrtcvad. The '-y' flag confirms the installation automatically.
-RUN apt-get update && apt-get install -y build-essential
-
 # Create the Conda environment from your YAML file.
 # This is the most time-consuming step and will run only when proctor_env.yml changes.
-# Note: The 'name' inside your YML file determines the environment name. We assume it's 'proctor-final'.
-# If it's different, you'll need to change the name in Stage 2 as well.
 RUN conda env create -f proctor_env.yml
 
 # Stage 2: Build the final application image
@@ -29,17 +20,13 @@ FROM continuumio/miniconda3:4.12.0
 # Set the working directory
 WORKDIR /app
 
-# IMPORTANT: You must check the `name:` field in your proctor_env.yml file.
-# The command below assumes the name is `proctor-final`.
-# If your YML file says `name: my-env`, you must change it to `/opt/conda/envs/my-env` below.
+# Copy the entire Conda environment created in the 'builder' stage.
+# IMPORTANT: This assumes the 'name:' field in your proctor_env.yml is 'proctor-final'.
+# If it's different, you must change the path here.
 COPY --from=builder /opt/conda/envs/proctor-final /opt/conda/envs/proctor-final
 
 # Copy all your application code (all .py files, models folder, etc.)
 COPY . .
-
-# Set the SHELL command to automatically activate your Conda environment.
-# Again, ensure 'proctor-final' matches the 'name:' in your YML file.
-SHELL ["conda", "run", "-n", "proctor-final", "/bin/bash", "-c"]
 
 # Expose the port that your Flask application runs on
 EXPOSE 5001
@@ -48,3 +35,4 @@ EXPOSE 5001
 # The --timeout is increased because model loading can be slow.
 # The --bind address 0.0.0.0 makes it accessible from outside the container.
 CMD ["/opt/conda/envs/proctor-final/bin/gunicorn", "proctor:app", "--workers", "2", "--timeout", "120", "--bind", "0.0.0.0:5001"]
+
