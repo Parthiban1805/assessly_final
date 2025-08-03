@@ -1,7 +1,8 @@
 import { useLocation } from 'react-router-dom';
 import { useBreadcrumbContext } from '../contexts/BreadcrumbContext';
 
-// The default name mapping remains as a fallback.
+// Default mapping of URL path segments to human-readable breadcrumb names.
+// This serves as a fallback for routes not explicitly handled by custom breadcrumbs.
 const breadcrumbNameMap = {
     'dashboard': 'Dashboard',
     'teacher-dashboard': 'Teacher Dashboard',
@@ -27,27 +28,38 @@ const breadcrumbNameMap = {
     'analytics': 'Analytics',
 };
 
+/**
+ * Custom hook for generating breadcrumbs based on the current URL path.
+ * It prioritizes custom breadcrumbs set by pages via `BreadcrumbContext`
+ * and falls back to automatically generating them from URL segments using a predefined map.
+ *
+ * @returns {Array<object>} An array of breadcrumb objects, each with `name` and `path` properties.
+ */
 const useBreadcrumbs = () => {
-    const location = useLocation();
-    const { customCrumbs } = useBreadcrumbContext();
+    const location = useLocation(); // Hook to get the current URL location object.
+    const { customCrumbs } = useBreadcrumbContext(); // Access custom breadcrumbs from context.
 
-    // --- STRATEGY 1: Use Custom Breadcrumbs if they are set ---
-    // The `customCrumbs` array will not be empty if a page has used `setCrumbs`.
+    // --- Strategy 1: Use Custom Breadcrumbs if they are set by a specific page. ---
+    // If `customCrumbs` array is not empty, it means a page has explicitly defined its breadcrumbs.
     if (customCrumbs && customCrumbs.length > 0) {
-        // We still add the "Home" crumb for consistency.
+        // Always include a "Home" crumb at the beginning for consistency.
         return [{ name: 'Home', path: '/' }, ...customCrumbs];
     }
 
-    // --- STRATEGY 2: Fallback to automatic generation from URL ---
+    // --- Strategy 2: Fallback to automatic generation from URL if no custom crumbs are set. ---
+    // Split the pathname into segments and filter out any empty strings (e.g., from leading/trailing slashes).
     const pathnames = location.pathname.split('/').filter(x => x);
 
+    // Map each path segment to a breadcrumb object.
     const breadcrumbs = pathnames.map((value, index) => {
+        // Construct the full path for the current segment.
         const to = `/${pathnames.slice(0, index + 1).join('/')}`;
-        // Use the map or format the name nicely as a fallback.
+        // Get the display name from the predefined map, or format it from the value as a fallback.
         const name = breadcrumbNameMap[value] || value.replace(/-/g, ' ');
         return { name, path: to };
     });
 
+    // Always include a "Home" crumb at the beginning for consistency.
     return [{ name: 'Home', path: '/' }, ...breadcrumbs];
 };
 

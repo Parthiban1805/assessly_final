@@ -5,104 +5,142 @@ import {
     Phone
 } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import FullScreenLoader from '../../components/Loader';
-import CourseCard from '../../components/coursecard';
-import { useBreadcrumbContext } from '../../contexts/BreadcrumbContext';
+import { useNavigate } from 'react-router-dom';
+import FullScreenLoader from '../../components/Loader'; // Full screen loading component
+import CourseCard from '../../components/CourseCard'; // Card component for courses
+import { useBreadcrumbContext } from '../../contexts/BreadcrumbContext'; // Breadcrumb context hook
+import { API_BASE_URL } from '../../config/constants'; // Import the common API base URL
 
-const Assessment = () => { // Renamed for clarity, you can keep it as Assessment
+/**
+ * Assessment (Student Dashboard) component displays general student information,
+ * announcements, course modules, and options to join clubs, send feedback, etc.
+ *
+ * @returns {JSX.Element} The student assessment dashboard UI.
+ */
+const Assessment = () => {
+    // State to hold all fetched page data.
     const [pageData, setPageData] = useState(null);
+    // State to manage overall loading status.
     const [loading, setLoading] = useState(true);
+    // State to store any error messages during data fetching.
     const [error, setError] = useState(null);
+    // State for the selected club in the dropdown.
     const [selectedClub, setSelectedClub] = useState('');
+    // State to indicate if club submission is in progress.
     const [isSubmitting, setIsSubmitting] = useState(false);
-    const {setCrumbs} = useBreadcrumbContext();
-    
-    const navigate = useNavigate();
+    const { setCrumbs } = useBreadcrumbContext(); // Hook to set breadcrumbs.
 
+    const navigate = useNavigate(); // Hook for programmatic navigation.
+
+    // Mock data for clubs (can be fetched from backend if dynamic).
     const clubs = ['Robotics Club', 'AI Club', 'Coding Club', 'Music Club', 'Debate Club', 'E-Sports Club'];
 
+    /**
+     * Effect hook to fetch homepage data for the student on component mount.
+     * Sets breadcrumbs and populates club selection.
+     */
     useEffect(() => {
-
         setCrumbs([
-            { name: 'Assessments', path: '/assessments' }
+            { name: 'Assessments', path: '/assessments' } // Set static breadcrumb for this page.
         ]);
 
         const fetchHomePageData = async () => {
-            setLoading(true);
+            setLoading(true); // Start loading state.
             try {
                 const token = sessionStorage.getItem("token");
-                const response = await axios.get('http://localhost:5000/api/v1/homepage/data', {
-                    headers: { 'Authorization': `Bearer ${token}` }
+                // Fetch homepage data from the API.
+                const response = await axios.get(`${API_BASE_URL}/homepage/data`, {
+                    headers: { 'Authorization': `Bearer ${token}` } // Include authorization header.
                 });
-                setPageData(response.data);
-                setSelectedClub(response.data.club || '');
+                setPageData(response.data); // Set fetched data.
+                setSelectedClub(response.data.club || ''); // Set initial selected club from user data.
             } catch (err) {
                 console.error("Error fetching homepage data:", err);
+                // Set error message from API response or a generic one.
                 setError(err.response?.data?.message || "Failed to load page data.");
             } finally {
-                setLoading(false);
+                setLoading(false); // End loading state.
             }
         };
         fetchHomePageData();
-    }, [navigate, setCrumbs]);
+    }, [navigate, setCrumbs]); // Dependencies: navigate (for potential redirects), setCrumbs (for breadcrumbs).
 
+    /**
+     * Handles submission of the selected club for the student.
+     * Updates the student's club preference in the backend.
+     */
     const handleClubSubmit = async () => {
         const studentId = pageData?.userDetails?.student_id;
         if (!selectedClub || !studentId) {
             alert("Please select a club first.");
             return;
         }
-        setIsSubmitting(true);
+        setIsSubmitting(true); // Disable button during submission.
         try {
             const token = sessionStorage.getItem("token");
-            await axios.put(`http://localhost:5000/api/v1/users/${studentId}/club`, 
+            // Send PUT request to update student's club.
+            await axios.put(`${API_BASE_URL}/users/${studentId}/club`,
                 { club: selectedClub },
                 { headers: { 'Authorization': `Bearer ${token}` } }
             );
-            setPageData(prevData => ({ ...prevData, club: selectedClub }));
+            setPageData(prevData => ({ ...prevData, club: selectedClub })); // Update local state.
             alert("Club updated successfully!");
         } catch (error) {
             console.error("Error updating club:", error);
             alert(error.response?.data?.message || "Failed to update club.");
         } finally {
-            setIsSubmitting(false);
+            setIsSubmitting(false); // Re-enable button.
         }
     };
-    
-    // Reusable Card components for UI consistency, same as Dashboard
+
+    /**
+     * Reusable Card component for UI consistency across the dashboard.
+     * @param {object} props - Component props.
+     * @param {React.ReactNode} props.children - Content of the card.
+     * @param {string} [props.className] - Optional additional CSS classes.
+     * @returns {JSX.Element} A styled card container.
+     */
     const Card = ({ children, className = '' }) => (
-        <div className={`bg-white p-5 rounded-lg border border-slate-200 flex flex-col ${className}`}>
+        <div className={`bg-white dark:bg-gray-800 p-5 rounded-lg border border-slate-200 dark:border-gray-700 flex flex-col ${className}`}>
           {children}
         </div>
     );
-    
+
+    /**
+     * Reusable CardTitle component for consistent card header styling.
+     * @param {object} props - Component props.
+     * @param {React.ReactNode} props.children - Title text.
+     * @returns {JSX.Element} A styled card title.
+     */
     const CardTitle = ({ children }) => (
-        <h3 className="text-xs font-semibold text-blue-500 uppercase tracking-wider pb-3 mb-4 border-b border-slate-200">
+        <h3 className="text-xs font-semibold text-blue-500 dark:text-blue-400 uppercase tracking-wider pb-3 mb-4 border-b border-slate-200 dark:border-gray-700 flex-shrink-0">
           {children}
         </h3>
     );
 
+    // Display full screen loader while data is loading.
     if (loading) return <FullScreenLoader />;
-    if (error) return <div className="p-6 text-center text-red-600">Error: {error}</div>;
-    if (!pageData) return <div className="p-6 text-center">No data found.</div>;
+    // Display error message if data fetching failed.
+    if (error) return <div className="p-6 text-center text-red-600 dark:text-red-400">Error: {error}</div>;
+    // If no pageData is available after loading, display a message.
+    if (!pageData) return <div className="p-6 text-center text-slate-500 dark:text-gray-400">No data found.</div>;
 
-    const { subjects, club: currentClub } = pageData;
+    const { subjects, club: currentClub } = pageData; // Destructure necessary data.
 
     return (
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            
+
             {/* Top Row: Announcement and Rules */}
             <Card>
                 <CardTitle>ATTENTION ALL STUDENTS</CardTitle>
                 <div className='flex items-start gap-4'>
-                <p className="text-slate-600 text-sm">The English assessment portal will be temporarily unavailable on August 30th from 10:00 AM to 12:30 PM for scheduled maintenance. Please plan accordingly.</p>
+                <p className="text-slate-600 dark:text-gray-300 text-sm">The English assessment portal will be temporarily unavailable on August 30th from 10:00 AM to 12:30 PM for scheduled maintenance. Please plan accordingly.</p>
                 </div>
             </Card>
 
             <Card>
                 <CardTitle>Assessment Rules</CardTitle>
-                <ul className="space-y-3 text-sm text-slate-600 list-disc list-inside flex-1">
+                <ul className="space-y-3 text-sm text-slate-600 dark:text-gray-300 list-disc list-inside flex-1">
                     <li>Complete the assessment within the allotted time.</li>
                     <li>Once you submit an answer, it cannot be changed.</li>
                     <li>Work independently without any external help.</li>
@@ -112,16 +150,16 @@ const Assessment = () => { // Renamed for clarity, you can keep it as Assessment
             <Card>
                 <CardTitle>Join a Club</CardTitle>
                 <div className="flex-1 flex flex-col">
-                    <p className="text-sm text-slate-600 mb-4 flex-grow">Your current selection is <span className="font-bold">{currentClub || 'none'}</span>. You can join a club or change your selection here.</p>
+                    <p className="text-sm text-slate-600 dark:text-gray-300 mb-4 flex-grow">Your current selection is <span className="font-bold">{currentClub || 'none'}</span>. You can join a club or change your selection here.</p>
                     <div className="space-y-3">
-                        <select value={selectedClub} onChange={(e) => setSelectedClub(e.target.value)} className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+                        <select value={selectedClub} onChange={(e) => setSelectedClub(e.target.value)} className="w-full px-3 py-2 border border-slate-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white dark:bg-gray-700 text-slate-900 dark:text-white">
                             <option value="">-- Select a Club --</option>
                             {clubs.map((club) => <option key={club} value={club}>{club}</option>)}
                         </select>
-                        <button 
-                            onClick={handleClubSubmit} 
+                        <button
+                            onClick={handleClubSubmit}
                             disabled={isSubmitting || selectedClub === currentClub || !selectedClub}
-                            className="w-full bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition-colors disabled:bg-slate-300 disabled:cursor-not-allowed"
+                            className="w-full bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 dark:hover:bg-blue-500 transition-colors disabled:bg-slate-300 dark:disabled:bg-gray-600 disabled:cursor-not-allowed"
                         >
                             {isSubmitting ? "Saving..." : "Save Selection"}
                         </button>
@@ -129,11 +167,11 @@ const Assessment = () => { // Renamed for clarity, you can keep it as Assessment
                 </div>
             </Card>
 
-            {/* Middle Row: Courses and Club Selection */}
+            {/* Middle Row: Courses */}
             <Card className="lg:col-span-3">
                 <div className="flex items-center justify-between mb-4">
-                    <h2 className="text-xs font-semibold text-blue-500 uppercase tracking-wider pb-3border-slate-200">My Courses</h2>
-                    <a href="/courses" className="flex items-center gap-1 text-sm font-semibold text-blue-600 hover:text-blue-800 transition">
+                    <h2 className="text-xs font-semibold text-blue-500 dark:text-blue-400 uppercase tracking-wider pb-3border-slate-200">My Courses</h2>
+                    <a href="/courses" className="flex items-center gap-1 text-sm font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition">
                         View all
                     </a>
                 </div>
@@ -150,7 +188,7 @@ const Assessment = () => { // Renamed for clarity, you can keep it as Assessment
                             />
                         ))
                     ) : (
-                        <p className="sm:col-span-2 xl:col-span-3 text-center py-10 text-slate-500">No subjects available to display.</p>
+                        <p className="sm:col-span-2 xl:col-span-3 text-center py-10 text-slate-500 dark:text-gray-400">No subjects available to display.</p>
                     )}
                 </div>
             </Card>
@@ -158,19 +196,19 @@ const Assessment = () => { // Renamed for clarity, you can keep it as Assessment
             {/* Bottom Row: Feedback, Contact, Report */}
             <Card>
                 <CardTitle>Send Feedback</CardTitle>
-                <p className='flex items-center gap-4 text-sm text-slate-600'>Share your thoughts or suggestions. We value your input to help us improve.</p>
+                <p className='flex items-center gap-4 text-sm text-slate-600 dark:text-gray-300'>Share your thoughts or suggestions. We value your input to help us improve.</p>
             </Card>
-            
+
             <Card>
                 <CardTitle>Report a Bug</CardTitle>
-                    <p className='flex items-center gap-4 text-sm text-slate-600'>Encountered an issue? Let us know so we can fix it and improve the experience.</p>
+                    <p className='flex items-center gap-4 text-sm text-slate-600 dark:text-gray-300'>Encountered an issue? Let us know so we can fix it and improve the experience.</p>
             </Card>
 
             <Card>
                 <CardTitle>Contact</CardTitle>
-                <p className='flex items-center gap-4 text-sm text-slate-600'><span className="text-sm text-blue-600"><Phone size={15}/></span>0427 222-0-2224</p>
-                <p className='flex items-center gap-4 text-sm text-slate-600 mt-2'><span className="text-sm text-blue-600"><Mail size={15}/></span>weacttech@gmail.com</p>
-                <p className='flex items-center gap-4 text-sm text-slate-600 mt-2'><span className="text-sm text-blue-600"><MapPin size={15}/></span>Erode, TN, IN</p>
+                <p className='flex items-center gap-4 text-sm text-slate-600 dark:text-gray-300'><span className="text-sm text-blue-600 dark:text-blue-400"><Phone size={15}/></span>0427 222-0-2224</p>
+                <p className='flex items-center gap-4 text-sm text-slate-600 dark:text-gray-300 mt-2'><span className="text-sm text-blue-600 dark:text-blue-400"><Mail size={15}/></span>weacttech@gmail.com</p>
+                <p className='flex items-center gap-4 text-sm text-slate-600 dark:text-gray-300 mt-2'><span className="text-sm text-blue-600 dark:text-blue-400"><MapPin size={15}/></span>Erode, TN, IN</p>
             </Card>
         </div>
     );
