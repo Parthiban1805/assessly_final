@@ -6,7 +6,6 @@ WORKDIR /app
 # Set environment variables to prevent buffering
 ENV PYTHONUNBUFFERED 1
 
-# Install Python dependencies
 COPY requirements-quiz.txt .
 RUN pip install --no-cache-dir -r requirements-quiz.txt
 
