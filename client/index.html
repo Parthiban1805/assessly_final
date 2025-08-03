@@ -5,6 +5,33 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assessly</title>
+
+    <!-- Theme Initialization Script to prevent FOUC (Flash of Unstyled Content) -->
+    <script>
+      (function() {
+        // Function to determine the theme based on localStorage or system preference
+        function getInitialTheme() {
+          const storedTheme = localStorage.getItem('theme');
+          if (storedTheme) {
+            return storedTheme;
+          }
+          // Default to 'system' if no theme is stored
+          return 'system';
+        }
+
+        const initialTheme = getInitialTheme();
+        const root = document.documentElement;
+
+        if (initialTheme === 'dark') {
+          root.classList.add('dark');
+        } else if (initialTheme === 'light') {
+          root.classList.remove('dark');
+        } else { // initialTheme === 'system'
+          // Apply dark mode immediately if system prefers it
+          root.classList.toggle('dark', window.matchMedia('(prefers-color-scheme: dark)').matches);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
