@@ -1,3 +1,5 @@
+# File: server/Dockerfile.quiz (Final and Correct)
+
 # Use an official lightweight Python runtime as a parent image
 FROM python:3.10-slim
 
@@ -7,20 +9,19 @@ WORKDIR /app
 # Set environment variables to prevent Python from buffering stdout and stderr
 ENV PYTHONUNBUFFERED 1
 
-# Install Python dependencies
-# Copy the requirements file first to leverage Docker's layer caching
+# --- THIS IS WHERE GUNICORN GETS INSTALLED ---
+# Copy the requirements file (which now includes gunicorn)
 COPY requirements-quiz.txt .
+# Run pip to install all packages
 RUN pip install --no-cache-dir -r requirements-quiz.txt
 
-# Copy the Python source code for the quiz service
+# Copy the application source code
 COPY main.py .
 COPY ./core ./core
 
-# Expose the port the service runs on
+# Expose the port the service will run on
 EXPOSE 8000
 
-# We comment out the original command to keep the container running for inspection
-# CMD ["/usr/local/bin/gunicorn", "main:app", "--workers", "2", "--worker-class", "uvicorn.workers.UvicornWorker", "--bind", "0.0.0.0:8000"]
-
-# Add a command that will run forever, allowing us to exec into the container
-CMD ["tail", "-f", "/dev/null"]
+# --- THIS IS WHERE GUNICORN IS RUN ---
+# The command to run the application using the absolute path to Gunicorn.
+CMD ["/usr/local/bin/gunicorn", "main:app", "--workers", "2", "--worker-class", "uvicorn.workers.UvicornWorker", "--bind", "0.0.0.0:8000"]
