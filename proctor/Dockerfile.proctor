@@ -5,20 +5,21 @@ FROM continuumio/miniconda3:4.12.0 AS builder
 # Set the working directory
 WORKDIR /app
 
-# --- THE DEFINITIVE FIX ---
+# --- THE DEFINITIVE FIX for flaky networks ---
 # 1. Switch to the root user to install system packages.
 USER root
 
-# 2. Install 'sudo' and 'build-essential'. 'sudo' is needed for the next step.
-#    The '-y' flag automatically answers "yes" to prompts.
-RUN apt-get update && apt-get install -y sudo build-essential && rm -rf /var/lib/apt/lists/*
+# 2. Modify the sources.list to use a CDN mirror and add retry logic to the apt-get command.
+RUN \
+    sed -i 's/deb.debian.org/cdn-fastly.deb.debian.org/g' /etc/apt/sources.list && \
+    apt-get -o Acquire::Retries=3 update && \
+    apt-get -o Acquire::Retries=3 install -y sudo build-essential && \
+    rm -rf /var/lib/apt/lists/*
 
 # 3. Give the 'conda' user passwordless sudo privileges.
-#    This allows the 'conda' user to run commands as root if needed, but we won't need it.
-#    More importantly, it ensures the user context is correct for the next steps.
 RUN echo "conda ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-# 4. Switch back to the standard conda user. This is the user for the rest of the build.
+# 4. Switch back to the standard conda user.
 USER conda
 
 # --- END OF FIX ---
@@ -26,8 +27,7 @@ USER conda
 # Copy ONLY the environment file first. This leverages Docker's layer caching.
 COPY proctor_env.yml .
 
-# Create the Conda environment. This is now run as the correct 'conda' user
-# and will succeed because the build tools were installed by 'root' previously.
+# Create the Conda environment. This is now run as the correct 'conda' user.
 RUN conda env create -f proctor_env.yml
 
 # Stage 2: Build the final application image
