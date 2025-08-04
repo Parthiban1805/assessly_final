@@ -1,35 +1,28 @@
 # Stage 1: Create the Conda Environment
 FROM continuumio/miniconda3:4.12.0 AS builder
 
-# Set the working directory
 WORKDIR /app
 
 # Fix flaky networks and install system packages
 RUN sed -i 's/deb.debian.org/cdn-fastly.deb.debian.org/g' /etc/apt/sources.list && \
     apt-get -o Acquire::Retries=3 update && \
-    apt-get -o Acquire::Retries=3 install -y build-essential && \
+    apt-get -o Acquire::Retries=3 install -y build-essential libgl1 && \
     rm -rf /var/lib/apt/lists/*
 
-# Copy ONLY the environment file
 COPY proctor_env.yml .
-
-# Create the Conda environment
 RUN conda env create -f proctor_env.yml
 
 # Stage 2: Build the final application image
 FROM continuumio/miniconda3:4.12.0
 
-# Set the working directory
 WORKDIR /app
 
-# Copy the conda environment from builder
-COPY --from=builder /opt/conda/envs/proctor-final /opt/conda/envs/proctor-final
+# Install libGL in the final image as well
+RUN apt-get update && apt-get install -y libgl1 && rm -rf /var/lib/apt/lists/*
 
-# Copy your codebase
+COPY --from=builder /opt/conda/envs/proctor-final /opt/conda/envs/proctor-final
 COPY . .
 
-# Expose your Flask app's port
 EXPOSE 5001
 
-# Run your app with Gunicorn inside the Conda environment
 CMD ["/opt/conda/envs/proctor-final/bin/gunicorn", "proctor:app", "--workers", "2", "--timeout", "120", "--bind", "0.0.0.0:5001"]
