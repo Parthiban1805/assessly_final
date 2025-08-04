@@ -95,7 +95,7 @@ const analyticsRoutes = require('./src/features/analytics/analytics.routes');
 const feedbackRoutes = require('./src/features/feedback/feedback.routes');
 const { verifyToken } = require('./src/middlewares/auth.middleware');
 
-app.use('/api/auth', authRoutes);
+app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/dashboard', dashboardRoutes);   // For the main student dashboard page
 app.use('/api/v1/homepage', homepageRoutes);    // For the homepage/course selection page
 app.use('/api/v1/grades', gradeRoutes);         // For the grades/modules page
