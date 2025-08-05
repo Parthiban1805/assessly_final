@@ -1,28 +1,57 @@
 # Stage 1: Create the Conda Environment
+# Use an official Miniconda image as a base.
 FROM continuumio/miniconda3:4.12.0 AS builder
 
+# Set the working directory
 WORKDIR /app
 
-# Fix flaky networks and install system packages
-RUN sed -i 's/deb.debian.org/cdn-fastly.deb.debian.org/g' /etc/apt/sources.list && \
-    apt-get -o Acquire::Retries=3 update && \
-    apt-get -o Acquire::Retries=3 install -y build-essential libgl1 && \
-    rm -rf /var/lib/apt/lists/*
+# --- THE DEFINITIVE FIX ---
+# 1. Switch to the root user to install system packages.
+USER root
 
+# 2. Install build tools and ALL required system libraries for OpenCV and SoundFile.
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    libsndfile1 \
+    libgl1-mesa-glx \
+    && rm -rf /var/lib/apt/lists/*
+
+# 3. Give the 'conda' user passwordless sudo privileges (good practice).
+RUN echo "conda ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+# 4. Switch back to the standard conda user.
+USER conda
+# --- END OF FIX ---
+
+# Copy the environment file.
 COPY proctor_env.yml .
+
+# Create the Conda environment.
 RUN conda env create -f proctor_env.yml
 
 # Stage 2: Build the final application image
+# Start from a fresh Miniconda image again to keep the final image clean.
 FROM continuumio/miniconda3:4.12.0
 
+# Set the working directory
 WORKDIR /app
 
-# Install libGL in the final image as well
-RUN apt-get update && apt-get install -y libgl1 && rm -rf /var/lib/apt/lists/*
+# Install the required system libraries in the final image as well.
+USER root
+RUN apt-get update && apt-get install -y \
+    libsndfile1 \
+    libgl1-mesa-glx \
+    && rm -rf /var/lib/apt/lists/*
+USER conda
 
+# Copy the entire Conda environment from the 'builder' stage.
 COPY --from=builder /opt/conda/envs/proctor-final /opt/conda/envs/proctor-final
+
+# Copy all application code.
 COPY . .
 
+# Expose the application port.
 EXPOSE 5001
 
+# The command to run the application using Gunicorn.
 CMD ["/opt/conda/envs/proctor-final/bin/gunicorn", "proctor:app", "--workers", "2", "--timeout", "120", "--bind", "0.0.0.0:5001"]
