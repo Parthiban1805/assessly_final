@@ -5,7 +5,7 @@ FROM continuumio/miniconda3:4.12.0 AS builder
 # Set the working directory
 WORKDIR /app
 
-# --- THE DEFINITIVE FIX ---
+# --- DEFINITIVE FIX FOR SYSTEM PACKAGES AND USER PERMISSIONS ---
 # 1. Switch to the root user to install system packages.
 USER root
 
@@ -16,17 +16,14 @@ RUN apt-get update && apt-get install -y \
     libgl1-mesa-glx \
     && rm -rf /var/lib/apt/lists/*
 
-# 3. Give the 'conda' user passwordless sudo privileges (good practice).
-RUN echo "conda ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-
-# 4. Switch back to the standard conda user.
+# 3. Switch back to the standard 'conda' user BEFORE running any conda commands.
 USER conda
 # --- END OF FIX ---
 
 # Copy the environment file.
 COPY proctor_env.yml .
 
-# Create the Conda environment.
+# Create the Conda environment. This is now run as the correct 'conda' user.
 RUN conda env create -f proctor_env.yml
 
 # Stage 2: Build the final application image
