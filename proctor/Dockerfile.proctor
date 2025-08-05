@@ -5,21 +5,30 @@ FROM continuumio/miniconda3:4.12.0 AS builder
 # Set the working directory
 WORKDIR /app
 
-# --- DEFINITIVE FIX ---
-# Run everything as the default ROOT user. This avoids all user-switching problems.
-# Install all required system libraries.
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    libsndfile1 \
-    libgl1-mesa-glx \
+# --- DEFINITIVE FIX FOR NETWORKING AND PERMISSIONS ---
+# 1. Switch to the root user to install system packages.
+USER root
+
+# 2. Modify the package sources to use a more reliable CDN, then install all
+#    required system libraries with automatic retries to handle flaky connections.
+RUN \
+    sed -i 's/deb.debian.org/cdn-fastly.deb.debian.org/g' /etc/apt/sources.list && \
+    apt-get -o Acquire::Retries=3 update && \
+    apt-get -o Acquire::Retries=3 install -y \
+        build-essential \
+        libsndfile1 \
+        libgl1-mesa-glx \
     && rm -rf /var/lib/apt/lists/*
+
+# 3. Switch back to the standard 'conda' user BEFORE running any conda commands.
+USER conda
 # --- END OF FIX ---
 
 # Copy the environment file.
 COPY proctor_env.yml .
 
-# Create the Conda environment. This is run as root, which is fine for the build stage.
-RUN conda env create -f pro-final.yml
+# Create the Conda environment. This is now run as the correct user with all system dependencies present.
+RUN conda env create -f proctor_env.yml
 
 # Stage 2: Build the final application image
 # Start from a fresh Miniconda image again to keep the final image clean.
@@ -31,10 +40,14 @@ WORKDIR /app
 # Install the required system libraries in the final image as well.
 # We must do this as root.
 USER root
-RUN apt-get update && apt-get install -y \
-    libsndfile1 \
-    libgl1-mesa-glx \
+RUN \
+    sed -i 's/deb.debian.org/cdn-fastly.deb.debian.org/g' /etc/apt/sources.list && \
+    apt-get -o Acquire::Retries=3 update && \
+    apt-get -o Acquire::Retries=3 install -y \
+        libsndfile1 \
+        libgl1-mesa-glx \
     && rm -rf /var/lib/apt/lists/*
+USER conda
 
 # Copy the entire Conda environment from the 'builder' stage.
 COPY --from=builder /opt/conda/envs/proctor-final /opt/conda/envs/proctor-final
