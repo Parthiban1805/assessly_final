@@ -5,12 +5,9 @@ FROM continuumio/miniconda3:4.12.0 AS builder
 # Set the working directory
 WORKDIR /app
 
-# --- DEFINITIVE FIX FOR NETWORKING AND PERMISSIONS ---
-# 1. Switch to the root user to install system packages.
+# --- FIX FOR NETWORKING AND PERMISSIONS ---
+# 1. Install required system libraries with retries
 USER root
-
-# 2. Modify the package sources to use a more reliable CDN, then install all
-#    required system libraries with automatic retries to handle flaky connections.
 RUN \
     sed -i 's/deb.debian.org/cdn-fastly.deb.debian.org/g' /etc/apt/sources.list && \
     apt-get -o Acquire::Retries=3 update && \
@@ -20,25 +17,17 @@ RUN \
         libgl1-mesa-glx \
     && rm -rf /var/lib/apt/lists/*
 
-# 3. Switch back to the standard 'conda' user BEFORE running any conda commands.
-USER conda
-# --- END OF FIX ---
-
-# Copy the environment file.
+# 2. Copy the environment file and create the Conda environment
 COPY proctor_env.yml .
-
-# Create the Conda environment. This is now run as the correct user with all system dependencies present.
-RUN conda env create -f proctor_env.yml
+RUN conda env create -f proctor_env.yml -n proctor-final
 
 # Stage 2: Build the final application image
-# Start from a fresh Miniconda image again to keep the final image clean.
 FROM continuumio/miniconda3:4.12.0
 
 # Set the working directory
 WORKDIR /app
 
-# Install the required system libraries in the final image as well.
-# We must do this as root.
+# Install required system libraries in the final image
 USER root
 RUN \
     sed -i 's/deb.debian.org/cdn-fastly.deb.debian.org/g' /etc/apt/sources.list && \
@@ -47,16 +36,18 @@ RUN \
         libsndfile1 \
         libgl1-mesa-glx \
     && rm -rf /var/lib/apt/lists/*
-USER conda
 
-# Copy the entire Conda environment from the 'builder' stage.
+# Copy the Conda environment from the builder stage
 COPY --from=builder /opt/conda/envs/proctor-final /opt/conda/envs/proctor-final
 
-# Copy all application code.
+# Copy all application code
 COPY . .
 
-# Expose the application port.
+# Expose the application port
 EXPOSE 5001
 
-# The command to run the application using Gunicorn.
-CMD ["/opt/conda/envs/proctor-final/bin/gunicorn", "proctor:app", "--workers", "2", "--timeout", "120", "--bind", "0.0.0.0:5001"]
+# Set the environment path explicitly (important when not using `conda activate`)
+ENV PATH="/opt/conda/envs/proctor-final/bin:$PATH"
+
+# Command to run the application using Gunicorn
+CMD ["gunicorn", "proctor:app", "--workers", "2", "--timeout", "120", "--bind", "0.0.0.0:5001"]
