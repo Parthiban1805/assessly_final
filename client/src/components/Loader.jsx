@@ -8,7 +8,7 @@ import { Loader2 } from 'lucide-react';
  */
 const Loader = () => {
     return (
-        <div className="flex items-center justify-center min-h-[calc(100vh-4rem)] w-full bg-slate-50 dark:bg-gray-900 p-4 font-sans">
+        <div className="flex items-center rounded-md justify-center min-h-[calc(100vh-4rem)] w-full p-4 font-sans">
             <div className="flex flex-col items-center gap-4">
                 <Loader2 className="h-12 w-12 animate-spin text-blue-600 dark:text-blue-400" />
                 <p className="text-slate-500 dark:text-gray-400 font-medium">Loading</p>

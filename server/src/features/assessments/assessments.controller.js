@@ -80,7 +80,7 @@ const createAssessment = async (req, res) => {
     try {
         // teacherDetails are available from the verifyToken middleware
         const { userDetails: teacherDetails } = req.user;
-        
+        console.log("Creating assessment with teacher details:", teacherDetails);
         const savedAssessment = await assessmentService.createAssessmentWithQuestions(
             req.body,       // The form fields
             teacherDetails, // The secure user details from the token
@@ -101,7 +101,8 @@ const getMyAssessments = async (req, res) => {
     try {
         // The teacher's ID is securely retrieved from the token payload
         const { teacher_id } = req.user.userDetails;
-
+        console.log("Fetching assessments for teacher ID:", teacher_id);
+        // Call the service to get assessments for the teacher
         const assessments = await assessmentService.getAssessmentsByTeacher(teacher_id);
 
         res.status(200).json(assessments);

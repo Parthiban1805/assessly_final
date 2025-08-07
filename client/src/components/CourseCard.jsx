@@ -28,7 +28,7 @@ const CourseCard = ({ image, title, description, staff, subjectId }) => {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-xl border border-slate-200 dark:border-gray-700 shadow-sm flex flex-col overflow-hidden transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+    <div className="bg-white dark:bg-gray-800 rounded-xl border border-slate-200 dark:border-gray-700 shadow-sm flex flex-col overflow-hidden transition-transform duration-300 hover:shadow-md">
 
       {/* Image Section with Fallback UI */}
       <div className="relative w-full aspect-video bg-slate-200 dark:bg-gray-700">

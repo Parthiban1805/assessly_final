@@ -136,7 +136,7 @@ const Grades = () => {
 
                     {currentGrades.length > 0 ? (
                         currentGrades.map((item, index) => (
-                            <div key={index} className="flex justify-between items-center px-5 py-4 hover:bg-slate-50 dark:hover:bg-gray-700/50 transition-colors">
+                            <div key={index} className="flex justify-between items-center px-5 py-4 rounded-b-md hover:bg-slate-50 dark:hover:bg-gray-700/50 transition-colors">
                                 <div className="flex items-center gap-3">
                                     <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center flex-shrink-0">
                                         <GraduationCap className="w-5 h-5 text-blue-600 dark:text-blue-300" />

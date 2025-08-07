@@ -39,7 +39,7 @@ const Dashboard = () => {
             const token = sessionStorage.getItem("token");
             // Fetch student dashboard data from the API.
             const response = await axios.get(`${API_BASE_URL}/dashboard/student`, {
-                headers: { 'Authorization': `Bearer ${token}` } // Include authorization header.
+            headers: { 'Authorization': `Bearer ${token}` } // Include authorization header.
             });
             setDashboardData(response.data); // Set fetched data.
         } catch (err) {
@@ -142,6 +142,8 @@ const Dashboard = () => {
         .map(course => ({...course, attendancePercentage: course.totalAssessments > 0 ? (course.attendedAssessments / course.totalAssessments) * 100 : 100}))
         .reduce((prev, current) => (prev.attendancePercentage < current.attendancePercentage) ? prev : current);
     }
+
+    const feedbackMailto = `mailto:weacttech@gmail.com?subject=${encodeURIComponent('Feedback from Assessly Student Dashboard')}&body=${encodeURIComponent(`Dear Assessly Team,\n\nI would like to provide the following feedback:\n\n[Your feedback here]\n\n${userDetails.student_id}`)}`;
 
     return (
         // Main grid container for the dashboard layout.
@@ -248,8 +250,8 @@ const Dashboard = () => {
 
             {/* --- Courses Registered List Card (ROW 3, Spans All 3 Columns) --- */}
             <Card className="lg:col-span-3">
-                <CardTitle>Courses Registered</CardTitle>
-                <div className="overflow-x-auto">
+                <h3 className="text-xs font-semibold text-blue-500 dark:text-blue-400 uppercase tracking-wider mb-4 flex-shrink-0"> Courses Registered </h3>
+                <div className="overflow-x-auto rounded-md">
                     <table className="w-full text-sm text-left">
                         <thead className="text-xs text-slate-500 dark:text-gray-400 uppercase bg-slate-50 dark:bg-gray-700">
                             <tr>
@@ -312,7 +314,15 @@ const Dashboard = () => {
 
             <Card>
                 <CardTitle>Feedback</CardTitle>
-                <p className="text-sm text-slate-600 dark:text-gray-300 min-h-[6rem]">Share your thoughts, suggestions, or report any issues with us. Your feedback helps us improve and provide a better experience. We value your input!</p>
+                <p className="text-sm text-slate-600 dark:text-gray-300 mb-4">Share your thoughts, suggestions, or report any issues with us. Your feedback helps us improve and provide a better experience. We value your input!</p>
+                <a
+                    href={feedbackMailto}
+                    className="w-full text-center bg-blue-600 text-white px-4 py-2 mt-0 rounded-lg text-sm font-semibold hover:bg-blue-700 dark:hover:bg-blue-500 transition-colors"
+                    target="_blank" // Opens in a new tab/email client
+                    rel="noopener noreferrer" // Security best practice for target="_blank"
+                >
+                    Email Feedback
+                </a>
             </Card>
 
             <Card>

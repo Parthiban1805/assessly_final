@@ -36,7 +36,7 @@ const QuizInstructions = () => {
 
     return (
         <div className="flex items-center justify-center min-h-[90vh] bg-slate-100 dark:bg-gray-900 p-4">
-        <div className="w-full max-w-2xl bg-white dark:bg-gray-800 rounded-2xl border border-slate-200 dark:border-gray-700 shadow-lg p-6 sm:p-10">
+        <div className="w-full max-w-2xl bg-white dark:bg-gray-800 rounded-2xl border border-slate-200 dark:border-gray-700 p-6 sm:p-10">
             <div>
             <h1 className="text-xs font-semibold text-blue-500 dark:text-blue-400 uppercase tracking-wider pb-3 mb-4 border-b border-slate-200 dark:border-gray-700 flex-shrink-0">Assessment Instructions</h1>
             <p className="text-slate-500 dark:text-gray-400 mt-2">Please read the following instructions carefully before you begin.</p>

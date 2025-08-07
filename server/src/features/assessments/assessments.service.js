@@ -71,7 +71,7 @@ const createAssessmentWithQuestions = async (assessmentData, teacherDetails, fil
         closeDate, closeTime, questionperstudent, tags, examDurationMinutes,
         allowFlexibleTiming
     } = assessmentData;
-    
+
     let parsedTags;
     try {
         parsedTags = tags && typeof tags === 'string' ? JSON.parse(tags) : [];
@@ -82,7 +82,7 @@ const createAssessmentWithQuestions = async (assessmentData, teacherDetails, fil
     }
 
     let savedAssessment = null; // Declare here for the catch block
-    
+
     try {
         // Step 1: Parse questions from the file first. If this fails, we haven't touched the DB.
         const questions = await parseQuestionsFromStream(file.buffer);
@@ -95,7 +95,7 @@ const createAssessmentWithQuestions = async (assessmentData, teacherDetails, fil
 
         // Step 2: Create the Assessment document
         const newAssessment = new Assessment({
-            teacher_id: teacherDetails.teacher_id,
+            teacherId: teacherDetails.teacher_id, // FIX: Changed from teacher_id to teacherId
             name,
             subjectName,
             year,
@@ -116,12 +116,18 @@ const createAssessmentWithQuestions = async (assessmentData, teacherDetails, fil
         if (!subject) {
             const err = new Error('Subject not found. Please ensure the subject exists for the given year and department.');
             err.statusCode = 404;
-            throw err; // This will trigger the catch block below for rollback
+            // Rollback if subject not found but assessment was saved
+            if (savedAssessment && savedAssessment._id) {
+                await Assessment.findByIdAndDelete(savedAssessment._id);
+            }
+            throw err;
         }
         subject.assessments.push(savedAssessment._id);
         await subject.save();
-        
+
         // Step 4: Create the Question documents, now that everything else is successful
+        // Ensure Question model's field name matches what's expected for teacher ID
+        // Assuming Question model's teacher ID field is 'teacher_id' as used here
         await Question.create({
             assessmentId: savedAssessment._id,
             teacher_id: teacherDetails.teacher_id,
@@ -139,14 +145,12 @@ const createAssessmentWithQuestions = async (assessmentData, teacherDetails, fil
             await Assessment.findByIdAndDelete(savedAssessment._id);
             // You might also want to pull the ID from the subject if that step was reached, but this is simpler.
         }
-        
+
         // Re-throw the error so the controller can send a proper response.
         console.error('Error during assessment creation:', error.message);
         throw error;
     }
 };
-
-
 
 // --- Helper Utilities ---
 function getAssessmentStatus(assessment) {
@@ -402,7 +406,7 @@ const getAssessmentsByTeacher = async (teacherId) => {
         throw new Error('Teacher ID is required to fetch assessments.');
     }
     // Find all assessments that match the teacher_id and sort by the most recently created
-    const assessments = await Assessment.find({ teacher_id: teacherId }).sort({ createdAt: -1 }).lean();
+    const assessments = await Assessment.find({ teacherId: teacherId }).sort({ createdAt: -1 }).lean();
     return assessments;
 };
 

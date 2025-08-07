@@ -165,7 +165,7 @@ const Login = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen w-full bg-slate-50 dark:bg-gray-900 p-4 font-sans">
-      <div className="w-full max-w-sm bg-white dark:bg-gray-800 p-6 space-y-5 rounded-xl border border-slate-200 dark:border-gray-700 shadow-md">
+      <div className="w-full max-w-sm bg-white dark:bg-gray-800 p-6 space-y-5 rounded-xl border border-slate-200 dark:border-gray-700">
         <div className="text-center">
             <h1 className="text-2xl font-medium text-slate-900 dark:text-white">Welcome Back</h1>
             <p className="text-slate-500 dark:text-gray-400 mt-1.5 text-sm">Sign in to your account.</p>

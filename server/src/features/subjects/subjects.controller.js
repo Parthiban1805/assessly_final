@@ -33,14 +33,21 @@ const getAllSubjectsForStudent = async (req, res) => {
 const getSingleSubjectDetails = async (req, res) => {
   try {
     const { id } = req.params;
-    // <-- DEBUG: Log that the controller received the request.
-    console.log(`[DEBUG] Controller: Handling request for subject ID: ${id}`);
-    
-    const subject = await subjectService.getSubjectById(id);
+    // IMPORTANT: Get student_id from the authenticated user's details
+    // Assuming verifyToken middleware puts user details into req.user.userDetails
+    const { student_id } = req.user.userDetails;
 
-    // <-- DEBUG: Log the final object just before sending it as a response.
+    // Convert student_id (likely an ObjectId from Mongoose) to a string
+    // because AssessmentResult.studentId is defined as type: String.
+    const studentIdString = student_id.toString();
+
+    console.log(`[DEBUG] Controller: Handling request for subject ID: ${id} for student: ${studentIdString}`);
+
+    // Pass the subjectId and the stringified studentId to the service layer
+    const subject = await subjectService.getSubjectById(id, studentIdString);
+
     console.log('[DEBUG] Controller: Sending final subject payload to client:');
-    console.log(JSON.stringify(subject, null, 2)); // Use JSON.stringify for clean printing of the object
+    console.log(JSON.stringify(subject, null, 2));
 
     res.status(200).json(subject);
   } catch (error) {

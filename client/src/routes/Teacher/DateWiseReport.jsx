@@ -197,7 +197,7 @@ const DateWiseReport = () => {
     <div className="max-w-7xl mx-auto min-h-screen space-y-6">
       <div className="bg-white dark:bg-gray-800 rounded-xl border border-slate-200 dark:border-gray-700 shadow-sm px-6 py-2">
         {/* Header Section */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 py-4">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 py-4 dark:border-gray-700">
             <div>
                 <h1 className="text-xs font-semibold text-blue-500 dark:text-blue-400 uppercase tracking-wider flex-shrink-0">Date-Wise Assessment Report</h1>
                 <p className="text-slate-500 dark:text-gray-400 mt-1">Select a date to view detailed student performance.</p>
@@ -244,7 +244,7 @@ const DateWiseReport = () => {
         {/* Report Table and Pagination */}
         {activeDate && selectedDateData ? (
             <>
-                <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-xl border border-slate-200 dark:border-gray-700 shadow-sm">
+                <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-xl border border-slate-200 dark:border-gray-700 shadow-sm mb-4">
                     <table className="w-full text-sm">
                         <thead className="bg-slate-50 dark:bg-gray-700">
                             <tr>
@@ -294,7 +294,7 @@ const DateWiseReport = () => {
             </>
         ) : (
             // Empty state when no date is selected or no data for filtered dates.
-            <div className="flex flex-col items-center justify-center text-center py-20 mb-4 bg-white dark:bg-gray-800 rounded-xl border border-slate-200 dark:border-gray-700 shadow-sm">
+            <div className="flex flex-col items-center justify-center text-center py-20 bg-white dark:bg-gray-800 rounded-xl border border-slate-200 dark:border-gray-700 shadow-sm mb-4">
                 <FileSearch className="w-16 h-16 text-slate-300 dark:text-gray-600 mb-4" />
                 <h3 className="text-xl font-semibold text-slate-700 dark:text-gray-200">No Date Selected</h3>
                 <p className="text-slate-500 dark:text-gray-400 mt-2 max-w-sm">Please select a date from the dropdown above to view the detailed report.</p>

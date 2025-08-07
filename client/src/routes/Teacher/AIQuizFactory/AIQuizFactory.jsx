@@ -2,8 +2,8 @@ import axios from 'axios';
 import { ArrowLeft, Bot, Check, Download, Edit, Eye, FileUp, Save, Send, User } from 'lucide-react'; // Icons for various actions and roles
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { API_BASE_URL } from '../../../config/constants'; // Import the common API base URL
 import { useBreadcrumbContext } from '../../../contexts/BreadcrumbContext'; // Breadcrumb context hook
+import { API_BASE_URL } from '../../../config/constants'; // Import the common API base URL
 
 /**
  * AIQuizFactory component provides an interactive chat-based interface for teachers
@@ -55,7 +55,7 @@ const AIQuizFactory = () => {
         }
         // Set breadcrumbs for the AI Quiz Factory page.
         setCrumbs([
-            { name: 'Create Assessment', path: '/add-question' },
+            { name: 'Add Questions', path: '/add-question' },
             { name: 'AI Quiz Factory', path: `/teacher/ai-quiz-factory` }
         ]);
     }, [messages, setCrumbs]); // Dependencies: messages (for chat update), setCrumbs (for breadcrumbs).

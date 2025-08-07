@@ -25,7 +25,7 @@ const assessmentSchema = new Schema({
     }],
     allowFlexibleTiming: { type: Boolean, default: false }, // If true, duration timer starts on student entry
     trackViolations: { type: Boolean, default: true },
-    teacherId: { type: Schema.Types.ObjectId, ref: 'Teacher' },
+    teacherId: { type: String, ref: 'Teacher' },
 }, { timestamps: true });
 
 // Middleware to combine date and time before saving
@@ -45,7 +45,7 @@ assessmentSchema.pre('save', function(next) {
     next();
 });
 
-const Assessment = mongoose.model('Assessment', assessmentSchema,'ass1');
+const Assessment = mongoose.model('Assessment', assessmentSchema, 'ass1');
 
 
 //==================================================
