@@ -203,19 +203,31 @@ const getInitialAssessmentData = async (studentId, assessmentId) => {
     let assigned = await AssignedQuestions.findOne({ studentId, assessmentId });
 
     if (!assigned) {
-        const allQuestions = (await Question.find({ assessmentId })).flatMap(q => q.questions);
-        if (allQuestions.length === 0) {
+        const allQuestionsFromDb = (await Question.find({ assessmentId })).flatMap(q => q.questions);
+        if (allQuestionsFromDb.length === 0) {
             const err = new Error('No questions found for this assessment.');
             err.statusCode = 404;
             throw err;
         }
 
-        const limit = assessment.questionperstudent || allQuestions.length;
+        // --- CHANGE: Ensure questions are unique to prevent a student from seeing the same question twice. ---
+        // We use a Map to efficiently deduplicate based on the question text.
+        const uniqueQuestionsMap = new Map();
+        allQuestionsFromDb.forEach(q => {
+            if (!uniqueQuestionsMap.has(q.question)) {
+                uniqueQuestionsMap.set(q.question, q);
+            }
+        });
+        const uniqueQuestions = Array.from(uniqueQuestionsMap.values());
+        // --- END CHANGE ---
+
+        const limit = assessment.questionperstudent || uniqueQuestions.length;
         let selectedQuestions;
         if (assessment.tags?.length > 0) {
-            selectedQuestions = selectQuestionsByWeightage(allQuestions, assessment.tags, limit);
+            // The selection logic now operates on the de-duplicated list
+            selectedQuestions = selectQuestionsByWeightage(uniqueQuestions, assessment.tags, limit);
         } else {
-            selectedQuestions = shuffleArray(allQuestions).slice(0, limit);
+            selectedQuestions = shuffleArray(uniqueQuestions).slice(0, limit);
         }
 
         assigned = new AssignedQuestions({
@@ -282,27 +294,16 @@ const lockStudentAssessment = async (studentId, assessmentId) => {
 };
 
 // --- Background Grading Process ---
-/**
- * This function runs asynchronously after submission.
- * It calculates marks, updates total marks, and regenerates grade averages.
- */
-// File: src/features/assessments/assessments.service.js
 
-// ... (keep other functions) ...
-
-/**
- * This function runs asynchronously after submission.
- * It calculates marks, updates total marks, and regenerates grade averages.
- */
-// File: src/features/assessments/assessments.service.js
 async function processAssessmentInBackground(studentId, assessmentId, answers, userDetails, assessment) {
     try {
         const questions = await Question.find({ assessmentId: assessment._id });
         const questionMap = new Map();
+        // Create a map of question details for easy lookup
         questions.forEach(qDoc => qDoc.questions.forEach(q => {
             questionMap.set(q._id.toString(), {
                 question: q.question,
-                answer: q.answer,
+                answer: q.answer, // The correct answer from the Question model
                 mark: q.mark
             });
         }));
@@ -317,26 +318,38 @@ async function processAssessmentInBackground(studentId, assessmentId, answers, u
                 totalMarks += questionDetail.mark;
             }
 
-            return { questionId, ...questionDetail, selectedAnswer, isCorrect };
+            // ========================= THE CRITICAL FIX =========================
+            // Here, we build the object to be saved in the AssessmentResult.
+            // We explicitly map `questionDetail.answer` to the `correctAnswer` field
+            // to match the schema and the frontend's expectation.
+            return {
+                questionId,
+                question: questionDetail.question,
+                selectedAnswer,
+                correctAnswer: questionDetail.answer, // <-- THIS IS THE FIX
+                isCorrect,
+                mark: questionDetail.mark
+            };
+            // ======================= END OF FIX ========================
+
         }).filter(Boolean);
 
-        // This line will now work correctly because AssessmentResult is the constructor.
+        // This `results` array now contains the `correctAnswer` for every question.
         const assessmentResultDoc = new AssessmentResult({
             assessmentId,
             studentId,
-            results,
+            results, // Save the complete results array
             totalMarks,
         });
         await assessmentResultDoc.save();
 
-        // Update Marks collection
+        // Update other collections as before
         await Marks.findOneAndUpdate(
             { studentId },
             { $push: { assessments: { assessmentId, marks: totalMarks, statuses: 'completed' } } },
             { new: true, upsert: true }
         );
 
-        // Update Grades collection using the helper
         await updateStudentGrades(studentId, userDetails.year);
         
         console.log(`Successfully processed results for student ${studentId}`);

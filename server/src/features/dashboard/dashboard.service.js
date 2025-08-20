@@ -207,7 +207,10 @@ const getAttendance = async (student_id) => {
     const totalAssessmentsToday = todayAssessments.length;
 
     if (totalAssessmentsToday === 0) {
-      return { total: 0, attended: 0, percentage: '100.00' };
+      // =========================== FIX IS HERE ===========================
+      // If there are no assessments, the percentage should be 0, not 100.
+      return { total: 0, attended: 0, percentage: '0.00' };
+      // ========================= END OF FIX ==========================
     }
 
     const studentMarksDoc = await Marks.findOne({ studentId: student_id }).lean();
@@ -218,15 +221,12 @@ const getAttendance = async (student_id) => {
 
     const todayAssessmentIdsStrings = todayAssessments.map(a => a._id.toString());
     
-    // THE FIX: Filter the marks, then use a Set to get a unique count.
     const attendedMarksForToday = studentMarksDoc.assessments.filter(mark => 
         todayAssessmentIdsStrings.includes(mark.assessmentId.toString()) && mark.statuses === 'completed'
     );
     
-    // Create a Set of unique assessment IDs from the filtered marks
     const uniqueAttendedIds = new Set(attendedMarksForToday.map(mark => mark.assessmentId.toString()));
     
-    // The true attended count is the size of the Set.
     const attendedCount = uniqueAttendedIds.size;
 
     const percentage = totalAssessmentsToday > 0 ? (attendedCount / totalAssessmentsToday) * 100 : 0;
