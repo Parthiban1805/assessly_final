@@ -50,6 +50,34 @@ The project is organized into three main directories, each representing a micros
 
 The `docker-compose.yml` file at the root of the project defines the services and their configurations.
 
+## 📊 System Architecture Flow
+
+```mermaid
+flowchart TD
+    A[User/Test Taker] -->|Access Platform| B[Client - Frontend]
+    B -->|Authentication Request| C[Server - Backend API]
+    C -->|Validate Credentials| D{Authenticated?}
+    D -->|Yes| E[Start Assessment]
+    D -->|No| F[Access Denied]
+    E -->|Enable Proctoring| G[Proctoring Service]
+    G -->|Monitor Video/Audio| H[AI Analysis]
+    H -->|Detect Suspicious Activity| I{Violation Detected?}
+    I -->|Yes| J[Alert Administrator]
+    I -->|No| K[Continue Monitoring]
+    E -->|Submit Answers| C
+    C -->|Store Results| L[Database]
+    J -->|Review| M[Administrator Dashboard]
+    C -->|Fetch Results| M
+    K -->|Loop| G
+    
+    style A fill:#e1f5ff
+    style B fill:#fff4e1
+    style C fill:#e1ffe1
+    style G fill:#ffe1f5
+    style H fill:#f5e1ff
+    style M fill:#ffe1e1
+```
+
 ## 🚀 Getting Started
 
 To get a local copy up and running, follow these simple steps.
