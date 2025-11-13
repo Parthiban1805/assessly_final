@@ -54,28 +54,21 @@ The `docker-compose.yml` file at the root of the project defines the services an
 
 ```mermaid
 flowchart TD
-    A[User/Test Taker] -->|Access Platform| B[Client - Frontend]
-    B -->|Authentication Request| C[Server - Backend API]
+    A["👤 User/Test Taker"] -->|Access Platform| B["🖥️ Client - Frontend<br/>(JavaScript)"]
+    B -->|Authentication Request| C["⚙️ Server - Backend API<br/>(Node.js)"]
     C -->|Validate Credentials| D{Authenticated?}
-    D -->|Yes| E[Start Assessment]
-    D -->|No| F[Access Denied]
-    E -->|Enable Proctoring| G[Proctoring Service]
-    G -->|Monitor Video/Audio| H[AI Analysis]
+    D -->|Yes| E["📝 Start Assessment"]
+    D -->|No| F["🚫 Access Denied"]
+    E -->|Enable Proctoring| G["🎥 Proctoring Service<br/>(Python)"]
+    G -->|Monitor Video/Audio| H["🤖 AI Analysis"]
     H -->|Detect Suspicious Activity| I{Violation Detected?}
-    I -->|Yes| J[Alert Administrator]
-    I -->|No| K[Continue Monitoring]
+    I -->|Yes| J["⚠️ Alert Administrator"]
+    I -->|No| K["✅ Continue Monitoring"]
     E -->|Submit Answers| C
-    C -->|Store Results| L[Database]
-    J -->|Review| M[Administrator Dashboard]
+    C -->|Store Results| L["💾 Database"]
+    J -->|Review| M["👨‍💼 Administrator Dashboard"]
     C -->|Fetch Results| M
     K -->|Loop| G
-    
-    style A fill:#e1f5ff
-    style B fill:#fff4e1
-    style C fill:#e1ffe1
-    style G fill:#ffe1f5
-    style H fill:#f5e1ff
-    style M fill:#ffe1e1
 ```
 
 ## 🚀 Getting Started
@@ -121,27 +114,12 @@ Once the application is running, you can access the client service in your web b
 
 The server will be running on a different port and will handle API requests from the client. The proctoring service will also be running and will be utilized during assessments to monitor the candidates.
 
-## 🤝 Contributing
+## 🚫 Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+This project is currently in **production** and not open for public contributions.  
+For inquiries, feature requests, or collaboration opportunities, please contact the development team directly.
 
 ## 📜 License
 
-This project is not licensed. It is recommended to add a license to the project to define the terms under which it can be used, modified, and distributed.
-
-## 📧 Contact
-
-- **Parthiban** - [Parthiban1805](https://github.com/Parthiban1805)
-- **ASWIN V K** - [aswin09032006](https://github.com/aswin09032006)
-
----
-
-⭐ **Star this repository if you find it helpful!**
+This project is **proprietary and not open-source**.  
+All rights reserved. Unauthorized copying, modification, or distribution of this software is strictly prohibited.
